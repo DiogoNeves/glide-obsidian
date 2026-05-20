@@ -18,6 +18,14 @@ Glide grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), a creati
 
 It is especially useful for creators, solopreneurs, researchers, operators, and anyone who wants to manage their own context better while automating more of the rest.
 
+## A Small Example
+
+I use Obsidian for messy manual notes: notebook photos, quick fragments, and rough project thoughts.
+
+Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that draws on my own notes, thoughts, and light validation. It keeps the useful source context and gives the idea a clean first shape.
+
+The important bit is that manual capture still works; the agent adds continuity around it.
+
 ## How It Works
 
 - `Agent HQ/` as the agent-owned workspace inside your vault
@@ -28,14 +36,6 @@ It is especially useful for creators, solopreneurs, researchers, operators, and 
 - drift review so the system can change without quietly becoming something else
 
 Glide should feel less like software you manage and more like a coach that remembers, a pilot that watches the instruments, and a system you can keep changing in natural language.
-
-## A Small Example
-
-I use Obsidian for messy manual notes: notebook photos, quick fragments, and rough project thoughts.
-
-Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that draws on my own notes, thoughts, and light validation. It keeps the useful source context and gives the idea a clean first shape.
-
-The important bit is that manual capture still works; the agent adds continuity around it.
 
 ## Notes Stay Yours
 
