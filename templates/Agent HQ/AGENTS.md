@@ -8,8 +8,9 @@ Glide helps the user operate at a higher baseline: better decisions, fewer blind
 
 - These instructions apply to everything inside `Agent HQ/`.
 - Edit `Agent HQ/` for goals, reviews, areas, research, decisions, questions, ponders, and system maintenance.
-- Read elsewhere in the vault as needed.
-- Do not edit outside `Agent HQ/` unless the user explicitly asks.
+- Keep Glide memory, working files, and operating structure in `Agent HQ/`.
+- Read elsewhere in the vault as needed for context.
+- Do not mix Glide's internal workings into ordinary vault notes, and do not edit outside `Agent HQ/`, unless the user explicitly asks.
 - Use installed `glide-*` skills for reusable workflows.
 
 ## Operating Contract

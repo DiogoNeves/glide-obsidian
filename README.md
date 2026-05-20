@@ -21,7 +21,15 @@ Glide should feel less like software you manage and more like a coach that remem
 
 ## A Small Example
 
-I use Obsidian for messy manual notes too: photos of notebook pages, quick fragments, and rough project thoughts. Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that pulls from previous notes, keeps the useful source context, and gives the idea a first shape. The important bit is that manual capture still works; the agent adds continuity around it.
+I still use Obsidian for messy manual notes: notebook photos, quick fragments, and rough project thoughts.
+
+Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that draws on my own notes, thoughts, and light validation. It keeps the useful source context and gives the idea a clean first shape.
+
+The important bit is that manual capture still works; the agent adds continuity around it.
+
+## Notes Stay Yours
+
+Glide keeps the agent's memory, working files, and operating structure in `Agent HQ/`. It can read the rest of your vault for context, but it should not mix its internal workings into your ordinary notes unless you explicitly ask.
 
 ## What Is Included
 

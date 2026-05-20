@@ -52,6 +52,8 @@ Show the structure only when it helps the user think, choose, or review.
 
 During question flows, update the relevant memory, area file, goal, decision packet, or question status after each meaningful answer or small batch of answers. Do not let important answers sit only in chat while continuing to ask more questions.
 
+Keep these updates inside `Agent HQ/` unless the user explicitly asks to create or edit an ordinary vault note.
+
 ## Work Modes
 
 - Harness drift review: use `Checklists/Harness Drift Review.md`.

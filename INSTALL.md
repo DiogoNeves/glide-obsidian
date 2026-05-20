@@ -104,6 +104,7 @@ Before installing, explain:
 - The harness converts conversation into structure.
 - Ponders do not automatically become goals.
 - Durable answers should be captured as the conversation progresses.
+- Glide memory and agent workings stay in `Agent HQ/`; ordinary vault notes are read for context but not edited unless the user explicitly asks.
 - Daily check-ins should be light.
 - High-stakes actions require approval.
 - Glide itself does not collect data; the chosen harness controls execution and data exposure.
