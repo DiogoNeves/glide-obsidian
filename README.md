@@ -8,7 +8,7 @@ Glide is plain Markdown: principles, memory, workflows, checklists, skills, and 
 
 ## Why Glide Exists
 
-I built Glide because I want more attention for family, content, projects, and the ideas that feel alive.
+I built Glide because I want more attention for family, content, projects, and the ideas I keep coming back to.
 
 For those areas, I want help managing context: old notes, rough thoughts, decisions, questions, and patterns I keep returning to. For the rest of adult life, like finances, admin, and maintenance, I want strong defaults and more autopilot, with clear approval boundaries.
 
