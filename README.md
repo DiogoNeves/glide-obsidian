@@ -21,7 +21,7 @@ Glide should feel less like software you manage and more like a coach that remem
 
 ## A Small Example
 
-I still use Obsidian for messy manual notes: notebook photos, quick fragments, and rough project thoughts.
+I use Obsidian for messy manual notes: notebook photos, quick fragments, and rough project thoughts.
 
 Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that draws on my own notes, thoughts, and light validation. It keeps the useful source context and gives the idea a clean first shape.
 
