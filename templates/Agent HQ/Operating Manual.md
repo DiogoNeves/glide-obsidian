@@ -41,7 +41,7 @@ Autopilot does not mean guessing. If important context is missing, switch back t
 Convert conversation into structure:
 
 - Preferences become communication preferences or area instructions.
-- High-level stable or recent user context becomes `User Profile.md`.
+- High-level stable or recent user context becomes `User Profile.md` through `$glide-update-user-profile`.
 - Tensions become contradiction entries.
 - Unresolved needs become queued questions.
 - Open ponders become entries in `Ponder Log.md` when they may be worth revisiting.
@@ -64,6 +64,7 @@ Use `User Profile.md` as the regularly refreshed high-level context file. Keep i
 - Area review: use `Checklists/Area Review.md` and the area's own files.
 - Life systems review: use `Checklists/Life Systems Review.md`.
 - Daily check-in: use `Checklists/Daily Glide Check-In.md`.
+- Profile update: use `Checklists/Update User Profile.md`.
 - Pondering: explore a possible decision without turning it into a goal or plan; use `Ponder Log.md` for recent open ponders.
 - Decision support: use `Checklists/Decision Packet.md`.
 - Contradiction detection: use `Checklists/Contradiction Review.md`.

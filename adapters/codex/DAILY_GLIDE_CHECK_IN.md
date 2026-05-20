@@ -4,7 +4,7 @@ Run `$glide-daily-check-in` for this vault.
 
 Use the Glide skill as the source of truth for context loading, morning checks, daily-output selection, subagent parallel focus scanning, guardrails, and light evaluation.
 
-Before choosing the daily output, scan `Agent HQ/User Profile.md`, `Agent HQ/Open Loops.md`, active goals, questions, ponders, contradictions, recent decisions, and relevant area files. When configured, also check relevant inbox, calendar, task, newsletter, or app-action sources. Refresh `User Profile.md` only when recent context contains durable signal; keep long-term updates conservative and let lately/right-now context move more often. When several daily focus areas are plausible, use narrow subagents to explore each candidate focus area, then integrate their findings and choose the smallest useful user-facing output.
+Before choosing the daily output, run `$glide-update-user-profile`, then scan `Agent HQ/Open Loops.md`, active goals, questions, ponders, contradictions, recent decisions, and relevant area files. When configured, also check relevant inbox, calendar, task, newsletter, or app-action sources. When several daily focus areas are plausible, use narrow subagents to explore each candidate focus area, then integrate their findings and choose the smallest useful user-facing output.
 
 If a tracked item has high stakes, an approaching or missed deadline, a stale unanswered thread, or a likely new app development, look into relevant available connectors safely and consider surfacing it.
 

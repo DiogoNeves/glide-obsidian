@@ -21,7 +21,7 @@ Glide gives that context a home:
 
 The goal is better defaults. Focus on what you care about. Let the agent watch, research, summarize, remind, and maintain more of the rest.
 
-The daily loop can keep the profile fresh without becoming a diary: stable context changes slowly, while recent and right-now context can move as the user's life changes.
+The `glide-update-user-profile` skill keeps the profile fresh without becoming a diary. Daily check-ins call it, and it can also be run directly whenever new context should shape future advice.
 
 ## Who It Is For
 
