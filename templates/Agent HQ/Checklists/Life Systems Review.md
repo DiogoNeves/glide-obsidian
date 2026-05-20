@@ -7,6 +7,7 @@ Purpose: review the whole Agent HQ system across goals, areas, questions, decisi
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Goals/Life Goals.md`
 - `Agent HQ/Goals/Active Goals.md`
 - `Agent HQ/Areas/AGENTS.md`

@@ -6,7 +6,7 @@ Suggested cadence: daily or weekdays, user-preferred morning time
 
 Skill: `glide-daily-check-in`
 
-Purpose: provide one useful question, insight, small low-risk action, ponder follow-up, or open-loop nudge.
+Purpose: refresh the user profile when there is durable signal, then provide one useful question, insight, small low-risk action, ponder follow-up, or open-loop nudge.
 
 Install prompt source:
 

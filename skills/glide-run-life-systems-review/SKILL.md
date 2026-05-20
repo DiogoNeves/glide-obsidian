@@ -10,6 +10,7 @@ description: Review the whole Glide system across goals, areas, questions, decis
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Checklists/Life Systems Review.md`
 - `Agent HQ/Goals/Life Goals.md`
 - `Agent HQ/Goals/Active Goals.md`

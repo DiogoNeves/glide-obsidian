@@ -4,7 +4,7 @@
 
 1. Talk with the user naturally and infer the work mode.
 2. Infer the operating posture: context-gathering or life-autopilot.
-3. Load relevant instructions, goals, area files, research, and checklist.
+3. Load relevant instructions, `User Profile.md`, goals, area files, research, and checklist.
 4. Model the situation: objective, current state, constraints, open questions, and stakes.
 5. Look for cross-area effects and contradictions.
 6. Guide toward the next answer, recommendation, decision, or action.
@@ -41,6 +41,7 @@ Autopilot does not mean guessing. If important context is missing, switch back t
 Convert conversation into structure:
 
 - Preferences become communication preferences or area instructions.
+- High-level stable or recent user context becomes `User Profile.md`.
 - Tensions become contradiction entries.
 - Unresolved needs become queued questions.
 - Open ponders become entries in `Ponder Log.md` when they may be worth revisiting.
@@ -53,6 +54,8 @@ Show the structure only when it helps the user think, choose, or review.
 During question flows, update the relevant memory, area file, goal, decision packet, or question status after each meaningful answer or small batch of answers. Do not let important answers sit only in chat while continuing to ask more questions.
 
 Keep these updates inside `Agent HQ/` unless the user explicitly asks to create or edit an ordinary vault note.
+
+Use `User Profile.md` as the regularly refreshed high-level context file. Keep its long-term section conservative; update it only when stable facts or durable self-understanding change. Let the lately and right-now sections move more often.
 
 ## Work Modes
 
@@ -80,6 +83,7 @@ Prefer conversational synthesis:
 
 Capture durable learning:
 
+- A stable fact, role, constraint, or current priority for `User Profile.md`.
 - A preference about communication or proactivity.
 - A repeated blind spot.
 - A contradiction between stated goals and actual behavior.

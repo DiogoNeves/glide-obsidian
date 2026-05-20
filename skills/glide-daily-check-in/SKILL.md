@@ -10,6 +10,7 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Checklists/Daily Glide Check-In.md`
 - `Agent HQ/Goals/Active Goals.md`
 - `Agent HQ/Open Loops.md`
@@ -23,19 +24,21 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 ## Process
 
 1. Follow `Agent HQ/Checklists/Daily Glide Check-In.md`.
-2. Identify candidate daily focus areas: open loops, active goals, area questions, ponders, contradictions, project links, app action candidates, and stale decisions.
-3. When more than one candidate focus area is plausible, use parallel subagents to explore them. Give each subagent one narrow focus area and ask for: signal, urgency, one possible daily output, and whether background research should continue.
-4. Integrate subagent findings yourself and choose the smallest useful user-facing output.
-5. If a focus area needs deeper research but should not block the daily output, continue that research in the background or queue it in Agent HQ only when it would materially improve future advice.
-6. Run multiple relevant checks or skills when useful, but keep the user-facing response short, natural, and coach-like.
-7. Do not expose Agent HQ structure unless it helps the user answer or act.
-8. Do not suggest financial, legal, medical, interpersonal, public, or work-sensitive actions as executable. Draft or ask for approval instead.
-9. Do not send, archive, delete, schedule, reply, purchase, post, or modify external systems unless the user explicitly configured that exact action and approval boundary. Otherwise suggest or draft only.
-10. After a useful run, append a light evaluation entry to `Agent HQ/Evals/Run Log.md`.
-11. Promote a run to `Agent HQ/Evals/Eval Cases.md` only when it reveals a reusable regression test or unusually good behavior.
+2. Refresh `Agent HQ/User Profile.md` only when recent context contains durable signal. Keep long-term profile updates conservative; allow lately and right-now context to move more often.
+3. Identify candidate daily focus areas: open loops, active goals, area questions, ponders, contradictions, project links, app action candidates, and stale decisions.
+4. When more than one candidate focus area is plausible, use parallel subagents to explore them. Give each subagent one narrow focus area and ask for: signal, urgency, one possible daily output, whether the user profile has a durable update candidate, and whether background research should continue.
+5. Integrate subagent findings yourself and choose the smallest useful user-facing output.
+6. If a focus area needs deeper research but should not block the daily output, continue that research in the background or queue it in Agent HQ only when it would materially improve future advice.
+7. Run multiple relevant checks or skills when useful, but keep the user-facing response short, natural, and coach-like.
+8. Do not expose Agent HQ structure unless it helps the user answer or act.
+9. Do not suggest financial, legal, medical, interpersonal, public, or work-sensitive actions as executable. Draft or ask for approval instead.
+10. Do not send, archive, delete, schedule, reply, purchase, post, or modify external systems unless the user explicitly configured that exact action and approval boundary. Otherwise suggest or draft only.
+11. After a useful run, append a light evaluation entry to `Agent HQ/Evals/Run Log.md`.
+12. Promote a run to `Agent HQ/Evals/Eval Cases.md` only when it reveals a reusable regression test or unusually good behavior.
 
 ## Output
 
 - One concise daily output, based on the relevant checks or skills.
+- A concise `User Profile.md` refresh when durable signal appears.
 - A tiny run-log entry when the run produced a useful touch or durable update.
 - Optional Agent HQ updates after the user responds.

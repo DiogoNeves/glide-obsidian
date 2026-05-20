@@ -2,6 +2,8 @@
 
 Purpose: prepare an important choice for approval.
 
+Before starting, load `Agent HQ/User Profile.md` when the decision is personal or should account for the user's stable preferences, recent context, or current constraints.
+
 ## Decision
 
 - What is being decided?

@@ -10,6 +10,7 @@ description: Create or initialize a durable Glide area in Agent HQ.
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Areas/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Goals/Active Goals.md`
 - `Agent HQ/Projects/Project Links.md`
 

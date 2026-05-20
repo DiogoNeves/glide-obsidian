@@ -7,12 +7,25 @@ Purpose: run a concise morning pass that improves Agent HQ accuracy, checks rele
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Goals/Active Goals.md`
 - `Agent HQ/Open Loops.md`
 - `Agent HQ/Questions Queue.md`
 - `Agent HQ/Ponder Log.md`
 - Relevant area `Questions.md`, recent reviews, decisions, and contradictions
 - Available inbox, calendar, task, or app-action sources when access is configured and the run can check them safely
+
+## Profile Refresh
+
+Before choosing the daily output, scan for high-level user changes since the last useful run, even when there is no explicit diff.
+
+Update `Agent HQ/User Profile.md` only when there is durable signal:
+
+- new or changed stable facts, roles, constraints, values, or preferences,
+- recent themes that should affect near-term recommendations,
+- current priorities, capacity, appetite for questions or actions, deadlines, or sensitive boundaries.
+
+Keep the profile concise. The long-term section changes conservatively. The lately and right-now sections can move more often. Do not turn the profile into a diary.
 
 ## Morning Pass
 
@@ -25,6 +38,7 @@ Possible morning checks:
 - Recent ponders and contradictions.
 - Calendar, email, task, newsletter, or app-action sources when access is configured.
 - Area-specific skills when an area has active questions or recurring reviews.
+- Profile gaps that would materially improve future recommendations.
 
 Keep the work internal unless the comparison helps the user.
 
@@ -61,6 +75,7 @@ For each focus area, ask for:
 - Signal: what matters here today.
 - Urgency: whether it needs attention now.
 - Candidate output: one question, insight, action, follow-up, or short bundle.
+- Profile update: whether there is a durable `User Profile.md` update candidate.
 - Background research: whether more research should continue without blocking today's touch.
 
 Then choose the daily output. Keep parallel exploration internal unless a comparison helps the user.
@@ -83,6 +98,7 @@ Good shape:
 ## After The User Responds
 
 - Update the relevant Agent HQ memory, area file, goal, question, decision, or contradiction as the conversation progresses.
+- Update `User Profile.md` when the answer contains stable, recent, or right-now context that should shape future advice.
 - Mark answered questions as answered, refine partial answers, or replace broad questions with better follow-ups.
 - Keep the update mostly invisible unless the user needs to verify it.
 - Continue naturally if the answer suggests an obvious next question.

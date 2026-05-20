@@ -10,6 +10,7 @@ description: Find contradictions, tensions, blind spots, and hidden tradeoffs ac
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Checklists/Contradiction Review.md`
 - `Agent HQ/Contradiction Register.md`
+- `Agent HQ/User Profile.md`
 - Relevant goals, area files, decisions, ponders, and recent context
 
 ## Process

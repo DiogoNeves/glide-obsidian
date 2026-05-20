@@ -10,6 +10,7 @@ description: Review, audit, improve, or plan one Glide area.
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Checklists/Area Review.md`
 - `Agent HQ/Goals/Active Goals.md`
 - `Agent HQ/Areas/AGENTS.md`

@@ -105,6 +105,7 @@ Before installing, explain:
 - Glide lives in `Agent HQ/`.
 - The user can talk naturally.
 - The harness converts conversation into structure.
+- `User Profile.md` keeps concise high-level context and is refreshed only when durable signal appears.
 - Ponders do not automatically become goals.
 - Durable answers should be captured as the conversation progresses.
 - Glide memory and agent workings stay in `Agent HQ/`; ordinary vault notes are read for context but not edited unless the user explicitly asks.

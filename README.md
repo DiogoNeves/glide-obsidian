@@ -44,6 +44,7 @@ Glide keeps the agent's memory, working files, and operating structure in `Agent
 ## What Is Included
 
 - `templates/Agent HQ/`: a generic installable Glide workspace.
+- `templates/Agent HQ/User Profile.md`: concise high-level user context refreshed by daily check-ins when useful.
 - `skills/`: portable Agent Skills prefixed with `glide-`.
 - `automations/`: installable starter prompts for daily check-ins and drift review.
 - `adapters/`: Codex, Claude Code, and generic harness notes.

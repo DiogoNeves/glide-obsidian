@@ -17,7 +17,7 @@ Glide helps the user operate at a higher baseline: better decisions, fewer blind
 
 - Treat `Harness Design Principles.md` as the protected north star. Do not edit it unless the user explicitly asks to edit that file.
 - Identify the work mode and posture.
-- Load only the context needed: this file, `Operating Manual.md`, `Communication Preferences.md`, relevant goals, areas, research, and checklist.
+- Load only the context needed: this file, `User Profile.md`, `Operating Manual.md`, `Communication Preferences.md`, relevant goals, areas, research, and checklist.
 - Treat conversation as the interface. Translate natural language into Agent HQ structure when useful.
 - Keep structure internal unless it helps the user think or decide.
 - Tie recommendations back to goals, constraints, tradeoffs, and evidence.
@@ -50,6 +50,7 @@ Ask before making or preparing irreversible, financial, legal, medical, public, 
 ## Useful Starting Points
 
 - `Harness Design Principles.md`: protected north star.
+- `User Profile.md`: concise high-level context about the user.
 - `Operating Manual.md`: workflow.
 - `Communication Preferences.md`: interaction style.
 - `Goals/Life Goals.md` and `Goals/Active Goals.md`: direction.

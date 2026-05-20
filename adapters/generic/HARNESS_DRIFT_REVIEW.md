@@ -22,6 +22,8 @@ Also check collection-candidate files for stale-item cleanup only:
 
 If operational drift is clear, make only the smallest non-behavioral correction that realigns the operation with the design principles.
 
+Do not edit personal memory files such as `Agent HQ/User Profile.md`, goals, area context, decisions, contradictions, research notes, or eval logs.
+
 Ask the user to confirm before making any change that could alter future behavior, including autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
 
 If no drift is found, say so briefly.

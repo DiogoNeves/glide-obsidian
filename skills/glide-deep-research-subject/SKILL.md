@@ -10,6 +10,7 @@ description: Research a subject deeply using lived experience, expert practice, 
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Research/AGENTS.md`
 - `Agent HQ/Research/Research Index.md`
+- `Agent HQ/User Profile.md` when the research is meant to inform the user's advice, decisions, goals, or operating system
 - Relevant goal, area, project, or decision files
 
 ## Process

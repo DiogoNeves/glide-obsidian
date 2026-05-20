@@ -11,7 +11,7 @@ Glide skills are portable `SKILL.md` folders installed into the harness-specific
 - `glide-detect-contradictions`: find tensions between goals, constraints, preferences, and behavior.
 - `glide-create-decision-packet`: prepare a decision for review.
 - `glide-deep-research-subject`: research a subject deeply.
-- `glide-daily-check-in`: run a concise daily pass with light evaluation.
+- `glide-daily-check-in`: run a concise daily pass, refresh `User Profile.md` when useful, and add light evaluation.
 - `glide-harness-drift-review`: keep operating files aligned with the protected design principles.
 - `glide-update-skill`: improve a skill or checklist.
 

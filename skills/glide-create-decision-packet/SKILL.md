@@ -9,6 +9,7 @@ description: Prepare a decision packet for important or high-stakes choices.
 
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Checklists/Decision Packet.md`
 - Relevant goals, area files, project links, prior decisions, and contradictions
 

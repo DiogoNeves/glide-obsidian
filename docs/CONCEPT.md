@@ -13,12 +13,15 @@ Most people already have useful context scattered across notes, emails, calendar
 Glide gives that context a home:
 
 - `Agent HQ/` for the agent's memory and operating structure
+- `User Profile.md` for concise high-level context about the user
 - areas for the parts of life or work that need ongoing attention
 - skills for repeatable ways of thinking
 - checklists for reviews, decisions, goals, research, and drift
 - automations for lightweight recurring attention
 
 The goal is better defaults. Focus on what you care about. Let the agent watch, research, summarize, remind, and maintain more of the rest.
+
+The daily loop can keep the profile fresh without becoming a diary: stable context changes slowly, while recent and right-now context can move as the user's life changes.
 
 ## Who It Is For
 

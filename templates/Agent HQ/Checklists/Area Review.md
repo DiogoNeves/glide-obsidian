@@ -7,6 +7,7 @@ Purpose: review one durable area and identify useful next moves.
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Operating Manual.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Goals/Active Goals.md`
 - `Agent HQ/Areas/AGENTS.md`
 - The target area's `AGENTS.md`, `Area.md`, `Goals.md`, `Context.md`, `Sources.md`, `Decisions.md`, `Questions.md`, and relevant `Research/` notes

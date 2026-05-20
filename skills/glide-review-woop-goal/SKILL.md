@@ -9,6 +9,7 @@ description: Define, review, clarify, or pressure-test a goal using WOOP and cro
 
 - `Agent HQ/AGENTS.md`
 - `Agent HQ/Communication Preferences.md`
+- `Agent HQ/User Profile.md`
 - `Agent HQ/Goals/AGENTS.md`
 - `Agent HQ/Goals/Goal Template.md`
 - `Agent HQ/Checklists/WOOP Goal Review.md`

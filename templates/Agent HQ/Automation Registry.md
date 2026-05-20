@@ -6,7 +6,7 @@ Glide itself does not run automations. The selected harness decides whether auto
 
 | Name | Status | Cadence | Scope | Skill | Output | Last Review |
 | --- | --- | --- | --- | --- | --- | --- |
-| [[Automations/Daily Glide Check-In|Daily Glide Check-In]] | Proposed | Daily or weekdays | Open questions, active goals, ponders, areas, contradictions, action candidates | `glide-daily-check-in` | One useful touch plus light evaluation when useful | |
+| [[Automations/Daily Glide Check-In|Daily Glide Check-In]] | Proposed | Daily or weekdays | User profile, open questions, active goals, ponders, areas, contradictions, action candidates | `glide-daily-check-in` | One useful touch, profile refresh when durable signal appears, and light evaluation when useful | |
 | [[Automations/Harness Drift Review|Harness Drift Review]] | Proposed | Weekly or twice weekly | Operational instructions, checklists, skills, and stale collection candidates | `glide-harness-drift-review` | Small operational corrections, stale-candidate cleanup, or short drift report | |
 
 ## Candidate Automations

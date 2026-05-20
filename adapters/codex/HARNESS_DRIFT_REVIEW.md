@@ -20,7 +20,7 @@ Also check collection-candidate files for stale-item cleanup only:
 - `Agent HQ/Ponder Log.md`
 - `Agent HQ/Open Loops.md`
 
-Do not edit personal memory files such as goals, area context, decisions, contradictions, research notes, eval logs, or interest profile.
+Do not edit personal memory files such as `Agent HQ/User Profile.md`, goals, area context, decisions, contradictions, research notes, or eval logs.
 
 If operational drift is clear, make only the smallest non-behavioral correction that realigns the operation with the design principles.
 

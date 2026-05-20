@@ -19,7 +19,7 @@ Purpose: keep Agent HQ operations aligned with `Harness Design Principles.md` wi
 Do not edit:
 
 - `Agent HQ/Harness Design Principles.md`, unless the user explicitly asks to edit that file.
-- Personal memory files: goals, area context, decisions, contradictions, research notes, eval logs, and interest profile.
+- Personal memory files: `User Profile.md`, goals, area context, decisions, contradictions, research notes, and eval logs.
 - Collection-candidate files except for obvious stale-item cleanup described below.
 
 ## Editable Operations Files

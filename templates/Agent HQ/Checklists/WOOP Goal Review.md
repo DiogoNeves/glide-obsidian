@@ -2,6 +2,8 @@
 
 Purpose: define or review a goal using Wish, Outcome, Obstacle, and Plan.
 
+Before starting, load `Agent HQ/User Profile.md` so goals reflect the user's stable preferences, recent context, and current constraints.
+
 ## Review
 
 1. Restate the goal in one sentence.

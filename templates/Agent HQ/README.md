@@ -8,6 +8,7 @@ Start with:
 
 - `AGENTS.md` for operating rules.
 - `Harness Design Principles.md` for protected design principles.
+- `User Profile.md` for concise high-level context about the user.
 - `Operating Manual.md` for the default workflow.
 - `Goals/` for cross-life or cross-work direction.
 - `Areas/` for durable domains.
