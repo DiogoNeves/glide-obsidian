@@ -1,0 +1,6 @@
+.DS_Store
+.obsidian/workspace*
+.obsidian/cache/
+node_modules/
+dist/
+tmp/
