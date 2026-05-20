@@ -1,10 +1,10 @@
 # Glide for Obsidian
 
-Glide is a self-evolving personal coach and pilot for Obsidian.
+Glide is a self-evolving personal coach and pilot for [Obsidian](https://obsidian.md/).
 
 It gives an agent a simple home for your goals, areas, decisions, questions, research, and recurring check-ins. The point is not to create a bigger task system. The point is to help you live with better defaults: research areas you are not actively watching, gather context for the ones you care about, notice contradictions, and keep useful momentum without turning your life into admin.
 
-Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, OpenCode, local models, cloud models, connectors, Git, Obsidian Sync, and automations are the execution layer. Glide defines behavior; your harness decides where computation happens and what data is sent.
+Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, or another agent harness is the execution layer. Glide defines behavior; your harness decides where computation happens and what data is sent.
 
 ## Why Glide Exists
 
@@ -18,6 +18,10 @@ Most agent tools are powerful in the moment and forgetful over time. Glide gives
 - drift review so the system can change without quietly becoming something else
 
 Glide should feel less like software you manage and more like a coach that remembers, a pilot that watches the instruments, and a system you can keep changing in natural language.
+
+## A Small Example
+
+I use Obsidian for messy manual notes too: photos of notebook pages, quick fragments, and rough project thoughts. Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that pulls from previous notes, keeps the useful source context, and gives the idea a first shape. The important bit is that manual capture still works; the agent adds continuity around it.
 
 ## What Is Included
 
@@ -47,7 +51,7 @@ The installer flow is intentionally conservative:
 
 Glide itself does not collect telemetry, run servers, transmit vault data, or store user data anywhere. It is local Markdown structure and instructions.
 
-Privacy depends on the harness and services you choose to connect. Review your model provider, harness, sync, Git hosting, connector, browser tool, and automation policies before giving any tool access to sensitive content.
+Privacy depends on the harness and services you choose to connect. Review your model provider, sync, Git hosting, connectors, and automation policies before giving any tool access to sensitive content.
 
 See [docs/PRIVACY.md](docs/PRIVACY.md).
 
@@ -56,3 +60,5 @@ See [docs/PRIVACY.md](docs/PRIVACY.md).
 Suggestions are welcome: better default areas, sharper checklists, new skills, harness adapters, privacy improvements, and examples of what made Glide useful or annoying in real use.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+This project grew from how I use [Codex](https://openai.com/index/introducing-the-codex-app/) and [Obsidian](https://obsidian.md/) daily, following a structure inspired by [How I use Obsidian](https://stephango.com/vault).
