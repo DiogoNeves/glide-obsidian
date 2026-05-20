@@ -20,11 +20,11 @@ It is especially useful for creators, solopreneurs, researchers, operators, and 
 
 ## A Small Example
 
-I use Obsidian for messy manual notes: notebook photos, quick fragments, and rough project thoughts.
+One way I use Glide is with messy Obsidian notes: notebook photos, quick fragments, and rough project thoughts.
 
-Glide can turn a tiny request like "add a writing entry for this idea" into a linked note that draws on my own notes, thoughts, and light validation. It keeps the useful source context and gives the idea a clean first shape.
+I can ask, "add a writing entry for this idea," and it turns the raw note into a linked draft direction using my existing notes plus light validation.
 
-The important bit is that manual capture still works; the agent adds continuity around it.
+I still capture messily. Glide adds memory and continuity around it.
 
 ## How It Works
 
