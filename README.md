@@ -8,19 +8,17 @@ Glide is plain Markdown: principles, memory, workflows, checklists, skills, and 
 
 ## Why Glide Exists
 
-I have parts of life I want to be more present for: family, content, projects, and the work and ideas that actually feel alive.
+I want to be more present for family, content, projects, and the work and ideas that actually feel alive.
 
-For those, I do not want an agent to take over. I want help managing context: remembering old notes, connecting rough ideas, noticing what I keep circling back to, and making it easier to pick up the thread.
+For those, Glide helps manage context: old notes, rough thoughts, projects, decisions, questions, and the patterns I keep circling back to.
 
-Then there are the other parts of adult life that still matter: finances, admin, recurring decisions, maintenance, and all the things that quietly get expensive when ignored. I want those handled with unusually good defaults, mostly on autopilot, with clear approval boundaries.
+For the other parts of adult life, like finances, admin, and maintenance, I want unusually good defaults with more autopilot and clear approval boundaries.
 
-Which mode applies to which area should be your choice. It should be able to change over time.
+Glide lets you decide which areas need active context help and which should run more quietly in the background. That balance can change over time.
 
-Glide is about reducing noise and increasing signal from your own life. Old notes, half-formed ideas, projects, decisions, questions, and recurring chores should become useful context instead of background static.
+The idea grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), a creative journal for YouTube creators. Glide keeps the part that felt most useful: reducing noise and increasing signal from your own life, so your notes and workflows become an evolvable interface for agents.
 
-The idea grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), a creative journal for YouTube creators. Storyloop started as a way to connect content ideas, journal entries, channel context, and a creative assistant. Glide keeps the part that felt most important: a system where your own notes and workflows become an evolvable interface for agents.
-
-It is especially useful for people who want to manage their own context better: creators, solopreneurs, researchers, operators, and anyone who wants to focus on what they care about while automating more of the rest.
+It is especially useful for creators, solopreneurs, researchers, operators, and anyone who wants to manage their own context better while automating more of the rest.
 
 ## How It Works
 
