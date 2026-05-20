@@ -1,23 +1,23 @@
 # Glide for Obsidian
 
-Glide is a portable operating layer for agent-assisted Obsidian vaults.
+Glide is a self-evolving personal coach and pilot for Obsidian.
 
-It gives an AI harness a clear way to help with goals, decisions, areas of life or work, recurring reviews, research, and lightweight daily check-ins without turning everything into one endless chat thread.
+It gives an agent a simple home for your goals, areas, decisions, questions, research, and recurring check-ins. The point is not to create a bigger task system. The point is to help you live with better defaults: research areas you are not actively watching, gather context for the ones you care about, notice contradictions, and keep useful momentum without turning your life into admin.
 
-Glide is not a hosted service. It is a set of Markdown files, templates, checklists, and portable skills. Codex, Claude Code, OpenCode, local models, cloud models, connectors, Git, Obsidian Sync, and automations are the execution layer. Glide defines behavior; your harness decides where computation happens and what data is sent.
+Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, OpenCode, local models, cloud models, connectors, Git, Obsidian Sync, and automations are the execution layer. Glide defines behavior; your harness decides where computation happens and what data is sent.
 
 ## Why Glide Exists
 
-Modern agent tools are powerful, but they often lack a durable operating structure. Glide provides that structure:
+Most agent tools are powerful in the moment and forgetful over time. Glide gives them a durable shape:
 
-- a calm `Agent HQ/` workspace inside your vault
-- areas for ongoing domains like finance, health, family, career, business, home, friends, and travel
-- goals, decisions, questions, contradictions, ponders, research, and reviews
-- skills that teach an agent how to evolve the system over time
-- daily check-ins that stay light instead of becoming homework
-- drift review so the system keeps its original principles as it changes
+- `Agent HQ/` as the agent-owned workspace inside your vault
+- areas for durable parts of life or work
+- goals, decisions, questions, ponders, contradictions, research, and reviews
+- skills and checklists for repeatable ways of thinking
+- a light daily loop
+- drift review so the system can change without quietly becoming something else
 
-The aim is not maximum autonomy. The aim is useful human agency: automate low-value coordination, preserve attention, and keep the user engaged with the decisions that actually matter.
+Glide should feel less like software you manage and more like a coach that remembers, a pilot that watches the instruments, and a system you can keep changing in natural language.
 
 ## What Is Included
 
