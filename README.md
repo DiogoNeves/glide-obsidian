@@ -8,15 +8,13 @@ Glide is plain Markdown: principles, memory, workflows, checklists, skills, and 
 
 ## Why Glide Exists
 
-I want to be more present for family, content, projects, and the work and ideas that actually feel alive.
+I built Glide because I want more attention for family, content, projects, and the ideas that feel alive.
 
-For those, Glide helps manage context: old notes, rough thoughts, projects, decisions, questions, and the patterns I keep circling back to.
+For those areas, I want help managing context: old notes, rough thoughts, decisions, questions, and patterns I keep returning to. For the rest of adult life, like finances, admin, and maintenance, I want strong defaults and more autopilot, with clear approval boundaries.
 
-For the other parts of adult life, like finances, admin, and maintenance, I want unusually good defaults with more autopilot and clear approval boundaries.
+That balance should be intentional, and it should change over time.
 
-Glide lets you decide which areas need active context help and which should run more quietly in the background. That balance can change over time.
-
-The idea grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), a creative journal for YouTube creators. Glide keeps the part that felt most useful: reducing noise and increasing signal from your own life, so your notes and workflows become an evolvable interface for agents.
+Glide grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), a creative journal for YouTube creators. It keeps the useful part: reducing noise and increasing signal from your own life, so notes and workflows become an evolvable interface for agents.
 
 It is especially useful for creators, solopreneurs, researchers, operators, and anyone who wants to manage their own context better while automating more of the rest.
 
