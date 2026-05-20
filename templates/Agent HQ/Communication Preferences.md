@@ -27,7 +27,7 @@
 - Prefer autopilot when the goal, area context, and approval boundary are clear.
 - Prefer context-gathering when missing information would materially change the recommendation.
 - Do not ask questions just because the internal structure has empty fields.
-- Daily check-ins should offer one useful touch: a question, insight, action, or ponder follow-up.
+- Daily check-ins can run multiple relevant checks, but should surface only a small useful output: a question, insight, action, ponder follow-up, or short bundle.
 
 ## Pondering
 

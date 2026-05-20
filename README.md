@@ -4,7 +4,7 @@ Glide is a self-evolving personal coach and pilot for [Obsidian](https://obsidia
 
 It gives an agent a simple home for your goals, areas, decisions, questions, research, and recurring check-ins. The point is not to create a bigger task system. **The point is to help you live with better defaults**: research areas you are not actively watching, gather context for the ones you care about, notice contradictions, and keep useful momentum without turning your life into admin.
 
-Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, or another agent harness is the execution layer. Glide defines behavior; your harness decides where computation happens and what data is sent.
+Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, or another agent harness is the execution layer. Glide sets useful defaults; you choose how to run it, what tools it can access, and what data leaves your machine.
 
 ## Why Glide Exists
 
@@ -18,6 +18,8 @@ Most agent tools are powerful in the moment and forgetful over time. Glide gives
 - drift review so the system can change without quietly becoming something else
 
 Glide should feel less like software you manage and more like a coach that remembers, a pilot that watches the instruments, and a system you can keep changing in natural language.
+
+It is especially useful for people who want to manage their own context better: creators, solopreneurs, researchers, operators, and anyone who wants to focus on what they care about while automating more of the rest.
 
 ## A Small Example
 
@@ -38,6 +40,8 @@ Glide keeps the agent's memory, working files, and operating structure in `Agent
 - `automations/`: installable starter prompts for daily check-ins and drift review.
 - `adapters/`: Codex, Claude Code, and generic harness notes.
 - `INSTALL.md`: an agent-readable installer flow.
+- `docs/CONCEPT.md`: the short philosophy behind Glide.
+- `examples/`: brief walkthroughs for common use cases.
 - `docs/PRIVACY.md`: what Glide does and does not do with data.
 - `docs/HARNESSES.md`: how Glide maps to common agent harnesses.
 
@@ -57,7 +61,7 @@ The installer flow is intentionally conservative:
 
 ## Privacy
 
-Glide itself does not collect telemetry, run servers, transmit vault data, or store user data anywhere. It is local Markdown structure and instructions.
+Glide itself does not collect telemetry, run servers, transmit vault data, or store user data anywhere. It is Markdown structure and instructions installed in your vault.
 
 Privacy depends on the harness and services you choose to connect. Review your model provider, sync, Git hosting, connectors, and automation policies before giving any tool access to sensitive content.
 

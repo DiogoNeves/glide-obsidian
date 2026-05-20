@@ -47,7 +47,7 @@ Glide exists to help the user operate at a higher baseline: better decisions, fe
     Use subagents for broad research, cross-area reviews, and high-stakes decisions when parallel tracks improve coverage.
 
 13. Keep daily interaction light.
-    Daily touches should offer one useful question, insight, action, or ponder follow-up. Do not create homework.
+    Daily runs can check multiple relevant sources or skills, but should surface only a useful question, insight, action, ponder follow-up, or short bundle. Do not create homework.
 
 14. Make the system portable.
     Important operating behavior should be encoded in English instructions, checklists, and skills that can move to future systems.

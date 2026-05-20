@@ -15,7 +15,7 @@ The installer should:
 7. Suggest light evolution practices.
 8. Offer to add the daily automation if the harness supports it, after explicit confirmation.
 
-Glide defines behavior. Your harness decides where computation happens and what data is sent.
+Glide sets useful defaults. Your harness decides where computation happens and what data is sent.
 
 ## Installer Contract
 
@@ -175,7 +175,7 @@ Suggest:
 
 - create skills for repeatable tasks,
 - keep automations few and high-signal,
-- give feedback when the daily touch is noisy or useful,
+- give feedback when the daily run is noisy or useful,
 - add areas only when a real domain needs ongoing care,
 - keep `Harness Design Principles.md` protected,
 - periodically review drift before changing behavior.

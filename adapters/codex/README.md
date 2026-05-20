@@ -15,4 +15,4 @@ Use this adapter when Codex is the execution harness.
 - `DAILY_GLIDE_CHECK_IN.md`
 - `HARNESS_DRIFT_REVIEW.md`
 
-Codex automations should be specific, reviewable, and conservative. Prefer one useful daily touch over broad daily summaries.
+Codex automations should be specific, reviewable, and conservative. Prefer a short useful daily output over broad daily summaries.

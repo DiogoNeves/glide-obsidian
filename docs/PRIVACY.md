@@ -1,6 +1,6 @@
 # Privacy
 
-Glide is local Markdown structure, templates, skills, and instructions.
+Glide is Markdown structure, templates, skills, and instructions installed in your vault.
 
 Glide does not:
 
@@ -29,13 +29,13 @@ Review those tools' privacy, retention, training, logging, connector, and automa
 
 ## Connectors And Automations
 
-Plain local Markdown access is different from connected tool access.
+Plain vault-file access is different from connected tool access.
 
 Connectors and automations may expose more data because they can read inboxes, calendars, browsers, files, tasks, or external apps depending on configuration. Install them deliberately and keep approval boundaries clear.
 
 ## Recommended Defaults
 
-- Start local and file-based where possible.
+- Start with the smallest access that works.
 - Add connectors only when they solve a real problem.
 - Prefer read-only access first.
 - Require approval before high-stakes or external actions.
