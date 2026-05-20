@@ -14,7 +14,7 @@ For those areas, I want help managing context: old notes, rough thoughts, decisi
 
 That balance should be intentional, and it should change over time.
 
-Glide grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), a creative journal for YouTube creators. It keeps the useful part: reducing noise and increasing signal from your own life, so notes and workflows become an evolvable interface for agents.
+Glide grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), especially the thing I missed most afterwards: smart notes. It keeps that feeling: notes and workflows that reduce noise, increase signal, and become an evolvable interface for agents. I talked through the prototype in [this video](https://youtu.be/3Q95Rh8sRic).
 
 It is especially useful for creators, solopreneurs, researchers, operators, and anyone who wants to manage their own context better while automating more of the rest.
 
