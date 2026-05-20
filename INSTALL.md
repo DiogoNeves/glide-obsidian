@@ -39,8 +39,11 @@ Check for:
 - `CLAUDE.md`
 - other harness instruction files
 - existing automation files or automation documentation
+- how the vault is organized: root notes, daily/calendar notes, unique notes, project notes, category/index notes, attachments, templates, clippings, and any naming or linking conventions
 
 Report what exists and what Glide would need to create or update.
+
+Also summarize the vault's note style in one short paragraph. If the vault has clear conventions, adapt the root harness instruction section minimally so Glide respects them. For example: where project notes live, how calendar notes are used, how unique notes are named, where attachments belong, and whether ordinary notes should stay mostly in the vault root. Do not reorganize the vault or add broad rules unless the user confirms.
 
 If `Agent HQ/` already exists, stop and ask whether to:
 
@@ -118,8 +121,9 @@ After explicit confirmation:
 3. If no default areas are selected, copy `templates/Agent HQ/Areas/AGENTS.md` and leave the folder ready for future areas.
 4. Copy selected `skills/glide-*` folders into the harness-specific skill directory.
 5. Create or update the root harness instruction file with the appropriate adapter snippet.
-6. Leave existing unrelated instructions intact.
-7. Record selected default areas and installed skills in `Agent HQ/Automation Registry.md` or another appropriate operations note.
+6. Add only the minimal vault-convention guidance needed from inspection.
+7. Leave existing unrelated instructions intact.
+8. Record selected default areas and installed skills in `Agent HQ/Automation Registry.md` or another appropriate operations note.
 
 Use these adapter snippets:
 
