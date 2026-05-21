@@ -6,9 +6,9 @@ Glide is harness-agnostic. It defines behavior in Markdown, checklists, and port
 
 Suggested layout:
 
-- root instructions: `AGENTS.md`
-- skills: `.agents/skills/<skill-name>/SKILL.md`
-- Glide workspace: `Agent HQ/`
+- root instructions: `AGENTS.md` at the Obsidian vault root
+- skills: `.agents/skills/<skill-name>/SKILL.md` at the Obsidian vault root
+- Glide workspace: `Agent HQ/` at the Obsidian vault root
 
 Use the Codex adapter snippets in `adapters/codex/`.
 
@@ -20,9 +20,9 @@ Use `adapters/codex/AUTOMATIONS.md` for the Daily Glide Check-In and Harness Dri
 
 Suggested layout:
 
-- root instructions: `CLAUDE.md`
-- skills: `.claude/skills/<skill-name>/SKILL.md`
-- Glide workspace: `Agent HQ/`
+- root instructions: `CLAUDE.md` at the Obsidian vault root
+- skills: `.claude/skills/<skill-name>/SKILL.md` at the Obsidian vault root
+- Glide workspace: `Agent HQ/` at the Obsidian vault root
 
 Use the Claude Code adapter snippets in `adapters/claude-code/`.
 
@@ -41,6 +41,8 @@ Ask the user:
 - What data leaves the local machine?
 
 If a harness does not support skills, install only `Agent HQ/` and add the core process instructions to the harness root file.
+
+Install from the Obsidian vault root. Do not install Glide from a nested folder unless the user explicitly wants a separate nested workspace.
 
 Each adapter folder includes a root instruction snippet, an automation install note, and starter prompts for the Daily Glide Check-In and Harness Drift Review. Only install recurring runs when the harness supports them and the user confirms.
 

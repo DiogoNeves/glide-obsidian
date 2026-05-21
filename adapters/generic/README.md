@@ -2,6 +2,8 @@
 
 Use this adapter when the harness is not Codex or Claude Code.
 
+Start from the Obsidian vault root. All paths below are relative to that root.
+
 Ask the user:
 
 - Which root instruction file should Glide update?

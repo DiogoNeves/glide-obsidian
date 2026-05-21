@@ -6,19 +6,24 @@ This file is written for an agent harness to execute, but it is also readable by
 
 The installer should:
 
-1. Inspect the existing vault without changing anything.
-2. Ask which harness is being used: Codex, Claude Code, OpenCode/other, or manual.
-3. Ask which default areas to include.
-4. Explain how Glide works and how to interact with it.
-5. Copy the Glide structure and selected skills only after confirmation.
-6. Create or update the correct root harness instruction file.
-7. Suggest light evolution practices.
-8. Offer to add the daily automation if the harness supports it, after explicit confirmation.
+1. Start from the root folder of the target Obsidian vault.
+2. Inspect the existing vault without changing anything.
+3. Ask which harness is being used: Codex, Claude Code, OpenCode/other, or manual.
+4. Ask which default areas to include.
+5. Explain how Glide works and how to interact with it.
+6. Copy the Glide structure and selected skills only after confirmation.
+7. Create or update the correct root harness instruction file.
+8. Suggest light evolution practices.
+9. Offer to add the daily automation if the harness supports it, after explicit confirmation.
+
+All install paths in this file are relative to the Obsidian vault root.
 
 Glide sets useful defaults. Your harness decides where computation happens and what data is sent.
 
 ## Installer Contract
 
+- Install Glide from the root folder of the target Obsidian vault, not from a subfolder.
+- Treat `Agent HQ/`, `.agents/skills/`, `.claude/skills/`, `AGENTS.md`, and `CLAUDE.md` as vault-root paths.
 - Do not change the target vault during inspection.
 - Do not overwrite existing files without explicit confirmation.
 - Do not merge into an existing `Agent HQ/` without explicit confirmation.
@@ -28,6 +33,8 @@ Glide sets useful defaults. Your harness decides where computation happens and w
 ## Step 1: Inspect The Vault
 
 Inspect only. Do not write files.
+
+Confirm that the target directory is the Obsidian vault root. If the current working directory is a subfolder, stop and ask the user to run the installer from the vault root or provide the vault root path.
 
 Check for:
 

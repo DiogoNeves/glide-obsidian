@@ -56,17 +56,18 @@ Glide keeps the agent's memory, working files, and operating structure in `Agent
 
 ## Install
 
-Read [INSTALL.md](INSTALL.md) or ask your agent harness to follow it.
+Open your Obsidian vault root folder in your agent harness, then read [INSTALL.md](INSTALL.md) or ask the harness to follow it.
 
 The installer flow is intentionally conservative:
 
-1. Inspect your vault without changing anything.
-2. Ask which harness you use.
-3. Ask which default areas to include.
-4. Explain how Glide works.
-5. Copy the structure and skills only after confirmation.
-6. Create or update the correct root instruction file.
-7. Offer starter automations only after explicit confirmation.
+1. Confirm it is running from the vault root.
+2. Inspect your vault without changing anything.
+3. Ask which harness you use.
+4. Ask which default areas to include.
+5. Explain how Glide works.
+6. Copy the structure and skills only after confirmation.
+7. Create or update the correct root instruction file.
+8. Offer starter automations only after explicit confirmation.
 
 ## Privacy
 

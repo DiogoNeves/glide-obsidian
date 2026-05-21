@@ -4,6 +4,7 @@ Use this adapter when Claude Code is the execution harness.
 
 ## Install Shape
 
+- Start from the Obsidian vault root.
 - Copy Glide workspace to `Agent HQ/`.
 - Copy skills to `.claude/skills/`.
 - Create or update root `CLAUDE.md` with `ROOT_CLAUDE_SECTION.md`.
