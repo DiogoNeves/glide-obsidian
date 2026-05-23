@@ -6,6 +6,8 @@ It gives an agent a simple home for your goals, areas, decisions, questions, res
 
 Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, or another agent harness is the execution layer. Glide sets useful defaults; you choose how to run it, what tools it can access, and what data leaves your machine.
 
+Glide can also connect to other apps through optional [software access guides](software/README.md).
+
 ## Why Glide Exists
 
 I built Glide because I want more attention for family, content, projects, and the ideas I keep coming back to.
