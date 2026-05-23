@@ -1,0 +1,59 @@
+# Changelog
+
+Notable changes to Glide for Obsidian.
+
+## 2026-05-23
+
+### Added Area Reminders
+
+- Added `Reminders.md` templates to every default area.
+- Updated area creation, area reviews, daily check-ins, and automation prompts to treat reminders as first-class area context.
+- Added reminder rules so date-aware and trigger-aware items stay quiet until they are due, within lead time, newly relevant, or high-stakes enough to prepare.
+- Updated the personal finance example to include finance reminders.
+
+### Added Optional Software Access Guides
+
+- Added `software/` with optional guides for connecting Glide to other apps.
+- Added initial guides for Things and Apple Notes.
+- Clarified that app access depends on the user's harness and permissions.
+- Clarified that note updates default to the Obsidian vault unless the user explicitly asks to write somewhere else.
+
+## 2026-05-21
+
+### Clarified Installation From Vault Root
+
+- Updated installation instructions to make the Obsidian vault root the expected starting point.
+- Clarified that the installer should inspect the user's existing vault organization before making changes.
+
+## 2026-05-20
+
+### Added User Profile Refresh
+
+- Added `Agent HQ/User Profile.md` as concise high-level user context.
+- Added `glide-update-user-profile` as a standalone skill.
+- Added `Agent HQ/Checklists/Update User Profile.md`.
+- Updated daily check-ins, root harness snippets, drift review, and related skills to load and refresh the profile only when durable signal appears.
+
+### Added Concept Docs And Examples
+
+- Added `docs/CONCEPT.md` to explain Glide as a personal coach and pilot over long-term context.
+- Added examples for turning messy manual notes into writing entries.
+- Added an example for researching personal finance organization and proposing a monthly finance check.
+- Updated daily check-in instructions to support multiple relevant checks while keeping the user-facing output short.
+
+### Refined README Positioning
+
+- Reworked the README around Glide as a self-evolving personal coach and pilot.
+- Clarified the purpose: better defaults, less life admin, more attention for what matters.
+- Added the Storyloop inspiration and smart-notes connection.
+- Clarified that Glide's internal memory and working structure stay in `Agent HQ/` unless the user asks otherwise.
+
+### Initial Public Template
+
+- Created the first distributable Glide for Obsidian package.
+- Added the installable `templates/Agent HQ/` workspace.
+- Added default areas: Finance, Health, Family, Home, Career, Business, Friends & Community, and Travel.
+- Added core skills for area creation, area review, life systems review, WOOP goals, decision packets, contradiction detection, deep research, daily check-ins, harness drift review, and skill updates.
+- Added Codex, Claude Code, and generic harness adapters.
+- Added starter automation prompts for daily check-ins and harness drift review.
+- Added privacy, harness, release privacy checklist, installation, and contribution docs.
