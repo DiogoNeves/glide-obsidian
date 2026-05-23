@@ -13,8 +13,9 @@ The installer should:
 5. Explain how Glide works and how to interact with it.
 6. Copy the Glide structure and selected skills only after confirmation.
 7. Create or update the correct root harness instruction file.
-8. Suggest light evolution practices.
-9. Offer to add the daily automation if the harness supports it, after explicit confirmation.
+8. Mention optional software access guides.
+9. Suggest light evolution practices.
+10. Offer to add the daily automation if the harness supports it, after explicit confirmation.
 
 All install paths in this file are relative to the Obsidian vault root.
 
@@ -117,6 +118,7 @@ Before installing, explain:
 - Durable answers should be captured as the conversation progresses.
 - Glide memory and agent workings stay in `Agent HQ/`; ordinary vault notes are read for context but not edited unless the user explicitly asks.
 - Daily check-ins should be light.
+- Optional software access guides can help connect apps such as Things or Apple Notes after the user approves the access method.
 - High-stakes actions require approval.
 - Glide itself does not collect data; the chosen harness controls execution and data exposure.
 
@@ -177,7 +179,24 @@ For each automation:
 
 If the harness does not support automations, keep the notes in `Agent HQ/Automations/` as proposed manual automations.
 
-## Step 7: Help The User Evolve Glide
+## Step 7: Offer Optional Software Access
+
+Mention that `software/` contains optional guides for connecting other apps. Do not enable app access by default.
+
+If the user wants app access:
+
+1. Ask which software they want to connect.
+2. Prefer official connectors, APIs, MCP servers, exports, AppleScript, Shortcuts, or URL schemes before computer control.
+3. Add only the relevant app guide or checklist.
+4. Record approval boundaries before reading or writing app data.
+5. For app-specific behavior, create a small skill and checklist instead of expanding the daily check-in.
+
+Current starter guides:
+
+- `software/things.md`
+- `software/apple-notes.md`
+
+## Step 8: Help The User Evolve Glide
 
 Suggest:
 

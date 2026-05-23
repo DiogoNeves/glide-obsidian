@@ -33,6 +33,7 @@ I still capture messily. Glide adds memory and continuity around it.
 - goals, decisions, questions, ponders, contradictions, research, and reviews
 - skills and checklists for repeatable ways of thinking
 - a light daily loop
+- optional software guides for apps like Things and Apple Notes
 - drift review so the system can change without quietly becoming something else
 
 Glide should feel less like software you manage and more like a coach that remembers, a pilot that watches the instruments, and a system you can keep changing in natural language.
@@ -48,6 +49,7 @@ Glide keeps the agent's memory, working files, and operating structure in `Agent
 - `skills/`: portable Agent Skills prefixed with `glide-`, including profile updates, reviews, research, decisions, and daily check-ins.
 - `automations/`: installable starter prompts for daily check-ins and drift review.
 - `adapters/`: Codex, Claude Code, and generic harness notes.
+- `software/`: optional app-access guides for connecting software like Things and Apple Notes.
 - `INSTALL.md`: an agent-readable installer flow.
 - `docs/CONCEPT.md`: the short philosophy behind Glide.
 - `examples/`: brief walkthroughs for common use cases.
@@ -67,7 +69,8 @@ The installer flow is intentionally conservative:
 5. Explain how Glide works.
 6. Copy the structure and skills only after confirmation.
 7. Create or update the correct root instruction file.
-8. Offer starter automations only after explicit confirmation.
+8. Mention optional software access guides.
+9. Offer starter automations only after explicit confirmation.
 
 ## Privacy
 

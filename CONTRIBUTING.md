@@ -8,6 +8,7 @@ Glide is early and intentionally Markdown-first. Contributions are welcome when 
 - Clearer checklists.
 - New portable skills.
 - Harness adapters for Codex, Claude Code, OpenCode, local agents, or other tools.
+- Optional software access guides for apps with clear safety boundaries.
 - Privacy and install safety improvements.
 - Examples of daily check-ins that felt useful.
 - Examples of behavior that created friction.
