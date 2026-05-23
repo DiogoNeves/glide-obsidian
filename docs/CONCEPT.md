@@ -15,6 +15,7 @@ Glide gives that context a home:
 - `Agent HQ/` for the agent's memory and operating structure
 - `User Profile.md` for concise high-level context about the user
 - areas for the parts of life or work that need ongoing attention
+- area reminders for date-aware or trigger-aware items that should stay quiet until relevant
 - skills for repeatable ways of thinking
 - checklists for reviews, decisions, goals, research, and drift
 - automations for lightweight recurring attention

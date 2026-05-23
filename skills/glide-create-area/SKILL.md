@@ -23,18 +23,20 @@ description: Create or initialize a durable Glide area in Agent HQ.
    - `Area.md`
    - `Goals.md`
    - `Context.md`
+   - `Reminders.md`
    - `Sources.md`
    - `Decisions.md`
    - `Questions.md`
    - `Reviews/README.md`
    - `Checklists/README.md`
    - `Research/README.md`
-4. Link relevant goals and projects.
-5. Add open questions for missing context.
-6. Do not move or rewrite existing vault notes unless the user explicitly asks.
+4. In `Reminders.md`, create an active reminders section with columns `Status`, `When / Trigger`, `Lead Time`, `Reminder`, `Surface When`, and `Source`, plus a done/superseded section with `Date`, `Reminder`, and `Outcome`. Reminders may be date-based or trigger-based, including far-future items that stay quiet until their lead time or trigger.
+5. Link relevant goals and projects.
+6. Add open questions and initial reminders for missing context.
+7. Do not move or rewrite existing vault notes unless the user explicitly asks.
 
 ## Output
 
 - New area files.
 - Summary of what was created.
-- Open questions that would improve future reviews.
+- Open questions and initial reminders that would improve future reviews.

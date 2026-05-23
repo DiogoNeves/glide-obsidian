@@ -99,6 +99,7 @@ Create areas using the `glide-create-area` skill behavior. Each area should incl
 - `Area.md`
 - `Goals.md`
 - `Context.md`
+- `Reminders.md`
 - `Sources.md`
 - `Decisions.md`
 - `Questions.md`

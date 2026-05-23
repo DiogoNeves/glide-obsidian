@@ -19,7 +19,7 @@ These are installable prompts, not a background service. The selected harness de
 
 | Automation | Suggested Cadence | Purpose |
 | --- | --- | --- |
-| Daily Glide Check-In | Daily or weekdays, user-preferred morning time | Call `glide-update-user-profile`, then provide one useful question, insight, small low-risk action, ponder follow-up, or open-loop nudge |
+| Daily Glide Check-In | Daily or weekdays, user-preferred morning time | Call `glide-update-user-profile`, scan area reminders, then provide one useful question, insight, small low-risk action, ponder follow-up, or open-loop nudge |
 | Harness Drift Review | Weekly or twice weekly, user-preferred evening time | Keep operating files aligned with the protected design principles |
 
 ## Adapter Prompts

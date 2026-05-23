@@ -2,7 +2,7 @@
 
 Glide is a self-evolving personal coach and pilot for [Obsidian](https://obsidian.md/).
 
-It gives an agent a simple home for your goals, areas, decisions, questions, research, and recurring check-ins. The point is not to create a bigger task system. **The point is to help you live with better defaults**: research areas you are not actively watching, gather context for the ones you care about, notice contradictions, and keep useful momentum without turning your life into admin.
+It gives an agent a simple home for your goals, areas, reminders, decisions, questions, research, and recurring check-ins. The point is not to create a bigger task system. **The point is to help you live with better defaults**: research areas you are not actively watching, gather context for the ones you care about, notice contradictions, and keep useful momentum without turning your life into admin.
 
 Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, or another agent harness is the execution layer. Glide sets useful defaults; you choose how to run it, what tools it can access, and what data leaves your machine.
 
@@ -32,7 +32,7 @@ I still capture messily. Glide adds memory and continuity around it.
 
 - `Agent HQ/` as the agent-owned workspace inside your vault
 - areas for durable parts of life or work
-- goals, decisions, questions, ponders, contradictions, research, and reviews
+- goals, reminders, decisions, questions, ponders, contradictions, research, and reviews
 - skills and checklists for repeatable ways of thinking
 - a light daily loop
 - optional software guides for apps like Things and Apple Notes

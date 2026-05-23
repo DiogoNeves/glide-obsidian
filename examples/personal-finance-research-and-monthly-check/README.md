@@ -22,7 +22,7 @@ Research how I should organize personal finance in Glide and set up a monthly ch
 
 1. Use `glide-deep-research-subject` to research personal finance organization, budgeting, cash flow, resilience, debt, investing context, and early-warning signals.
 2. Separate evidence from opinion: lived experience, expert practice, empirical evidence, and weak signals.
-3. Update or propose updates to `Agent HQ/Areas/Finance/Context.md`, `Questions.md`, `Sources.md`, and `Research/`.
+3. Update or propose updates to `Agent HQ/Areas/Finance/Context.md`, `Reminders.md`, `Questions.md`, `Sources.md`, and `Research/`.
 4. Identify the minimum recurring data needed for useful reviews.
 5. Create a proposed monthly finance check in `Agent HQ/Automations/` and `Agent HQ/Automation Registry.md`.
 6. Ask before enabling the automation or touching external accounts, statements, email, banks, or spreadsheets.
@@ -49,6 +49,7 @@ The daily morning check can run multiple relevant checks and skills before decid
 For example, the user might ask Glide to:
 
 - track whether finance statements are missing
+- surface finance reminders only when due, approaching, or newly relevant
 - summarize interesting finance newsletters from email
 - archive newsletters after summarizing them, if that exact action and approval boundary has been configured
 - flag a recurring payment change

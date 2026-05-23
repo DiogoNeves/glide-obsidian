@@ -12,6 +12,7 @@ Purpose: run a concise morning pass that improves Agent HQ accuracy, checks rele
 - `Agent HQ/Open Loops.md`
 - `Agent HQ/Questions Queue.md`
 - `Agent HQ/Ponder Log.md`
+- `Agent HQ/Areas/*/Reminders.md`
 - Relevant area `Questions.md`, recent reviews, decisions, and contradictions
 - Available inbox, calendar, task, or app-action sources when access is configured and the run can check them safely
 
@@ -42,6 +43,7 @@ Pick the smallest useful output:
 - One insight from existing context that the user may not be noticing.
 - One small action that is low-risk, concrete, and worth doing soon.
 - One recent ponder that would benefit from a gentle follow-up.
+- One area reminder that is due, approaching, or newly relevant.
 - One app follow-up or external action candidate that the user may want to handle.
 - A short bundle of two or three items when multiple checks produced genuinely useful results.
 
@@ -55,6 +57,7 @@ Candidate focus areas:
 
 - Open loops and linked trackers.
 - Active goals and high-uncertainty areas.
+- Area reminders.
 - Area questions.
 - Recent ponders.
 - Contradictions.
@@ -71,6 +74,15 @@ For each focus area, ask for:
 - Background research: whether more research should continue without blocking today's touch.
 
 Then choose the daily output. Keep parallel exploration internal unless a comparison helps the user.
+
+## Selection Rules
+
+- Scan each area's `Reminders.md`.
+- Surface reminders only when they are due, overdue, within their lead time, newly relevant from available context, or high-stakes enough that preparation should start.
+- Treat only active/open reminders as candidates; leave done or superseded reminders quiet.
+- Keep far-future reminders quiet until their lead time or trigger.
+- If the lead time is unclear, infer a conservative one from the stakes and ask only when that would change timing.
+- If several reminders are active, surface the highest-signal one or a tiny bundle from the same area. Do not turn every reminder into a daily task.
 
 ## Interaction Shape
 

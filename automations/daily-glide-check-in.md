@@ -6,7 +6,7 @@ Run `$glide-daily-check-in` for this vault.
 
 Use the Glide skill as the source of truth for context loading, morning checks, daily-output selection, guardrails, and light evaluation.
 
-Before choosing the daily output, run `$glide-update-user-profile`, then scan `Agent HQ/Open Loops.md`, active goals, questions, ponders, contradictions, recent decisions, and relevant area files. When configured, also check relevant inbox, calendar, task, newsletter, or app-action sources. When several daily focus areas are plausible and the harness supports parallel workers, explore each candidate narrowly, then integrate the findings and choose the smallest useful user-facing output.
+Before choosing the daily output, run `$glide-update-user-profile`, then scan `Agent HQ/Areas/*/Reminders.md`, `Agent HQ/Open Loops.md`, active goals, questions, ponders, contradictions, recent decisions, and relevant area files. Surface area reminders only when due, within lead time, newly relevant, or high-stakes enough to prepare. When configured, also check relevant inbox, calendar, task, newsletter, or app-action sources. When several daily focus areas are plausible and the harness supports parallel workers, explore each candidate narrowly, then integrate the findings and choose the smallest useful user-facing output.
 
 Keep the output conversational and short. It may include a small bundle when multiple checks produce genuinely useful results. If there is no useful question, insight, advice, tracked open-loop update, or low-risk action today, say so briefly instead of manufacturing homework.
 
