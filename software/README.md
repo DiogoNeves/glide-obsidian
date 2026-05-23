@@ -15,6 +15,8 @@ Many macOS apps can be accessed through the same general ladder:
 
 Start read-only. Ask before writing, sending, deleting, archiving, purchasing, posting, scheduling, or changing account data.
 
+Default durable note updates to the Obsidian vault, not Apple Notes or another external note app, unless the user explicitly asks to write somewhere else.
+
 macOS may require the user to approve Automation permissions for the harness or terminal app controlling another app. Do not bypass privacy prompts or blindly click security dialogs.
 
 ## App Guides
