@@ -2,6 +2,14 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-05-25
+
+### Added Messages / iMessage Access Guide
+
+- Added a Messages/iMessage software guide for macOS.
+- Documented safe read paths, approval-gated sends, macOS permissions, and methods to avoid.
+- Clarified that Messages access should start read-only, narrow, and should not import private transcripts into Obsidian by default.
+
 ## 2026-05-23
 
 ### Added Area Reminders

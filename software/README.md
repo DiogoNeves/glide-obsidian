@@ -23,6 +23,7 @@ macOS may require the user to approve Automation permissions for the harness or 
 
 - [Things](things.md)
 - [Apple Notes](apple-notes.md)
+- [Messages / iMessage](imessage.md)
 
 ## Adding Another App
 
