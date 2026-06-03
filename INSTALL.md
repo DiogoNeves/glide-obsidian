@@ -53,6 +53,8 @@ Report what exists and what Glide would need to create or update.
 
 Also summarize the vault's note style in one short paragraph. If the vault has clear conventions, adapt the root harness instruction section minimally so Glide respects them. For example: where project notes live, how calendar notes are used, how unique notes are named, where attachments belong, and whether ordinary notes should stay mostly in the vault root. Do not reorganize the vault or add broad rules unless the user confirms.
 
+For any optional app workflow that imports notes into the vault, use this note-style summary as the starting point, then sample representative notes and create or update the app-specific import skill/checklist before the first real import.
+
 If `Agent HQ/` already exists, stop and ask whether to:
 
 - merge carefully,

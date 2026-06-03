@@ -10,6 +10,16 @@ Prefer the Notes.app AppleScript interface over direct database access. Start wi
 
 Do not create, edit, rename, move, delete, lock, unlock, or archive notes unless the user explicitly asks for that exact action.
 
+## Vault Structure First
+
+Before importing Apple Notes into Obsidian, learn the vault's note structure.
+
+Inspect the vault instructions, templates, recent root notes, project notes, category/index notes, existing imported notes, links, tags, source markers, and attachment conventions. Sample enough notes to infer how imported notes should be named, linked, tagged, sourced, deduplicated, and routed.
+
+If the import behavior is not already encoded, create or update the Apple Notes import skill/checklist before writing imported notes. For a new or ambiguous import pattern, prepare a dry-run mapping and ask the user before creating files.
+
+Revalidate this mapping when the vault structure changes or imported notes start looking wrong.
+
 ## Safe Read Path
 
 Start with a tiny read-only probe:

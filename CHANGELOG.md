@@ -2,6 +2,14 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-06-03
+
+### Added Vault-Structure Learning Before Note Imports
+
+- Added a general rule that note-import workflows should inspect the vault's existing structure before writing imported notes.
+- Updated Apple Notes guidance to create or update the import skill/checklist from sampled vault conventions before the first real import.
+- Added installer guidance so optional app-import workflows adapt to the user's vault instead of assuming a generic note shape.
+
 ## 2026-05-25
 
 ### Added Messages / iMessage Access Guide
