@@ -10,7 +10,7 @@ Many macOS apps can be accessed through the same general ladder:
 
 1. Use an official connector, API, or MCP server when available.
 2. Use export/import files when they are safer or easier to review.
-3. Use AppleScript, Shortcuts, URL schemes, or app automation when the app supports them.
+3. Use AppleScript, JavaScript for Automation, Shortcuts, URL schemes, or app automation when the app supports them.
 4. Use browser or computer control only when no better interface exists.
 
 Start read-only. Ask before writing, sending, deleting, archiving, purchasing, posting, scheduling, or changing account data.

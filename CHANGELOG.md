@@ -2,6 +2,14 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-06-07
+
+### Clarified Apple Notes Scripting Access
+
+- Updated Apple Notes guidance from AppleScript-only wording to the broader Notes.app scripting interface.
+- Added guidance to prefer JavaScript for Automation helpers with native Notes date filters for recurring metadata scans.
+- Added a safety note to retry read-only metadata checks through the user-approved automation path when a managed sandbox cannot reach Notes.app.
+
 ## 2026-06-03
 
 ### Added Vault-Structure Learning Before Note Imports
