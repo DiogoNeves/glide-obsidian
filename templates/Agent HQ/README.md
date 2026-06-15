@@ -10,6 +10,7 @@ Start with:
 - `Harness Design Principles.md` for protected design principles.
 - `User Profile.md` for concise high-level context about the user.
 - `Operating Manual.md` for the default workflow.
+- `Follow-Through Ledger.md` for commitments and waiting threads that should not disappear.
 - `Goals/` for cross-life or cross-work direction.
 - `Areas/` for durable domains.
 - `Checklists/` for repeatable processes.

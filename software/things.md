@@ -34,6 +34,24 @@ Things does not have a general public API. Useful official references:
 
 Never ask for Things Cloud credentials or write directly to Things' local database.
 
+## Scheduling Rule
+
+Do not assign dates just because something should not be forgotten.
+
+Use Today, Upcoming, and deadlines only when there is a real timing constraint, a real commitment to act on that date, or a date that materially changes the decision. If the purpose is "do not lose this", route it to the right project, list, or Glide follow-through item.
+
+## Weekly Sweep
+
+During a weekly review, inspect Things at a high level when configured:
+
+- Today overload or stale carryover.
+- Inbox items that need routing, deletion, scheduling, or parking.
+- Active projects with no next action.
+- Important Glide open loops with no visible commitment.
+- Duplicate or misplaced tasks.
+
+Output a concise triage and ask before changing Things.
+
 ## Approval-Gated Writes
 
 Before writing to Things, show:

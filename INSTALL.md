@@ -121,7 +121,7 @@ Before installing, explain:
 - Durable answers should be captured as the conversation progresses.
 - Glide memory and agent workings stay in `Agent HQ/`; ordinary vault notes are read for context but not edited unless the user explicitly asks.
 - Daily check-ins should be light.
-- Optional software access guides can help connect apps such as Things or Apple Notes after the user approves the access method.
+- Optional software access guides can help connect apps such as Things, Apple Notes, Apple Calendar, or Messages after the user approves the access method.
 - High-stakes actions require approval.
 - Glide itself does not collect data; the chosen harness controls execution and data exposure.
 
@@ -198,6 +198,8 @@ Current starter guides:
 
 - `software/things.md`
 - `software/apple-notes.md`
+- `software/apple-calendar.md`
+- `software/imessage.md`
 
 ## Step 8: Help The User Evolve Glide
 

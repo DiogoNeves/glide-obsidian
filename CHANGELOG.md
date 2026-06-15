@@ -2,6 +2,17 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-06-15
+
+### Added Follow-Through And Calendar Guidance
+
+- Added `Follow-Through Ledger.md` as a lightweight place for promises, waiting threads, and commitments that should not disappear.
+- Updated daily check-ins and automation prompts to scan follow-through items alongside reminders, open loops, goals, questions, ponders, and app-action candidates.
+- Added an Apple Calendar software guide with read-only macOS access patterns and approval-gated write boundaries.
+- Added a general app interface checklist for connector, file, browser, and computer-use workflows.
+- Updated harness drift review to trim verbose new instructions when clarity and behavior are preserved.
+- Added purchase research and stronger weekly review guidance around commitments, task sources, and realistic planning.
+
 ## 2026-06-07
 
 ### Clarified Apple Notes Scripting Access

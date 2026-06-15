@@ -54,6 +54,7 @@ Ask before making or preparing irreversible, financial, legal, medical, public, 
 - `Operating Manual.md`: workflow.
 - `Communication Preferences.md`: interaction style.
 - `Goals/Life Goals.md` and `Goals/Active Goals.md`: direction.
+- `Follow-Through Ledger.md`: promises, pending replies, and open commitments that need a light follow-through check.
 - `Areas/`: durable domains.
 - `Checklists/`: repeatable processes.
 - `Contradiction Register.md`: unresolved tensions.

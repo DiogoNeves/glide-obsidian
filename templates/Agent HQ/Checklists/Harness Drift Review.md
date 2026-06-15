@@ -40,19 +40,22 @@ Only edit operational instructions:
 2. Look for drift in purpose, tone, autonomy, approval boundaries, memory updates, daily interaction, pondering, personal-data protection, evidence standards, cross-area reasoning, and portability.
 3. Ignore harmless wording differences.
 4. Fix only clear non-behavioral issues directly, such as stale file references, broken links, contradictions between operational files, typos that change clarity, or instructions that obviously fail to reflect already-approved behavior.
-5. Ask the user to confirm before making any change that could alter future behavior, including changes to autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
-6. Prefer the smallest clear correction.
-7. Do not rewrite, reorganise, or simplify large sections unless drift is real and the change is non-behavioral.
-8. Do not erase historical detail or personal context.
-9. Check collection-candidate files for obvious stale or irrelevant items that no longer help advice or autopilot.
-10. Clear stale collection candidates only when the item is plainly irrelevant, duplicated, or superseded, and the cleanup does not change future behavior. Preserve durable learning in the appropriate long-term memory before clearing anything.
-11. Ask the user to confirm if clearing, moving, or summarising an item requires judgment.
-12. If a problem involves other personal data files, report it as a recommendation instead of editing.
+5. Review newly edited skills, checklists, and operational rules for verbosity. Cut filler, repetition, defensive wording, and conversation-specific phrasing when clarity survives.
+6. Prefer short, direct rules.
+7. Ask the user to confirm before making any change that could alter future behavior, including changes to autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
+8. Prefer the smallest clear correction.
+9. Do not rewrite, reorganise, or simplify large sections unless drift or verbosity is real and the change is non-behavioral.
+10. Do not erase historical detail or personal context.
+11. Check collection-candidate files for obvious stale or irrelevant items that no longer help advice or autopilot.
+12. Clear stale collection candidates only when the item is plainly irrelevant, duplicated, or superseded, and the cleanup does not change future behavior. Preserve durable learning in the appropriate long-term memory before clearing anything.
+13. Ask the user to confirm if clearing, moving, or summarising an item requires judgment.
+14. If a problem involves other personal data files, report it as a recommendation instead of editing.
 
 ## Output
 
 - State whether drift was found.
 - List operational files changed.
+- List verbosity reductions made.
 - List stale collection candidates cleared or recommended for cleanup.
 - List behavior-changing recommendations for user approval before editing.
 - Keep the report short.
