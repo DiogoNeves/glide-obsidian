@@ -30,7 +30,7 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 2. Run `$glide-update-user-profile` before choosing the daily output.
 3. Scan area reminders and `Agent HQ/Follow-Through Ledger.md`, then identify candidate daily focus areas: follow-through items, open loops, active goals, area reminders, area questions, ponders, contradictions, project links, app action candidates, and stale decisions.
 4. When more than one candidate focus area is plausible, use parallel subagents to explore them. Give each subagent one narrow focus area and ask for: signal, urgency, one possible daily output, whether there is a profile update candidate for `$glide-update-user-profile`, and whether background research should continue.
-5. Integrate subagent findings yourself and choose the smallest useful user-facing output.
+5. Integrate subagent findings yourself and choose the smallest useful user-facing output: prefer one item; use two or three only when each is genuinely urgent or very important.
 6. If a focus area needs deeper research but should not block the daily output, continue that research in the background or queue it in Agent HQ only when it would materially improve future advice.
 7. Run multiple relevant checks or skills when useful, but keep the user-facing response short, natural, and coach-like.
 8. Do not expose Agent HQ structure unless it helps the user answer or act.
@@ -42,6 +42,8 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 ## Output
 
 - One concise daily output, based on the relevant checks or skills.
+- Two or three daily items only when each is genuinely urgent or very important.
+- Never surface more than three items. If more than three may matter, say: `Hey, there are other things that might be important. Do you want me to continue?`
 - A `$glide-update-user-profile` pass before choosing the daily output.
 - An area reminder scan before choosing the daily output.
 - A follow-through scan before choosing the daily output.

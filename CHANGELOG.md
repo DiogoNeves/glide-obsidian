@@ -2,6 +2,12 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-06-20
+
+### Capped Daily Check-In Output
+
+- Updated daily check-ins to prefer one item, allow up to three only when each is urgent or very important, and ask before continuing when more may matter.
+
 ## 2026-06-15
 
 ### Added Follow-Through And Calendar Guidance

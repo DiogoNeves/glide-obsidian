@@ -49,9 +49,11 @@ Pick the smallest useful output:
 - One area reminder that is due, approaching, or newly relevant.
 - One follow-through nudge when an item is stale, important, or newly actionable.
 - One app follow-up or external action candidate that the user may want to handle.
-- A short bundle of two or three items when multiple checks produced genuinely useful results.
+- Two or three items only when each item is genuinely urgent or very important.
 
 Prefer a question when missing context is the bottleneck. Prefer an insight when the system already has enough context to notice a pattern. Prefer an action when the next step is obvious and lightweight.
+
+Prefer one item. Never surface more than three items. If more than three may matter, say: `Hey, there are other things that might be important. Do you want me to continue?`
 
 ## Parallel Focus Scan
 
@@ -74,7 +76,7 @@ For each focus area, ask for:
 
 - Signal: what matters here today.
 - Urgency: whether it needs attention now.
-- Candidate output: one question, insight, action, follow-up, or short bundle.
+- Candidate output: one question, insight, action, follow-up, or up to three urgent or very important items.
 - Profile update: whether there is a candidate for `$glide-update-user-profile`.
 - Background research: whether more research should continue without blocking today's touch.
 
@@ -102,7 +104,7 @@ Then choose the daily output. Keep parallel exploration internal unless a compar
 Good shape:
 
 1. A one-sentence insight or context.
-2. One question, one small action, or a very short bundle.
+2. One question, one small action, or up to three urgent or very important items.
 3. A short reason if useful.
 
 ## After The User Responds
