@@ -4,6 +4,8 @@ Run the installed `glide-harness-drift-review` skill for this vault, or follow `
 
 Use `Agent HQ/Harness Design Principles.md` as the read-only north star. Do not edit that file unless the user explicitly asks in the current request.
 
+Read `Agent HQ/Evals/*.md` as evidence only. Recurring `Improve Next` notes and `Partial` outcomes can become candidates for small instruction updates.
+
 Review operational files:
 
 - `Agent HQ/AGENTS.md`

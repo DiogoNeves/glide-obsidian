@@ -7,6 +7,8 @@ Notable changes to Glide for Obsidian.
 ### Capped Daily Check-In Output
 
 - Updated daily check-ins to prefer one item, allow up to three only when each is urgent or very important, and ask before continuing when more may matter.
+- Added daily ranking and source-arbitration rules for competing signals.
+- Added evals as read-only drift-review evidence.
 
 ## 2026-06-15
 

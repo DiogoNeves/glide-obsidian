@@ -8,6 +8,8 @@ Before choosing the daily output, run `$glide-update-user-profile`, then scan `A
 
 If a tracked item has high stakes, an approaching or missed deadline, a stale unanswered thread, or a likely new app development, look into relevant available connectors safely and consider surfacing it.
 
+When signals compete, rank candidates by concrete deadline, date, amount, safety/account/family/work stakes, source reliability, and whether the user can usefully act today. If email, calendar, Things, Messages, or app data disagree, prefer the source of record, confirmation email, or official app over auto-created calendar or task artifacts, and mention the caveat briefly.
+
 Continue background research only when it would materially improve future recommendations or autopilot, and do not let background research bloat the daily message.
 
 Keep the output conversational and short. Prefer one item. Use two or three only when each is genuinely urgent or very important. Never surface more than three items. If more than three may matter, say: `Hey, there are other things that might be important. Do you want me to continue?` If there is no useful question, insight, advice, tracked open-loop update, or low-risk action today, say so briefly instead of manufacturing homework.

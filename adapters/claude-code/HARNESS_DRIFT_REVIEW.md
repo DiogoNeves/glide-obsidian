@@ -14,6 +14,8 @@ Review operational files:
 - `Agent HQ/Checklists/*.md`
 - `.claude/skills/*/SKILL.md`
 
+Read `Agent HQ/Evals/*.md` as evidence only. Recurring `Improve Next` notes and `Partial` outcomes can become candidates for small instruction updates.
+
 Also check collection-candidate files for stale-item cleanup only:
 
 - `Agent HQ/Questions Queue.md`

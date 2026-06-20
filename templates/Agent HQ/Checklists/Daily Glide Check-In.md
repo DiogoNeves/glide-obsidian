@@ -55,6 +55,10 @@ Prefer a question when missing context is the bottleneck. Prefer an insight when
 
 Prefer one item. Never surface more than three items. If more than three may matter, say: `Hey, there are other things that might be important. Do you want me to continue?`
 
+When signals compete, rank candidates by concrete deadline, date, amount, safety/account/family/work stakes, source reliability, and whether the user can usefully act today. Keep one primary touch, with secondary items only for true urgency or importance.
+
+When email, calendar, Things, Messages, or app data disagree, prefer the source of record, confirmation email, or official app over auto-created calendar or task artifacts, and mention the caveat briefly.
+
 ## Parallel Focus Scan
 
 When there are multiple plausible daily focus areas, explore them in parallel before choosing the output.
