@@ -2,6 +2,14 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-06-25
+
+### Added Nightly Research Review
+
+- Added `glide-nightly-research-review` for quiet 4am background research, memory, eval, and cross-area maintenance.
+- Added installable automation prompts and adapter prompts for Codex, Claude Code, and generic harnesses.
+- Added a rolling 4-day `Nightly Research Audit` template for internal change tracking.
+
 ## 2026-06-20
 
 ### Capped Daily Check-In Output

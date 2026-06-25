@@ -57,6 +57,7 @@ Ask before making or preparing irreversible, financial, legal, medical, public, 
 - `Follow-Through Ledger.md`: promises, pending replies, and open commitments that need a light follow-through check.
 - `Areas/`: durable domains.
 - `Checklists/`: repeatable processes.
+- `Evals/Nightly Research Audit.md`: rolling internal audit for quiet background research and memory maintenance.
 - `Contradiction Register.md`: unresolved tensions.
 - `Questions Queue.md`: questions for the user.
 - `Ponder Log.md`: open ponders that are not yet goals.

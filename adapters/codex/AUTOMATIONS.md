@@ -24,6 +24,17 @@ Ask the user to confirm the schedule, model, reasoning effort, workspace, and de
 
 Ask the user to confirm the schedule, model, reasoning effort, workspace, and destination before creating it.
 
+## Nightly Research Review
+
+- Name: Nightly Research Review
+- Kind: recurring workspace automation
+- Workspace: the user's Obsidian vault
+- Suggested cadence: daily at 4am local time
+- Prompt source: `adapters/codex/NIGHTLY_RESEARCH_REVIEW.md`
+- Skill: `glide-nightly-research-review`
+
+Ask the user to confirm the schedule, model, reasoning effort, workspace, and destination before creating it.
+
 ## After Install
 
 - Add or update entries in `Agent HQ/Automation Registry.md`.

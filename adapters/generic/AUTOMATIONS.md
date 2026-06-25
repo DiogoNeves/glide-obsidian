@@ -24,6 +24,13 @@ Ask first:
 - Prompt source: `adapters/generic/HARNESS_DRIFT_REVIEW.md`
 - Skill or checklist: `glide-harness-drift-review` or `Agent HQ/Checklists/Harness Drift Review.md`
 
+## Nightly Research Review
+
+- Name: Nightly Research Review
+- Suggested cadence: daily at 4am local time
+- Prompt source: `adapters/generic/NIGHTLY_RESEARCH_REVIEW.md`
+- Skill or checklist: `glide-nightly-research-review` or `Agent HQ/Checklists/Nightly Research Review.md`
+
 ## After Install
 
 - Add or update entries in `Agent HQ/Automation Registry.md`.

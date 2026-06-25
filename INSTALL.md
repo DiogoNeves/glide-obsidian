@@ -15,7 +15,7 @@ The installer should:
 7. Create or update the correct root harness instruction file.
 8. Mention optional software access guides.
 9. Suggest light evolution practices.
-10. Offer to add the daily automation if the harness supports it, after explicit confirmation.
+10. Offer starter automations if the harness supports them, after explicit confirmation.
 
 All install paths in this file are relative to the Obsidian vault root.
 
@@ -146,12 +146,13 @@ Use these adapter snippets:
 
 ## Step 6: Offer Starter Automations
 
-Offer only two starter automations:
+Offer three starter automations:
 
 - Daily Glide Check-In
 - Harness Drift Review
+- Nightly Research Review
 
-Confirm before creating either.
+Confirm before creating any automation.
 
 Prefer adding steps to an existing automation if one already exists.
 
@@ -159,18 +160,22 @@ The installable prompt sources are:
 
 - `automations/daily-glide-check-in.md`
 - `automations/harness-drift-review.md`
+- `automations/nightly-research-review.md`
 
 Use harness-specific versions when available:
 
 - `adapters/codex/AUTOMATIONS.md`
 - `adapters/codex/DAILY_GLIDE_CHECK_IN.md`
 - `adapters/codex/HARNESS_DRIFT_REVIEW.md`
+- `adapters/codex/NIGHTLY_RESEARCH_REVIEW.md`
 - `adapters/claude-code/AUTOMATIONS.md`
 - `adapters/claude-code/DAILY_GLIDE_CHECK_IN.md`
 - `adapters/claude-code/HARNESS_DRIFT_REVIEW.md`
+- `adapters/claude-code/NIGHTLY_RESEARCH_REVIEW.md`
 - `adapters/generic/AUTOMATIONS.md`
 - `adapters/generic/DAILY_GLIDE_CHECK_IN.md`
 - `adapters/generic/HARNESS_DRIFT_REVIEW.md`
+- `adapters/generic/NIGHTLY_RESEARCH_REVIEW.md`
 
 For each automation:
 

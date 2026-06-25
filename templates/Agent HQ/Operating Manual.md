@@ -64,6 +64,7 @@ Use `User Profile.md` as the regularly refreshed high-level context file. Keep i
 - Area review: use `Checklists/Area Review.md` and the area's own files.
 - Life systems review: use `Checklists/Life Systems Review.md`.
 - Daily check-in: use `Checklists/Daily Glide Check-In.md`.
+- Nightly research review: use `Checklists/Nightly Research Review.md`.
 - Profile update: use `Checklists/Update User Profile.md`.
 - Pondering: explore a possible decision without turning it into a goal or plan; use `Ponder Log.md` for recent open ponders.
 - Decision support: use `Checklists/Decision Packet.md`.

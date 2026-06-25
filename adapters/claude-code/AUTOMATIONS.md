@@ -22,6 +22,16 @@ Ask the user which scheduler or recurring-run mechanism should call Claude Code.
 
 Ask the user which scheduler or recurring-run mechanism should call Claude Code. Confirm the schedule, working directory, model, and destination before enabling it.
 
+## Nightly Research Review
+
+- Name: Nightly Research Review
+- Workspace: the user's Obsidian vault
+- Suggested cadence: daily at 4am local time
+- Prompt source: `adapters/claude-code/NIGHTLY_RESEARCH_REVIEW.md`
+- Skill: `glide-nightly-research-review`
+
+Ask the user which scheduler or recurring-run mechanism should call Claude Code. Confirm the schedule, working directory, model, and destination before enabling it.
+
 ## After Install
 
 - Add or update entries in `Agent HQ/Automation Registry.md`.

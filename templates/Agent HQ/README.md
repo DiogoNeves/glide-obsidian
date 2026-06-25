@@ -11,6 +11,7 @@ Start with:
 - `User Profile.md` for concise high-level context about the user.
 - `Operating Manual.md` for the default workflow.
 - `Follow-Through Ledger.md` for commitments and waiting threads that should not disappear.
+- `Evals/Nightly Research Audit.md` for the rolling internal audit of quiet research maintenance.
 - `Goals/` for cross-life or cross-work direction.
 - `Areas/` for durable domains.
 - `Checklists/` for repeatable processes.
