@@ -15,7 +15,8 @@ The installer should:
 7. Create or update the correct root harness instruction file.
 8. Mention optional software access guides.
 9. Suggest light evolution practices.
-10. Offer starter automations if the harness supports them, after explicit confirmation.
+10. Create `Agent HQ/Glide Updates.md` with the upstream repo URL and installed release.
+11. Offer starter automations if the harness supports them, after explicit confirmation.
 
 All install paths in this file are relative to the Obsidian vault root.
 
@@ -137,6 +138,7 @@ After explicit confirmation:
 6. Add only the minimal vault-convention guidance needed from inspection.
 7. Leave existing unrelated instructions intact.
 8. Record selected default areas and installed skills in `Agent HQ/Automation Registry.md` or another appropriate operations note.
+9. Set `Agent HQ/Glide Updates.md` with the upstream repo URL, installed release, and update policy.
 
 Use these adapter snippets:
 
@@ -146,11 +148,12 @@ Use these adapter snippets:
 
 ## Step 6: Offer Starter Automations
 
-Offer three starter automations:
+Offer four starter automations:
 
 - Daily Glide Check-In
 - Harness Drift Review
 - Nightly Research Review
+- Weekly Glide Update Check
 
 Confirm before creating any automation.
 
@@ -161,6 +164,7 @@ The installable prompt sources are:
 - `automations/daily-glide-check-in.md`
 - `automations/harness-drift-review.md`
 - `automations/nightly-research-review.md`
+- `automations/weekly-glide-update-check.md`
 
 Use harness-specific versions when available:
 
@@ -168,14 +172,17 @@ Use harness-specific versions when available:
 - `adapters/codex/DAILY_GLIDE_CHECK_IN.md`
 - `adapters/codex/HARNESS_DRIFT_REVIEW.md`
 - `adapters/codex/NIGHTLY_RESEARCH_REVIEW.md`
+- `adapters/codex/WEEKLY_GLIDE_UPDATE_CHECK.md`
 - `adapters/claude-code/AUTOMATIONS.md`
 - `adapters/claude-code/DAILY_GLIDE_CHECK_IN.md`
 - `adapters/claude-code/HARNESS_DRIFT_REVIEW.md`
 - `adapters/claude-code/NIGHTLY_RESEARCH_REVIEW.md`
+- `adapters/claude-code/WEEKLY_GLIDE_UPDATE_CHECK.md`
 - `adapters/generic/AUTOMATIONS.md`
 - `adapters/generic/DAILY_GLIDE_CHECK_IN.md`
 - `adapters/generic/HARNESS_DRIFT_REVIEW.md`
 - `adapters/generic/NIGHTLY_RESEARCH_REVIEW.md`
+- `adapters/generic/WEEKLY_GLIDE_UPDATE_CHECK.md`
 
 For each automation:
 

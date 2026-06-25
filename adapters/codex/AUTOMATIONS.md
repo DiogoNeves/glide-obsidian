@@ -35,6 +35,17 @@ Ask the user to confirm the schedule, model, reasoning effort, workspace, and de
 
 Ask the user to confirm the schedule, model, reasoning effort, workspace, and destination before creating it.
 
+## Weekly Glide Update Check
+
+- Name: Weekly Glide Update Check
+- Kind: recurring workspace automation
+- Workspace: the user's Obsidian vault
+- Suggested cadence: weekly at a low-disruption time
+- Prompt source: `adapters/codex/WEEKLY_GLIDE_UPDATE_CHECK.md`
+- Skill: `glide-check-for-updates`
+
+Ask the user to confirm the schedule, model, reasoning effort, workspace, and destination before creating it.
+
 ## After Install
 
 - Add or update entries in `Agent HQ/Automation Registry.md`.

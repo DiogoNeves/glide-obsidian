@@ -22,6 +22,12 @@ Glide is early and intentionally Markdown-first. Contributions are welcome when 
 - Prefer additive examples over changing core behavior.
 - For behavior changes, explain which design principle the change supports.
 
+## Release And Sync Rules
+
+- Unless a change is specific to one Glide package, keep the Glide repos in sync.
+- Every release should include concise update or migration notes.
+- Update the weekly update-check skill, checklist, automation, and changelog when release behavior changes.
+
 ## Skill Style
 
 Each skill should:

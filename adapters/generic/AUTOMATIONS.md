@@ -31,6 +31,13 @@ Ask first:
 - Prompt source: `adapters/generic/NIGHTLY_RESEARCH_REVIEW.md`
 - Skill or checklist: `glide-nightly-research-review` or `Agent HQ/Checklists/Nightly Research Review.md`
 
+## Weekly Glide Update Check
+
+- Name: Weekly Glide Update Check
+- Suggested cadence: weekly at a low-disruption time
+- Prompt source: `adapters/generic/WEEKLY_GLIDE_UPDATE_CHECK.md`
+- Skill or checklist: `glide-check-for-updates` or `Agent HQ/Checklists/Glide Update Check.md`
+
 ## After Install
 
 - Add or update entries in `Agent HQ/Automation Registry.md`.

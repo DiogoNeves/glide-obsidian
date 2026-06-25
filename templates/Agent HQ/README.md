@@ -8,6 +8,7 @@ Start with:
 
 - `AGENTS.md` for operating rules.
 - `Harness Design Principles.md` for protected design principles.
+- `Glide Updates.md` for upstream release and migration state.
 - `User Profile.md` for concise high-level context about the user.
 - `Operating Manual.md` for the default workflow.
 - `Follow-Through Ledger.md` for commitments and waiting threads that should not disappear.

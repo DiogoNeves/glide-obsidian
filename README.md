@@ -49,7 +49,7 @@ Glide keeps the agent's memory, working files, and operating structure in `Agent
 - `templates/Agent HQ/`: a generic installable Glide workspace.
 - `templates/Agent HQ/User Profile.md`: concise high-level user context refreshed by `glide-update-user-profile`.
 - `skills/`: portable Agent Skills prefixed with `glide-`, including profile updates, reviews, research, decisions, and daily check-ins.
-- `automations/`: installable starter prompts for daily check-ins, drift review, and quiet 4am research review.
+- `automations/`: installable starter prompts for daily check-ins, drift review, quiet 4am research review, and weekly release checks.
 - `adapters/`: Codex, Claude Code, and generic harness notes.
 - `software/`: optional app-access guides for connecting software like Things, Apple Notes, Apple Calendar, and Messages.
 - `INSTALL.md`: an agent-readable installer flow.

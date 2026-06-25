@@ -15,6 +15,7 @@ Glide skills are portable `SKILL.md` folders installed into the harness-specific
 - `glide-daily-check-in`: run a concise daily pass, call `glide-update-user-profile`, and add light evaluation.
 - `glide-harness-drift-review`: keep operating files aligned with the protected design principles.
 - `glide-nightly-research-review`: run quiet 4am research, memory, eval, and cross-area maintenance.
+- `glide-check-for-updates`: check upstream Glide releases and apply compatible migration notes.
 - `glide-update-skill`: improve a skill or checklist.
 
 ## Skill Rule

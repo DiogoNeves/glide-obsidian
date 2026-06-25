@@ -32,6 +32,16 @@ Ask the user which scheduler or recurring-run mechanism should call Claude Code.
 
 Ask the user which scheduler or recurring-run mechanism should call Claude Code. Confirm the schedule, working directory, model, and destination before enabling it.
 
+## Weekly Glide Update Check
+
+- Name: Weekly Glide Update Check
+- Workspace: the user's Obsidian vault
+- Suggested cadence: weekly at a low-disruption time
+- Prompt source: `adapters/claude-code/WEEKLY_GLIDE_UPDATE_CHECK.md`
+- Skill: `glide-check-for-updates`
+
+Ask the user which scheduler or recurring-run mechanism should call Claude Code. Confirm the schedule, working directory, model, and destination before enabling it.
+
 ## After Install
 
 - Add or update entries in `Agent HQ/Automation Registry.md`.

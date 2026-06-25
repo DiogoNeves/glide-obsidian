@@ -50,6 +50,7 @@ Ask before making or preparing irreversible, financial, legal, medical, public, 
 ## Useful Starting Points
 
 - `Harness Design Principles.md`: protected north star.
+- `Glide Updates.md`: upstream release, update policy, and migration state.
 - `User Profile.md`: concise high-level context about the user.
 - `Operating Manual.md`: workflow.
 - `Communication Preferences.md`: interaction style.

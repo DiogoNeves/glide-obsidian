@@ -4,6 +4,11 @@ Notable changes to Glide for Obsidian.
 
 ## 2026-06-25
 
+### Added Weekly Glide Update Checks
+
+- Added `glide-check-for-updates`, `Agent HQ/Glide Updates.md`, a weekly update-check automation prompt, and harness adapter prompts.
+- Added update-state and migration guidance so installed workspaces can track the last seen upstream release and preserve local instructions.
+
 ### Added Nightly Research Review
 
 - Added `glide-nightly-research-review` for quiet 4am background research, memory, eval, and cross-area maintenance.
