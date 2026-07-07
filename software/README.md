@@ -37,6 +37,7 @@ Start metadata-first. Read note bodies only when needed to infer structure or de
 - [Apple Notes](apple-notes.md)
 - [Apple Calendar](apple-calendar.md)
 - [Messages / iMessage](imessage.md)
+- [WhatsApp](whatsapp.md)
 
 ## Adding Another App
 

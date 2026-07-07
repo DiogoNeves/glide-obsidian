@@ -15,8 +15,9 @@ Purpose: run a concise morning pass that improves Agent HQ accuracy, checks rele
 - `Agent HQ/Ponder Log.md`
 - `Agent HQ/Areas/*/Reminders.md`
 - `Agent HQ/Checklists/App Interface And Computer Use.md` when checking external apps
+- `Agent HQ/Checklists/WhatsApp Access.md` when WhatsApp access is configured
 - Relevant area `Questions.md`, recent reviews, decisions, and contradictions
-- Available inbox, calendar, task, or app-action sources when access is configured and the run can check them safely
+- Available inbox, calendar, task, WhatsApp, or app-action sources when access is configured and the run can check them safely
 
 ## Profile Update
 
@@ -48,6 +49,7 @@ Pick the smallest useful output:
 - One recent ponder that would benefit from a gentle follow-up.
 - One area reminder that is due, approaching, or newly relevant.
 - One follow-through nudge when an item is stale, important, or newly actionable.
+- One important WhatsApp item the user may need to pick up, when WhatsApp access is configured.
 - One app follow-up or external action candidate that the user may want to handle.
 - Two or three items only when each item is genuinely urgent or very important.
 
@@ -74,6 +76,7 @@ Candidate focus areas:
 - Contradictions.
 - Stale decisions.
 - Project links.
+- WhatsApp attention items when access is configured.
 - App-action candidates when access is configured.
 
 For each focus area, ask for:
@@ -95,6 +98,7 @@ Then choose the daily output. Keep parallel exploration internal unless a compar
 - Keep far-future reminders quiet until their lead time or trigger.
 - If the lead time is unclear, infer a conservative one from the stakes and ask only when that would change timing.
 - If several reminders are active, surface the highest-signal one or a tiny bundle from the same area. Do not turn every reminder into a daily task.
+- For WhatsApp, use `$glide-whatsapp-attention-review` or `Checklists/WhatsApp Access.md`. Keep it read-only, do not open unread chats, do not mark conversations as read, and do not send anything during the daily check.
 
 ## Interaction Shape
 

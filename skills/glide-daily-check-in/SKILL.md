@@ -19,8 +19,9 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 - `Agent HQ/Ponder Log.md`
 - `Agent HQ/Areas/*/Reminders.md`
 - `Agent HQ/Checklists/App Interface And Computer Use.md` when checking external apps
+- `Agent HQ/Checklists/WhatsApp Access.md` when WhatsApp access is configured
 - Relevant area questions, recent reviews, decisions, contradictions, and project links
-- Available inbox, calendar, task, or app-action sources when access is configured and the run can check them safely
+- Available inbox, calendar, task, WhatsApp, or app-action sources when access is configured and the run can check them safely
 - `Agent HQ/Evals/Run Log.md`
 - `Agent HQ/Evals/Eval Cases.md` only when a run reveals a reusable test case
 
@@ -28,18 +29,19 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 
 1. Follow `Agent HQ/Checklists/Daily Glide Check-In.md`.
 2. Run `$glide-update-user-profile` before choosing the daily output.
-3. Scan area reminders and `Agent HQ/Follow-Through Ledger.md`, then identify candidate daily focus areas: follow-through items, open loops, active goals, area reminders, area questions, ponders, contradictions, project links, app action candidates, and stale decisions.
+3. Scan area reminders and `Agent HQ/Follow-Through Ledger.md`, then identify candidate daily focus areas: follow-through items, open loops, active goals, area reminders, area questions, ponders, contradictions, project links, WhatsApp attention items when configured, app action candidates, and stale decisions.
 4. When more than one candidate focus area is plausible, use parallel subagents to explore them. Give each subagent one narrow focus area and ask for: signal, urgency, one possible daily output, whether there is a profile update candidate for `$glide-update-user-profile`, and whether background research should continue.
 5. Integrate subagent findings yourself and choose the smallest useful user-facing output: prefer one item; use two or three only when each is genuinely urgent or very important.
 6. When signals compete, rank candidates by concrete deadline, date, amount, safety/account/family/work stakes, source reliability, and whether the user can usefully act today.
 7. When email, calendar, Things, Messages, or app data disagree, prefer the source of record, confirmation email, or official app over auto-created calendar or task artifacts, and mention the caveat briefly.
-8. If a focus area needs deeper research but should not block the daily output, continue that research in the background or queue it in Agent HQ only when it would materially improve future advice.
-9. Run multiple relevant checks or skills when useful, but keep the user-facing response short, natural, and coach-like.
-10. Do not expose Agent HQ structure unless it helps the user answer or act.
-11. Do not suggest financial, legal, medical, interpersonal, public, or work-sensitive actions as executable. Draft or ask for approval instead.
-12. Do not send, archive, delete, schedule, reply, purchase, post, or modify external systems unless the user explicitly configured that exact action and approval boundary. Otherwise suggest or draft only.
-13. After a useful run, append a light evaluation entry to `Agent HQ/Evals/Run Log.md`.
-14. Promote a run to `Agent HQ/Evals/Eval Cases.md` only when it reveals a reusable regression test or unusually good behavior.
+8. When WhatsApp access is available, run `$glide-whatsapp-attention-review` as an input to the daily output. Keep it read-only, do not open unread chats, do not mark conversations as read, and do not send anything.
+9. If a focus area needs deeper research but should not block the daily output, continue that research in the background or queue it in Agent HQ only when it would materially improve future advice.
+10. Run multiple relevant checks or skills when useful, but keep the user-facing response short, natural, and coach-like.
+11. Do not expose Agent HQ structure unless it helps the user answer or act.
+12. Do not suggest financial, legal, medical, interpersonal, public, or work-sensitive actions as executable. Draft or ask for approval instead.
+13. Do not send, archive, delete, schedule, reply, purchase, post, or modify external systems unless the user explicitly configured that exact action and approval boundary. Otherwise suggest or draft only.
+14. After a useful run, append a light evaluation entry to `Agent HQ/Evals/Run Log.md`.
+15. Promote a run to `Agent HQ/Evals/Eval Cases.md` only when it reveals a reusable regression test or unusually good behavior.
 
 ## Output
 
@@ -48,6 +50,7 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 - Never surface more than three items. If more than three may matter, say: `Hey, there are other things that might be important. Do you want me to continue?`
 - A `$glide-update-user-profile` pass before choosing the daily output.
 - An area reminder scan before choosing the daily output.
+- A read-only WhatsApp attention check before choosing the daily output when WhatsApp is configured and available.
 - A follow-through scan before choosing the daily output.
 - A tiny run-log entry when the run produced a useful touch or durable update.
 - Optional Agent HQ updates after the user responds.

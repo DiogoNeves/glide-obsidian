@@ -16,6 +16,7 @@ Glide skills are portable `SKILL.md` folders installed into the harness-specific
 - `glide-harness-drift-review`: keep operating files aligned with the protected design principles.
 - `glide-nightly-research-review`: run quiet 4am research, memory, eval, and cross-area maintenance.
 - `glide-check-for-updates`: check upstream Glide releases and apply compatible migration notes.
+- `glide-whatsapp-attention-review`: review WhatsApp attention signals safely without opening chats or marking messages as read.
 - `glide-update-skill`: improve a skill or checklist.
 
 ## Skill Rule

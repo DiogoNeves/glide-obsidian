@@ -51,7 +51,7 @@ Glide keeps the agent's memory, working files, and operating structure in `Agent
 - `skills/`: portable Agent Skills prefixed with `glide-`, including profile updates, reviews, research, decisions, and daily check-ins.
 - `automations/`: installable starter prompts for daily check-ins, drift review, quiet 4am research review, and weekly release checks.
 - `adapters/`: Codex, Claude Code, and generic harness notes.
-- `software/`: optional app-access guides for connecting software like Things, Apple Notes, Apple Calendar, and Messages.
+- `software/`: optional app-access guides for connecting software like Things, Apple Notes, Apple Calendar, Messages, and WhatsApp.
 - `INSTALL.md`: an agent-readable installer flow.
 - `docs/CONCEPT.md`: the short philosophy behind Glide.
 - `examples/`: brief walkthroughs for common use cases.

@@ -29,6 +29,7 @@ Current starter guides:
 - Apple Notes
 - Apple Calendar / Calendar.app
 - Messages / iMessage
+- WhatsApp
 
 ## Output
 

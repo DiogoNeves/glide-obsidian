@@ -2,6 +2,14 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-07-07
+
+### Added WhatsApp Access Guidance
+
+- Added optional WhatsApp software guidance, a read-only WhatsApp access checklist, access log template, and `glide-whatsapp-attention-review`.
+- Updated daily check-in guidance so WhatsApp can be checked only when configured and safely read-only.
+- Updated installation guidance to invite users to adjust Glide's operating style and expand automations gradually as confidence grows.
+
 ## 2026-06-25
 
 ### Added Weekly Glide Update Checks
