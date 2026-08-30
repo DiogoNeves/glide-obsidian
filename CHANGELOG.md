@@ -2,6 +2,16 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-07-09
+
+### Added Lightweight Eval Loop
+
+- Added `Eval Loop`, `Signal Clusters`, and richer `Run Log` / `Eval Cases` templates so Glide can learn from real use without telemetry, external storage, automated scoring, model-judge infrastructure, or transcript storage.
+- Updated daily check-in, nightly research review, harness drift review, and update-check guidance to use facets, `keep` / `tune` / `case` decisions, and clustered eval signals.
+- Migration: add missing eval-loop files when absent, but do not overwrite existing `Run Log.md`, `Eval Cases.md`, `Signal Clusters.md`, `Nightly Research Audit.md`, or local eval history. If an existing run log lacks the new columns, add columns or a note while preserving all rows.
+- Installed skills and checklists may be updated, but behavior-changing local customizations require approval.
+- This release does not enable new automations.
+
 ## 2026-07-07
 
 ### Added WhatsApp Access Guidance

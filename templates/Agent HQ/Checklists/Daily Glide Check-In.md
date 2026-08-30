@@ -16,6 +16,10 @@ Purpose: run a concise morning pass that improves Agent HQ accuracy, checks rele
 - `Agent HQ/Areas/*/Reminders.md`
 - `Agent HQ/Checklists/App Interface And Computer Use.md` when checking external apps
 - `Agent HQ/Checklists/WhatsApp Access.md` when WhatsApp access is configured
+- `Agent HQ/Checklists/Eval Loop.md`
+- `Agent HQ/Evals/Run Log.md`
+- `Agent HQ/Evals/Signal Clusters.md` only when recent eval patterns affect today's selection
+- `Agent HQ/Evals/Eval Cases.md` only when a run reveals a reusable test case
 - Relevant area `Questions.md`, recent reviews, decisions, and contradictions
 - Available inbox, calendar, task, WhatsApp, or app-action sources when access is configured and the run can check them safely
 
@@ -123,6 +127,16 @@ Good shape:
 - Mark answered questions as answered, refine partial answers, or replace broad questions with better follow-ups.
 - Keep the update mostly invisible unless the user needs to verify it.
 - Continue naturally if the answer suggests an obvious next question.
+
+## Evaluation
+
+- Follow `Agent HQ/Checklists/Eval Loop.md`.
+- When the run produces a useful touch or durable update, append a tiny entry to `Agent HQ/Evals/Run Log.md`.
+- Record date, run, touch type, sources used, useful verdict, facets, eval decision, and one improvement.
+- Use short facets such as `missed-deadline`, `stale-memory`, `too-broad-question`, `good-timing`, `approval-boundary`, `connector-failure`, `quiet-source-risk`, `goal-forward`, `maintenance-crowding`, `memory-update`, `source-provenance`, and `follow-through`.
+- Choose an eval decision: `keep`, `tune`, or `case`.
+- Promote a case only for a reusable failure, near-miss, repeated pattern, or unusually good behavior.
+- Add or update `Agent HQ/Evals/Signal Clusters.md` only when a repeated or high-stakes pattern is emerging.
 
 ## Guardrails
 

@@ -14,6 +14,7 @@ Purpose: run a quiet 4am background pass that improves Glide's memory, research,
 - `Agent HQ/Ponder Log.md`
 - `Agent HQ/Contradiction Register.md`
 - `Agent HQ/Decision Log.md`
+- `Agent HQ/Checklists/Eval Loop.md`
 - `Agent HQ/Evals/*.md`
 - `Agent HQ/Evals/Nightly Research Audit.md`
 - Relevant area files under `Agent HQ/Areas/`
@@ -54,6 +55,8 @@ After parallel work:
 - connect related areas, goals, decisions, questions, and open loops;
 - refine queued questions instead of accumulating vague ones;
 - consolidate duplicated loops or research entries;
+- update `Agent HQ/Evals/Signal Clusters.md` when repeated facets explain what is breaking or working;
+- suggest or create eval cases only for reusable failures, near-misses, repeated patterns, or unusually good behavior;
 - improve instructions only when the change is small, clear, and already aligned with approved design principles;
 - prefer shorter broader rules over narrow case-by-case conditions.
 

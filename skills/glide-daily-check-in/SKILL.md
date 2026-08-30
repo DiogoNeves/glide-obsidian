@@ -22,7 +22,9 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 - `Agent HQ/Checklists/WhatsApp Access.md` when WhatsApp access is configured
 - Relevant area questions, recent reviews, decisions, contradictions, and project links
 - Available inbox, calendar, task, WhatsApp, or app-action sources when access is configured and the run can check them safely
+- `Agent HQ/Checklists/Eval Loop.md`
 - `Agent HQ/Evals/Run Log.md`
+- `Agent HQ/Evals/Signal Clusters.md` only when recent eval patterns affect today's selection
 - `Agent HQ/Evals/Eval Cases.md` only when a run reveals a reusable test case
 
 ## Process
@@ -40,8 +42,9 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 11. Do not expose Agent HQ structure unless it helps the user answer or act.
 12. Do not suggest financial, legal, medical, interpersonal, public, or work-sensitive actions as executable. Draft or ask for approval instead.
 13. Do not send, archive, delete, schedule, reply, purchase, post, or modify external systems unless the user explicitly configured that exact action and approval boundary. Otherwise suggest or draft only.
-14. After a useful run, append a light evaluation entry to `Agent HQ/Evals/Run Log.md`.
+14. After a useful run, follow `Agent HQ/Checklists/Eval Loop.md` and append a light evaluation entry to `Agent HQ/Evals/Run Log.md` with facets and an eval decision.
 15. Promote a run to `Agent HQ/Evals/Eval Cases.md` only when it reveals a reusable regression test or unusually good behavior.
+16. Add or update `Agent HQ/Evals/Signal Clusters.md` only when repeated facets or a high-stakes pattern explain what should improve next.
 
 ## Output
 
@@ -53,4 +56,5 @@ description: Run a concise daily Glide pass that can coordinate multiple relevan
 - A read-only WhatsApp attention check before choosing the daily output when WhatsApp is configured and available.
 - A follow-through scan before choosing the daily output.
 - A tiny run-log entry when the run produced a useful touch or durable update.
+- Eval facets and a `keep`, `tune`, or `case` decision in the run-log entry.
 - Optional Agent HQ updates after the user responds.
