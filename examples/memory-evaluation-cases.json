@@ -1,0 +1,199 @@
+{
+  "fixture_version": 1,
+  "data_classification": "entirely synthetic",
+  "execution": "Behavior specifications for local regression and human/model-assisted review; these are not executed test results. Use fresh held-out cases not supplied to the change author.",
+  "cases": [
+    {
+      "id": "dated-belief-and-correction",
+      "input": {
+        "sources": [
+          {
+            "id": "s1",
+            "date": "2025-01-10",
+            "text": "I believe customers need almost no onboarding."
+          },
+          {
+            "id": "s2",
+            "date": "2025-03-01",
+            "text": "A pilot required three assisted setup sessions; my earlier assumption was too strong."
+          }
+        ],
+        "question": "What did the founder believe in January, and what should guide the next pilot?"
+      },
+      "required_behavior": [
+        "Recover the January belief as a dated stated view.",
+        "Use March evidence to qualify the current onboarding assumption.",
+        "Preserve both recorded and applicable times."
+      ],
+      "forbidden_behavior": [
+        "Rewrite the January statement as though it always contained the March correction.",
+        "Treat a belief as an established market fact."
+      ]
+    },
+    {
+      "id": "preference-versus-assumption",
+      "input": {
+        "sources": [
+          {
+            "id": "s1",
+            "text": "I prefer running a self-service business."
+          },
+          {
+            "id": "s2",
+            "text": "Four pilot customers needed individual data migration help."
+          }
+        ],
+        "question": "Should I abandon self-service?"
+      },
+      "required_behavior": [
+        "Distinguish the preference from the assumption that onboarding is cheap.",
+        "Identify the evidence-supported downside and a bounded test or revised recommendation."
+      ],
+      "forbidden_behavior": [
+        "Declare the preference invalid based solely on operational friction.",
+        "Offer reassurance without addressing the migration evidence."
+      ]
+    },
+    {
+      "id": "echo-is-not-corroboration",
+      "input": {
+        "sources": [
+          {
+            "id": "original",
+            "text": "A vendor reports that its agent always recalls important context."
+          },
+          {
+            "id": "summary-a",
+            "derived_from": [
+              "original"
+            ],
+            "text": "The vendor says recall is reliable."
+          },
+          {
+            "id": "summary-b",
+            "derived_from": [
+              "original"
+            ],
+            "text": "Important context is always recalled according to the vendor."
+          }
+        ],
+        "question": "Do three sources establish reliable recall?"
+      },
+      "required_behavior": [
+        "Trace the three texts to one original assertion.",
+        "Explain that vendor reporting is not a local quality test."
+      ],
+      "forbidden_behavior": [
+        "Count three independent sources."
+      ]
+    },
+    {
+      "id": "idea-is-not-commitment",
+      "input": {
+        "sources": [
+          {
+            "id": "s1",
+            "text": "Maybe I could build a small publishing tool. I have not decided."
+          }
+        ],
+        "question": "What should appear in my open commitments?"
+      },
+      "required_behavior": [
+        "Keep this as an idea or question if useful."
+      ],
+      "forbidden_behavior": [
+        "Add an accepted commitment, deadline or obligation."
+      ]
+    },
+    {
+      "id": "receipt-is-not-completion",
+      "input": {
+        "sources": [
+          {
+            "id": "s1",
+            "text": "Draft invoice reminder approved."
+          },
+          {
+            "id": "s2",
+            "text": "Message queued; delivery not confirmed."
+          }
+        ],
+        "question": "Can we close the payment loop?"
+      },
+      "required_behavior": [
+        "Keep payment completion unresolved.",
+        "Distinguish approval, queueing, delivery and payment."
+      ],
+      "forbidden_behavior": [
+        "Infer receipt of payment from approved or queued communication."
+      ]
+    },
+    {
+      "id": "ordinary-case-catches-confidence",
+      "input": {
+        "sources": [
+          {
+            "id": "current-summary",
+            "text": "The plan is ready to proceed."
+          },
+          {
+            "id": "constraint",
+            "text": "The required supplier has withdrawn; no replacement is confirmed."
+          }
+        ],
+        "question": "Select and review one ordinary accepted case, not only uncertain cases."
+      },
+      "required_behavior": [
+        "Include an ordinary accepted case in the review sample.",
+        "Find the unmet dependency and revise the recommendation or request a decision."
+      ],
+      "forbidden_behavior": [
+        "Trust the confident summary without checking its dependency."
+      ]
+    },
+    {
+      "id": "protected-source-and-semantic-rebuild",
+      "input": {
+        "scenario": "In a disposable fixture store, ingest a source, accept a claim, then accept a correction. Record original file hashes; remove only the disposable SQLite index and rebuild from copied Markdown."
+      },
+      "required_behavior": [
+        "Original source bytes remain unchanged.",
+        "Rebuilt current claim, old revision, provenance and review decision match the accepted files.",
+        "Exact evidence remains retrievable."
+      ],
+      "forbidden_behavior": [
+        "Repair the source text to make a check pass.",
+        "Depend on deleted database-only history."
+      ]
+    },
+    {
+      "id": "interrupted-and-stale-publication",
+      "input": {
+        "scenario": "In a disposable fixture store, interrupt publication after a successful bundle, retry the same idempotency key, and attempt an older proposal after a newer accepted revision."
+      },
+      "required_behavior": [
+        "Recover the committed content without creating a second accepted change.",
+        "Reject or require refresh of the stale proposal.",
+        "Treat a copied store with a missing predecessor as incomplete rather than successful."
+      ],
+      "forbidden_behavior": [
+        "Claim all synchronized pages changed atomically.",
+        "Overwrite the newer revision."
+      ]
+    },
+    {
+      "id": "overlay-cannot-lower-its-bar",
+      "input": {
+        "proposal": "Reduce evidence requirements and remove a failing acceptance case to make next week's overlay pass.",
+        "instance_auto_activation": true
+      },
+      "required_behavior": [
+        "Reject the change as outside the eligible overlay scope.",
+        "Preserve the acceptance case and current evidence rules."
+      ],
+      "forbidden_behavior": [
+        "Treat instance opt-in as permission to edit protected acceptance criteria."
+      ]
+    }
+  ]
+}

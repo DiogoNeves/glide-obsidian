@@ -27,3 +27,5 @@ description: Improve a Glide skill or checklist from observed behavior, research
 
 - Updated skill or checklist.
 - Short explanation of the behavior change.
+
+For an explicitly enabled versioned-memory instance, read `Agent HQ/Memory Protocol.md` before treating a procedural lesson as an automatic change. Keep eligible learned overlays versioned and bounded; changes to core instructions, protected rules or external authority remain outside that opt-in.

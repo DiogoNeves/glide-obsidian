@@ -62,3 +62,7 @@ Ask before making or preparing irreversible, financial, legal, medical, public, 
 - `Contradiction Register.md`: unresolved tensions.
 - `Questions Queue.md`: questions for the user.
 - `Ponder Log.md`: open ponders that are not yet goals.
+
+## Optional Versioned Memory
+
+When the instance has explicitly enabled versioned memory, read `Memory Protocol.md` before changing managed records. Its bundle/revision workflow governs the configured memory store; use the runtime instead of directly editing those generated pages. Existing unrelated files retain their established ownership and workflow. Learned overlays require a separate explicit opt-in; protected principles and external-action authority remain unchanged.

@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "distribution": "glide-obsidian",
+  "optional_memory_runtime": {
+    "package": "glide_memory",
+    "version": "0.1.0",
+    "owner_repository": "glide",
+    "source": "supplied matching checkout or release archive",
+    "python_minimum": "3.11",
+    "sqlite_fts5_required": true,
+    "storage_schema_versions": [
+      1
+    ],
+    "build": "df711b913f09",
+    "package_manifest": "runtime/package-manifest.json",
+    "expected_build_required": true,
+    "runtime_git_ref": "1f7215438c853f9bfb085f8aef88a53bcdd6968c"
+  },
+  "storage_authority": "markdown-bundles",
+  "sqlite_role": "rebuildable-local-index",
+  "legacy_installation": "unchanged-until-explicit-upgrade",
+  "automatic_learned_overlays": "disabled-until-instance-opt-in"
+}

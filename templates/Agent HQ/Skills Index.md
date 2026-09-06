@@ -22,3 +22,12 @@ Glide skills are portable `SKILL.md` folders installed into the harness-specific
 ## Skill Rule
 
 Skills wrap checklists. Checklists hold the process; skills define trigger, context, and output.
+
+## Optional Versioned Memory
+
+Enable these only after the memory upgrade is complete:
+
+- `glide-memory`: retrieve or propose versioned memory with evidence.
+- `glide-dream`: consolidate changed evidence and propose learned procedures.
+- `glide-review`: review proposed changes and verify application receipts.
+- `glide-integrity`: verify recovery and prepare bounded evaluation.

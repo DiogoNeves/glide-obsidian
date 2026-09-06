@@ -36,3 +36,5 @@ description: Review Glide operating files for drift against the protected harnes
 - Collection candidates cleared or recommended for cleanup.
 - Eval clusters created or updated.
 - Behavior-changing recommendations requiring user approval.
+
+For an explicitly enabled memory store, delegate integrity and eligible learned-overlay evaluation to `glide-integrity` using `Agent HQ/Memory Protocol.md`. This exception does not authorize core-instruction changes. Managed record changes use the runtime and preserve revision history.

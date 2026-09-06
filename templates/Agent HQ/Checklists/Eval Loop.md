@@ -53,11 +53,17 @@ Use `case` sparingly. Most rows should be `keep` or `tune`.
 
 Cluster only repeated or high-stakes signals. A good cluster says what pattern is recurring, which facets and rows support it, what should change, and whether the fix is covered by an eval case.
 
-Do not treat clusters as automatic permission to change behavior. Behavior-changing fixes still need user approval.
+Do not treat clusters as automatic permission to change behavior. Behavior-changing fixes still need user approval, except for eligible learned overlays after the instance explicitly enables the policy in `Memory Protocol.md`.
 
 ## Boundaries
 
 - Do not store transcripts, private connector dumps, or sensitive source data in eval files.
-- Do not add telemetry, external storage, automated scoring, or model-judge infrastructure.
+- Do not add telemetry or an external evaluation service. Local deterministic checks and bounded model-assisted review are available only within an explicitly enabled evaluation workflow; a model judge is not sole acceptance evidence.
 - Do not enable new automations from eval evidence alone.
 - Treat clusters and cases as evidence for small, approval-aware improvements.
+
+## Optional Versioned Memory Evaluation
+
+When enabled, follow `Memory Protocol.md` for recovery/provenance checks, the weekly two-uncertain plus one-ordinary human sample, and controlled learned overlays. Keep expected behavior separate from expected wording. Test held-out situations and include confidently wrong answers, missed evidence and unjustified abstention. Record what was actually checked and failed; a fixture file or self-reported pass is not evidence of a test run.
+
+Learned changes may not edit their acceptance tests or evidence rules. Automatic activation requires explicit instance opt-in, regression and held-out evidence, a rollback version, and at most one activation per week. Otherwise propose the change for human review.

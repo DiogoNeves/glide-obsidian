@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "distribution": "glide-obsidian",
+  "installed_release": null,
+  "runtime": {
+    "version": "0.1.0",
+    "artifact_sha256": null,
+    "build": "df711b913f09"
+  },
+  "managed_files": [],
+  "installed_storage_format": null,
+  "selected_components": [],
+  "migration": {
+    "status": "not_started",
+    "last_verified_revision": null
+  },
+  "note": "Synthetic template. Record real versions, relative file paths and measured hashes privately during installation."
+}

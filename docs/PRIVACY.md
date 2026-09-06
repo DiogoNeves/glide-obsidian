@@ -7,7 +7,6 @@ Glide does not:
 - run servers,
 - collect telemetry,
 - transmit vault data,
-- store user data outside the vault,
 - operate a hosted service.
 
 Glide defines behavior. Your chosen harness decides where computation happens and what data is sent.
@@ -53,3 +52,7 @@ Before public release:
 - use neutral author metadata,
 - use neutral license attribution,
 - verify all examples are generic.
+
+## Optional Local Memory Runtime
+
+When enabled, the runtime stores a searchable SQLite index and private configuration outside the workspace/vault. The index can contain source text and metadata; treat it as sensitive local data even though it is rebuildable. The Markdown bundle store includes history and retained evidence, so its sync and backup destinations receive that content too. The runtime itself does not grant connector access, choose a cloud model or enable a hosted service. Public repositories contain only synthetic fixtures and generic setup instructions.

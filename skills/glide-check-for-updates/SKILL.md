@@ -35,3 +35,7 @@ description: Check the upstream Glide repository for new releases and migration 
 - Keep scheduled runs quiet when nothing changed.
 - When a new release exists, give a concise update plan or approval request.
 - Record durable update state in `Agent HQ/Glide Updates.md`.
+
+## Versioned Memory Upgrades
+
+Installing new templates does not enable memory migration or learned overlays. For a selected memory upgrade, follow the supplied distribution's `docs/UPGRADING.md`, preserve the private installation baseline and local customizations, and read `Agent HQ/Memory Protocol.md`. Keep new jobs disabled until verified cutover. Check the actual supplied runtime version; do not invent a release URL or copy private records into the public package.

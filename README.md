@@ -1,91 +1,30 @@
 # Glide for Obsidian
 
-Glide is a self-evolving personal coach and pilot for [Obsidian](https://obsidian.md/).
+Glide is a personal coach and memory layer for your Obsidian vault, run through Codex, Claude Code or another supported agent harness.
 
-It gives an agent a simple home for your goals, areas, reminders, follow-through, decisions, questions, research, and recurring check-ins. The point is not to create a bigger task system. **The point is to help you live with better defaults**: research areas you are not actively watching, gather context for the ones you care about, notice contradictions, and keep useful momentum without turning your life into admin.
+Keep capturing thoughts, unique notes and clippings in your existing style. Glide reads that material and adds connected knowledge and operational context under `Agent HQ/`. You can ask what changed, what remains open, or whether an old assumption still holds.
 
-Glide is plain Markdown: principles, memory, workflows, checklists, skills, and automation prompts that an agent can read and evolve with you. Codex, Claude Code, or another agent harness is the execution layer. Glide sets useful defaults; you choose how to run it, what tools it can access, and what data leaves your machine.
+## Three parts
 
-Glide can also connect to other apps through optional [software access guides](software/README.md).
+- **Your writing:** original notes and source material, preserved unchanged.
+- **Knowledge:** useful concepts with supporting passages, dates, uncertainty and meaningful links.
+- **Operations:** intentions, commitments, decisions and outcomes, kept distinct.
 
-## Why Glide Exists
+The optional memory runtime keeps records and revision history in **human-readable Markdown**, using Obsidian links and valid filenames without repeating the title inside each generated note. SQLite is a local, rebuildable search index. Python, the database and private configuration stay outside the synchronized vault; reading your notes needs none of them.
 
-I built Glide because I want more attention for family, content, projects, and the ideas I keep coming back to.
+Reviews work in conversation. Text is the default; interactive reviews are optional and only report success after a real writer receipt. Optional automatic knowledge processing keeps its output marked as AI and unreviewed. It does not authorize external actions.
 
-For those areas, I want help managing context: old notes, rough thoughts, decisions, questions, and patterns I keep returning to. For the rest of adult life, like finances, admin, and maintenance, I want strong defaults and more autopilot, with clear approval boundaries.
+The recorded local validation passed **139 runtime tests**, including recovery after deleting a disposable SQLite index. [Validation details](docs/VALIDATION.md) explain the checks, model screen and remaining field observations.
 
-That balance should be intentional, and it should change over time.
+## Get started
 
-Glide grew out of [Storyloop](https://github.com/DiogoNeves/Storyloop), especially the thing I missed most afterwards: smart notes. It keeps that feeling: notes and workflows that reduce noise, increase signal, and become an evolvable interface for agents. I talked through the prototype in [this video](https://youtu.be/3Q95Rh8sRic).
+Open your vault in the agent harness and ask it to follow [INSTALL.md](INSTALL.md). Existing capture conventions stay in place.
 
-It is especially useful for creators, solopreneurs, researchers, operators, and anyone who wants to manage their own context better while automating more of the rest.
+- [Complete memory setup](docs/SETUP.md): the shared runtime and Obsidian-specific choices.
+- [Upgrade an existing instance](docs/UPGRADING.md): inspection, migration, machine handover and rollback.
+- [Validation](docs/VALIDATION.md): executable checks for provenance, recovery, stale writes and bounded learning, with their limits.
+- [Storage and runtime contract](docs/MEMORY-RUNTIME.md).
 
-## A Small Example
+Glide provides no hosted service or telemetry. Your harness, model provider, connectors and sync choices determine data exposure. See [privacy](docs/PRIVACY.md).
 
-One way I use Glide is with messy Obsidian notes: notebook photos, quick fragments, and rough project thoughts.
-
-I can ask, "add a writing entry for this idea," and it turns the raw note into a linked draft direction using my existing notes plus light validation.
-
-I still capture messily. Glide adds memory and continuity around it.
-
-## How It Works
-
-- `Agent HQ/` as the agent-owned workspace inside your vault
-- areas for durable parts of life or work
-- goals, reminders, decisions, questions, ponders, contradictions, research, and reviews
-- skills and checklists for repeatable ways of thinking
-- a light daily loop
-- optional software guides for apps like Things, Apple Notes, Apple Calendar, and Messages
-- drift review so the system can change without quietly becoming something else
-
-Glide should feel less like software you manage and more like a coach that remembers, a pilot that watches the instruments, and a system you can keep changing in natural language.
-
-## Notes Stay Yours
-
-Glide keeps the agent's memory, working files, and operating structure in `Agent HQ/`. It can read the rest of your vault for context, but it should not mix its internal workings into your ordinary notes unless you explicitly ask.
-
-## What Is Included
-
-- `templates/Agent HQ/`: a generic installable Glide workspace.
-- `templates/Agent HQ/User Profile.md`: concise high-level user context refreshed by `glide-update-user-profile`.
-- `skills/`: portable Agent Skills prefixed with `glide-`, including profile updates, reviews, research, decisions, and daily check-ins.
-- `automations/`: installable starter prompts for daily check-ins, drift review, quiet 4am research review, and weekly release checks.
-- `adapters/`: Codex, Claude Code, and generic harness notes.
-- `software/`: optional app-access guides for connecting software like Things, Apple Notes, Apple Calendar, Messages, and WhatsApp.
-- `INSTALL.md`: an agent-readable installer flow.
-- `docs/CONCEPT.md`: the short philosophy behind Glide.
-- `examples/`: brief walkthroughs for common use cases.
-- `docs/PRIVACY.md`: what Glide does and does not do with data.
-- `docs/HARNESSES.md`: how Glide maps to common agent harnesses.
-
-## Install
-
-Open your Obsidian vault root folder in your agent harness, then read [INSTALL.md](INSTALL.md) or ask the harness to follow it.
-
-The installer flow is intentionally conservative:
-
-1. Confirm it is running from the vault root.
-2. Inspect your vault without changing anything.
-3. Ask which harness you use.
-4. Ask which default areas to include.
-5. Explain how Glide works.
-6. Copy the structure and skills only after confirmation.
-7. Create or update the correct root instruction file.
-8. Mention optional software access guides.
-9. Offer starter automations only after explicit confirmation.
-
-## Privacy
-
-Glide itself does not collect telemetry, run servers, transmit vault data, or store user data anywhere. It is Markdown structure and instructions installed in your vault.
-
-Privacy depends on the harness and services you choose to connect. Review your model provider, sync, Git hosting, connectors, and automation policies before giving any tool access to sensitive content.
-
-See [docs/PRIVACY.md](docs/PRIVACY.md).
-
-## Contributing
-
-Suggestions are welcome: better default areas, sharper checklists, new skills, harness adapters, privacy improvements, and examples of what made Glide useful or annoying in real use.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-This project grew from how I use [Codex](https://openai.com/index/introducing-the-codex-app/) and [Obsidian](https://obsidian.md/) daily, following a structure inspired by [How I use Obsidian](https://stephango.com/vault).
+This edition preserves the file-and-link approach inspired by [How I use Obsidian](https://stephango.com/vault). [Contributions](CONTRIBUTING.md) are welcome.

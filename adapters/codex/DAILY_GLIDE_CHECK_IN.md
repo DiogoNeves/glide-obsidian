@@ -1,5 +1,9 @@
 # Daily Glide Check-In Automation Prompt
 
+If versioned memory is enabled and its cutover is recorded, read `Agent HQ/Memory Protocol.md` and use the [portable-memory procedure](../../automations/portable-memory.md) with job ID `daily`. Reconcile current operations and provide one concise evidence-led coaching touch. Use the managed store, compact job inputs and the protocol's review/checkpoint rules; preserve pending work and stay quiet when unchanged. Do not run the legacy file-writing instructions below in this mode. Source access and external actions retain their existing authority.
+
+Otherwise, use the existing workflow below.
+
 Run `$glide-daily-check-in` for this vault.
 
 Use the Glide skill as the source of truth for context loading, morning checks, daily-output selection, subagent parallel focus scanning, guardrails, and light evaluation.

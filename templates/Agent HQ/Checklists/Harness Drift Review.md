@@ -47,7 +47,7 @@ Only edit operational instructions:
 7. Fix only clear non-behavioral issues directly, such as stale file references, broken links, contradictions between operational files, typos that change clarity, or instructions that obviously fail to reflect already-approved behavior.
 8. Review newly edited skills, checklists, and operational rules for verbosity. Cut filler, repetition, defensive wording, and conversation-specific phrasing when clarity survives.
 9. Prefer short, direct rules.
-10. Ask the user to confirm before making any change that could alter future behavior, including changes to autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
+10. Except for eligible learned overlays under an explicitly enabled `Memory Protocol.md` policy, ask the user to confirm before making any change that could alter future behavior, including changes to autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
 11. Prefer the smallest clear correction.
 12. Do not rewrite, reorganise, or simplify large sections unless drift or verbosity is real and the change is non-behavioral.
 13. Do not erase historical detail or personal context.
@@ -65,3 +65,7 @@ Only edit operational instructions:
 - List eval clusters created or updated.
 - List behavior-changing recommendations for user approval before editing.
 - Keep the report short.
+
+## Versioned Memory Integration
+
+When versioned memory is enabled, use `glide-integrity` for its store and learned overlays. The opt-in applies only to tested eligible overlays; it does not authorize rewriting core instructions or protected principles. Propose stale managed-record cleanup through the runtime with preserved history rather than directly deleting or clearing it. Existing non-behavioral instruction repairs retain their current scope.

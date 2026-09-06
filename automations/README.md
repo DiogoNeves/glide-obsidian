@@ -1,5 +1,7 @@
 # Automations
 
+For an explicitly enabled versioned-memory instance, use the [portable-memory portfolio](portable-memory.md) and the enabled-memory branches in the relevant starters. It covers intake, daily/evening reconciliation, dreaming and weekly integrity without writing retired ledger/profile files. Existing instances keep their legacy flow until cutover.
+
 Glide ships four starter automations:
 
 - Daily Glide Check-In

@@ -4,3 +4,20 @@
 node_modules/
 dist/
 tmp/
+
+__pycache__/
+*.py[cod]
+
+# Rebuildable Glide index only; do not hide unrelated datasets.
+index.sqlite3
+index.sqlite3-wal
+index.sqlite3-shm
+index.sqlite3-journal
+# Local Python packaging environments and build products.
+.venv/
+*.egg-info/
+build/
+
+# Atomic temporary files used while rebuilding the local index.
+.index-*.sqlite3
+.index-*.sqlite3-*

@@ -1,0 +1,40 @@
+name: Obsidian distribution compatibility
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  adapter:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: obsidian
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Require an immutable owner runtime commit
+        id: runtime
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, re
+          data = json.load(open('obsidian/compatibility.json'))
+          ref = data['optional_memory_runtime']['runtime_git_ref']
+          assert re.fullmatch(r'[a-f0-9]{40}', ref), 'Pin a complete owner commit SHA; publish owner first'
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('ref=' + ref + '\n')
+          PY
+      - uses: actions/checkout@v4
+        with:
+          repository: DiogoNeves/glide
+          ref: ${{ steps.runtime.outputs.ref }}
+          path: owner
+      - name: Verify exact content and clean Obsidian installation
+        run: python owner/runtime/check_package.py --compatibility obsidian/compatibility.json
+      - name: Runtime behavior with the pinned adapter build
+        run: python -m unittest discover -s owner/runtime/tests -v
+        env:
+          PYTHONPATH: owner/runtime

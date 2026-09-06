@@ -1,5 +1,9 @@
 # Harness Drift Review
 
+If versioned memory is enabled and its cutover is recorded, read `Agent HQ/Memory Protocol.md` and use the [portable-memory procedure](portable-memory.md) with job ID `integrity`. Run the installed `glide-integrity` skill for integrity, measured improvement and human spot-check candidates. Use the managed store, compact job inputs and the protocol's review/checkpoint rules; preserve pending work and stay quiet when unchanged. Do not run the legacy file-writing instructions below in this mode. Source access and external actions retain their existing authority.
+
+Otherwise, use the existing workflow below.
+
 ## Installable Prompt
 
 Run `$glide-harness-drift-review` for this vault.
