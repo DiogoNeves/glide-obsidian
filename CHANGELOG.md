@@ -2,6 +2,14 @@
 
 Notable changes to Glide for Obsidian.
 
+## 2026-09-06
+
+### Clarified input and collaboration
+
+- Added a canonical input boundary: Agent HQ remains agent-maintained, with required questions and reviews delivered in conversation.
+- Optional shared notes use ordinary vault conventions outside Agent HQ, minimal AI attribution and an authorized document/section scope while preserving owner contributions.
+- Added installation, upgrade, review and automation routes plus synthetic behavior cases. No bulk note migration, general writer capability, runtime/schema change or new schedule is introduced; approved project-progress output retains its separate scope.
+
 ## 2026-07-09
 
 ### Added Lightweight Eval Loop

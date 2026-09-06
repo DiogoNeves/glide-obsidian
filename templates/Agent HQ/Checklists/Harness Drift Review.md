@@ -2,6 +2,8 @@
 
 Purpose: keep Agent HQ operations aligned with `Harness Design Principles.md` without changing personal data.
 
+Use `Checklists/Input and Collaboration.md` to check that required input reached conversation, no internal file became owner homework, and any collaborative edits respected their authorized scope and owner contributions. Surface findings conversationally; internal logs alone do not prove delivery.
+
 ## Load
 
 - `Agent HQ/Harness Design Principles.md`

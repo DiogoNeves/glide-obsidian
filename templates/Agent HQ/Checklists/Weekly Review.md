@@ -2,6 +2,8 @@
 
 Purpose: lightly review progress, commitments, open loops, and next actions.
 
+Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+
 ## Review
 
 1. What changed this week?

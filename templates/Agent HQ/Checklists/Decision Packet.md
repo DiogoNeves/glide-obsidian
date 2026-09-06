@@ -2,6 +2,8 @@
 
 Purpose: prepare an important choice for approval.
 
+Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+
 Before starting, load `Agent HQ/User Profile.md` when the decision is personal or should account for the user's stable preferences, recent context, or current constraints.
 
 ## Decision

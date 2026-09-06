@@ -2,6 +2,8 @@
 
 Purpose: review the whole Agent HQ system across goals, areas, questions, decisions, and contradictions.
 
+Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+
 ## Load
 
 - `Agent HQ/AGENTS.md`

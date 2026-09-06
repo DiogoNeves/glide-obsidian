@@ -3,7 +3,7 @@ name: glide-review
 description: Prepare and apply a source-backed Glide memory review through verified proposal IDs and revision receipts.
 ---
 
-Read `Agent HQ/Memory Protocol.md`, the proposal, its expected revision and the exact evidence passages. Show what would change, why, counterevidence or uncertainty, and the affected record links.
+Read `Agent HQ/Memory Protocol.md`, `Agent HQ/Checklists/Input and Collaboration.md`, the proposal, its expected revision and the exact evidence passages. Bring required review input into conversation; the owner need not open or edit internal files. A useful shared note belongs outside Agent HQ within its own authorized edit scope. Show what would change, why, counterevidence or uncertainty, and the affected record links.
 
 Use the configured `review_ui` preference: text by default, or an interactive review when available and useful. Show the same evidence and choices in the conversation if rendering or submission is unavailable. A control may submit a proposal ID and revision only through an available conversation/tool bridge; otherwise ask for the decision conversationally. Local selection is a preview, not a saved decision.
 

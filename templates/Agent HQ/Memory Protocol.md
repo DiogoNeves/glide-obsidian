@@ -64,6 +64,8 @@ Each week, prepare two uncertain cases and one ordinary case for human spot chec
 
 ## Display And Interaction
 
+Follow `Checklists/Input and Collaboration.md`. Now/Ongoing/Durable, proposals, queues and receipts remain agent-maintained internal state. Bring required input into conversation; optional collaborative notes live outside Agent HQ within their own authorized scope. Source protection and writer capabilities remain restricted, and the optional project-progress category grants no collaborative editing authority.
+
 Use readable, valid, collision-safe filenames. The Obsidian adapter does not repeat the filename as an H1 inside generated notes. Do not normalize original titles.
 
 Show a review's claim, supporting passage, counterevidence, proposed change and affected records. Distinguish preview selection from submission and confirmed application. Controls must submit a proposal ID and revision to an available conversation/tool bridge. If that bridge is unavailable, use a clear conversational decision; do not simulate a successful mutation.

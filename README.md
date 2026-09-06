@@ -16,6 +16,8 @@ Want progress among your unique notes? [Optional daily project notes](docs/DAILY
 
 [Conversation continuity](docs/CONVERSATION-LEARNING.md) captures useful feedback, recovers missed context from authorized chat history, and separates scoped user steering from inferred changes.
 
+Agent HQ is internal and agent-maintained. You can inspect it, but never need to open or edit its views, queues or records. [Input and collaboration](docs/INPUT-AND-COLLABORATION.md) keeps questions in conversation and optional shared notes among your ordinary vault notes, with clear AI attribution and agreed edit scope.
+
 Reviews work in conversation. Text is the default; interactive reviews are optional and only report success after a real writer receipt. Optional automatic knowledge processing keeps its output marked as AI and unreviewed. It does not authorize external actions.
 
 The recorded local validation passed **139 runtime tests**, including recovery after deleting a disposable SQLite index. [Validation details](docs/VALIDATION.md) explain the checks, model screen and remaining field observations.

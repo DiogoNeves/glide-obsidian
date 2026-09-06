@@ -49,7 +49,7 @@ Convert conversation into structure:
 - Research needs become research index entries or research notes.
 - High-stakes choices become decision packets.
 
-Show the structure only when it helps the user think, choose, or review.
+Follow `Checklists/Input and Collaboration.md`: bring required questions and reviews into conversation, with internal structure available as optional supporting detail. The owner never needs to open or edit Now, queues, proposals or records; the agent records answers. Use a scoped shared note outside Agent HQ only when useful or requested.
 
 During question flows, update the relevant memory, area file, goal, decision packet, or question status after each meaningful answer or small batch of answers. Do not let important answers sit only in chat while continuing to ask more questions.
 

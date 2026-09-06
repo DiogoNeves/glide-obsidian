@@ -13,3 +13,7 @@ These examples show the shape of Glide in use. They are intentionally short and 
 ## Portable memory examples
 
 Start with [the setup walkthrough](../docs/SETUP.md), then [validation](../docs/VALIDATION.md). Behavior specifications in `memory-evaluation-cases.json` are synthetic cases, not a record that a model passed. The shared runtime's [model screen](https://github.com/DiogoNeves/glide/tree/main/examples/model-screen) includes actual synthetic results and an explicit opt-in runner; use the matching local checkout for unpublished builds.
+
+## Input and collaboration
+
+- [Synthetic input-surface cases](input-surface-cases.json): raw situations for an independent review of conversation delivery, shared-note scope and writer receipts. These are inputs, not observed results. Follow [the procedure](../docs/INPUT-AND-COLLABORATION.md).

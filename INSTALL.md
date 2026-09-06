@@ -115,7 +115,7 @@ Create areas using the `glide-create-area` skill behavior. Each area should incl
 Before installing, explain:
 
 - Glide lives in `Agent HQ/`.
-- The user can talk naturally.
+- The user can talk naturally; required questions and reviews arrive in conversation. Opening or editing internal Now, queues, proposals and records is never required.
 - The harness converts conversation into structure.
 - `User Profile.md` keeps concise high-level context and is refreshed by `glide-update-user-profile` only when durable signal appears.
 - Ponders do not automatically become goals.
@@ -130,7 +130,7 @@ Before installing, explain:
 
 After explicit confirmation:
 
-1. Copy the base `templates/Agent HQ/` files and folders into the vault, excluding default area subfolders until area selection is applied.
+1. Copy the base `templates/Agent HQ/` files and folders into the vault, including `Checklists/Input and Collaboration.md`, excluding default area subfolders until area selection is applied.
 2. Copy only the selected area folders from `templates/Agent HQ/Areas/`.
 3. If no default areas are selected, copy `templates/Agent HQ/Areas/AGENTS.md` and leave the folder ready for future areas.
 4. Copy selected `skills/glide-*` folders into the harness-specific skill directory.
@@ -248,3 +248,7 @@ After memory setup, offer [daily project-progress notes](docs/DAILY-NOTES.md). A
 ## Optional Conversation Learning
 
 Offer [conversation continuity](docs/CONVERSATION-LEARNING.md) with versioned memory. Install its skill and both canonical checklists as a unit, and record the selected history sources and pinned helper outside the vault. Live capture and history recovery have separate scope; installing files does not authorize access to another account or create a schedule. Merge the optional step into existing daily/dream/harness jobs only after setup verification.
+
+## Input and collaborative notes
+
+Install the [input boundary](docs/INPUT-AND-COLLABORATION.md) and its short instruction routes. Required input stays in conversation; create no collaboration folder, copied backlog or example note. When a shared note is actually useful or requested, follow existing vault-root conventions, agree its edit scope and record that choice privately. AI labels do not grant write authority; absent an available scoped file capability, keep the work in conversation. Existing approved project-progress output remains a separate category permission.

@@ -1,6 +1,6 @@
 # Questions Queue
 
-Questions that should not interrupt the current flow.
+Internal questions that should not interrupt the current flow. The agent surfaces a question with enough context to answer in conversation when it becomes useful, then records the answer; the owner is not expected to maintain this queue. Follow `Checklists/Input and Collaboration.md`.
 
 | Date | Priority | Area | Question | Why It Matters | Status |
 | --- | --- | --- | --- | --- | --- |

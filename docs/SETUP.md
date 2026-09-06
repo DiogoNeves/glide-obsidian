@@ -15,7 +15,7 @@ The guide covers prerequisites, a synthetic source → proposal → receipt, loc
 
 For the real vault, preserve its existing unique-note, clipping, reference and attachment conventions. Markdown intake reads files where they live; an additional inbox is optional. Keep Python, the SQLite index, dependencies and private configuration outside the vault and every synchronization root. Reading and linking the synced Markdown needs no runtime.
 
-Install this edition's four memory skills with `templates/Agent HQ/Memory Protocol.md`, and merge its root instructions. Check skill discovery and local paths on every device; hidden folders do not constitute an Obsidian Sync installer. Generated notes use Obsidian links and valid filenames without repeated opening titles. Originals receive no processing tags, block IDs or rewrites.
+Install this edition's four memory skills with `templates/Agent HQ/Memory Protocol.md` and `templates/Agent HQ/Checklists/Input and Collaboration.md`, and merge its root instructions. Check skill discovery and local paths on every device; hidden folders do not constitute an Obsidian Sync installer. Generated notes use Obsidian links and valid filenames without repeated opening titles. Originals receive no processing tags, block IDs or rewrites.
 
 Fresh preferences are manual knowledge review and text presentation. Automatic knowledge is an optional, explicitly scoped inbox workflow; output remains AI-authored and unreviewed. Interactive presentation is independent and falls back to conversation. Upgrading preserves omitted preferences and absent keys; review the [explicit and legacy policy distinctions](MEMORY-RUNTIME.md#setup-and-review-preferences). Use the [optional automation portfolio](../automations/portable-memory.md) after cutover.
 
@@ -24,3 +24,5 @@ Before activating this vault, use [existing-instance upgrades](UPGRADING.md), [c
 Optionally offer [daily unique project notes](DAILY-NOTES.md) after the core setup. Category permission, the Obsidian companion, per-device installation and an existing intake-job step are separate from knowledge-review preferences. Leave it disabled until the owner chooses the project scope.
 
 For conversational continuity, install the [scoped capture and recovery procedure](CONVERSATION-LEARNING.md) with the owner’s selected history sources. It reuses existing jobs and separates direct user guidance from inferred improvement candidates.
+
+Apply the [input and collaboration boundary](INPUT-AND-COLLABORATION.md) to installed review procedures and saved job prompts. Required questions arrive in conversation; an optional shared note follows existing vault-root conventions outside Agent HQ and needs its own authorized edit scope and available narrow capability. Do not create a second inbox, relax source protection, or treat progress-category permission as collaborative editing permission.

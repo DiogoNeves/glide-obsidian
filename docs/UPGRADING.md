@@ -53,3 +53,9 @@ For an owner who wants daily unique project notes, follow [the Obsidian-only com
 ## Conversational continuity
 
 For an instance with authorized chat-history recovery, follow [Conversation Learning](CONVERSATION-LEARNING.md). Replace optional creation-date snippet scanning with bounded task/message recovery and explicit coverage. Preserve existing source permissions, schedules, models and protected principles; install executable helpers outside the vault. Record the first capture and inspected coverage rather than claiming the whole archive has been reviewed.
+
+## Input and collaboration
+
+Install the [canonical input boundary](INPUT-AND-COLLABORATION.md) and merge its short routes into customized instructions, memory/review skills and daily/weekly/decision procedures. Inspect actual saved automation prompts for requests to open or edit internal views, queues or proposals; bring those questions into the configured conversation with enough evidence to answer there. Update only authorized jobs, preserving their schedules, models and permissions.
+
+Keep existing records and history internal. Create a collaborative note outside Agent HQ only for a useful or requested shared task with an agreed document/section scope and available narrow file capability. Follow existing vault-root conventions and identify AI assistance visibly and in minimal frontmatter. Do not bulk-migrate drafts, label original writing, or broaden the writer. Preserve prior instruction hashes for rollback while retaining later owner edits and decisions. Review the [synthetic cases](../examples/input-surface-cases.json), then observe the next actual input request; a repository update does not prove delivery.

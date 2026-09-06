@@ -33,3 +33,7 @@ When the owner has enabled the project-progress category and installed the Obsid
 ## Optional conversation recovery
 
 When personal history recovery is authorized, install `glide-conversation-learning`. Daily performs its bounded capture/recovery pass; dream resumes pending coverage and consolidates useful candidates. Harness review checks captured feedback against later behavior and the protected principles. Coverage and permitted outputs commit through the existing job transaction; knowledge requiring separate review stays pending until its own application receipt. Follow the [canonical procedure](../templates/Agent%20HQ/Checklists/Conversation%20Learning.md); a bundle checkpoint alone does not prove conversation coverage.
+
+## Owner input
+
+Follow `Agent HQ/Checklists/Input and Collaboration.md`. Deliver required questions and human spot checks in the configured conversation with their context and proposed choice; an internal Now entry, queue item or review record does not establish delivery. If delivery fails, retain pending input and report the gap through an available authorized conversation. Quiet internal maintenance needs no shared note. Update actual saved prompts within their approved scope; keep schedules, models and permissions unchanged.

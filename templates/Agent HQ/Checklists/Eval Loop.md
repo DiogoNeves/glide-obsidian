@@ -64,6 +64,6 @@ Do not treat clusters as automatic permission to change behavior. Behavior-chang
 
 ## Optional Versioned Memory Evaluation
 
-When enabled, follow `Memory Protocol.md` for recovery/provenance checks, the weekly two-uncertain plus one-ordinary human sample, and controlled learned overlays. Keep expected behavior separate from expected wording. Test held-out situations and include confidently wrong answers, missed evidence and unjustified abstention. Record what was actually checked and failed; a fixture file or self-reported pass is not evidence of a test run.
+When enabled, follow `Memory Protocol.md` for recovery/provenance checks, the weekly two-uncertain plus one-ordinary human sample, and controlled learned overlays. Deliver human samples in conversation under `Checklists/Input and Collaboration.md`; check actual delivery and preservation of authored contributions rather than internal-file completion. Keep expected behavior separate from expected wording. Test held-out situations and include confidently wrong answers, missed evidence and unjustified abstention. Record what was actually checked and failed; a fixture file or self-reported pass is not evidence of a test run.
 
 Learned changes may not edit their acceptance tests or evidence rules. Automatic activation requires explicit instance opt-in, regression and held-out evidence, a rollback version, and at most one activation per week. Otherwise propose the change for human review.

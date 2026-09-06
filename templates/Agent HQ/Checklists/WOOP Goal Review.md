@@ -2,6 +2,8 @@
 
 Purpose: define or review a goal using Wish, Outcome, Obstacle, and Plan.
 
+Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+
 Before starting, load `Agent HQ/User Profile.md` so goals reflect the user's stable preferences, recent context, and current constraints.
 
 ## Review

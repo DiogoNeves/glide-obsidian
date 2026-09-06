@@ -2,6 +2,8 @@
 
 Purpose: run a concise morning pass that improves Agent HQ accuracy, checks relevant context, surfaces timely insight, or moves a small approved action forward.
 
+Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+
 ## With Versioned Memory Enabled
 
 For an instance that has completed cutover, this branch replaces the legacy load, update and evaluation instructions below for migrated state. Read `Memory Protocol.md` and communication preferences; start with `glide_job_inputs(job_id="daily")`, Now/Ongoing and only relevant records/evidence. Successful intake receipts establish only their reported source scope; partial or unavailable ranges remain pending. Do not reload or maintain a parallel legacy portfolio.
