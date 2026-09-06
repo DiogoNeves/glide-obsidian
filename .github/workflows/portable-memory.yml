@@ -43,3 +43,7 @@ jobs:
         env:
           PYTHONPATH: obsidian/daily_notes:owner/runtime
           PYTHONDONTWRITEBYTECODE: '1'
+      - name: Conversation inventory metadata and recovery hints
+        run: python -m unittest discover -s obsidian/tests -p test_conversation_inventory.py -v
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'

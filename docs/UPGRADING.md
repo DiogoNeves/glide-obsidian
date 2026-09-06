@@ -49,3 +49,7 @@ For source control or Obsidian transport, follow [STORAGE-AND-GIT.md](STORAGE-AN
 ## Optional project-progress output
 
 For an owner who wants daily unique project notes, follow [the Obsidian-only companion procedure](DAILY-NOTES.md). Inspect older progress-note jobs and examples before selecting scope. This additive upgrade keeps the shared runtime pin and schema unchanged. Install code outside the vault, preserve existing MCP permissions and local customizations, obtain category permission, and pause duplicate exporters before appending the optional step to successful project intake. A repository update alone does not enable an existing instance.
+
+## Conversational continuity
+
+For an instance with authorized chat-history recovery, follow [Conversation Learning](CONVERSATION-LEARNING.md). Replace optional creation-date snippet scanning with bounded task/message recovery and explicit coverage. Preserve existing source permissions, schedules, models and protected principles; install executable helpers outside the vault. Record the first capture and inspected coverage rather than claiming the whole archive has been reviewed.

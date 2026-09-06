@@ -1,0 +1,29 @@
+{
+  "purpose": "Synthetic behavioral review inputs, not model performance results",
+  "cases": [
+    {
+      "id": "scoped-steering",
+      "scenario": "Existing context says the user enjoys detailed technical explanations. User: When we are discussing my robotics experiments, start with what the robot actually did and explain one unfamiliar term at a time. The deeper technical breakdown can come when I ask."
+    },
+    {
+      "id": "temporary-request",
+      "scenario": "After several demanding conversations, user: I am fed up with every conversation turning into self-improvement. For the rest of tonight, can we just talk about the film? No earlier statement rejects coaching generally."
+    },
+    {
+      "id": "suggestion-versus-commitment",
+      "scenario": "Assistant: You could spend half an hour on Sunday reviewing those project ideas. User: That sounds useful. I am still figuring out whether this weekend is realistic. A later task review asks what the user has committed to doing."
+    },
+    {
+      "id": "late-correction",
+      "scenario": "An older chat summary says the user wants firm accountability whenever a project stalls. A resumed chat says: One correction to what I said last time: push me on something I have actually promised to do. Exploring an idea does not mean I have signed up to deliver it. The old preference is already stored."
+    },
+    {
+      "id": "partial-recovery",
+      "scenario": "A preference write returned a successful bundle receipt and record revision 12, but the assistant was interrupted before acknowledging it. Pending work still says save preference; a current read shows revision 12 already contains that conversation source. User: Please carry on from where we stopped."
+    },
+    {
+      "id": "inferred-change",
+      "scenario": "A dream finds three assistant summaries saying the user engaged more with bullet lists. All trace to one conversation; a different conversation has a positive response to connected prose. No user requested a general formatting change. The candidate says: Use bullets for all recommendations from now on."
+    }
+  ]
+}

@@ -29,3 +29,7 @@ At cutover, install the appropriate enabled-memory branch in each actual schedul
 ## Optional Obsidian progress notes
 
 When the owner has enabled the project-progress category and installed the Obsidian companion, append `glide-project-progress` after successful relevant project intake. Reuse the intake job; do not create a second overlapping writer or change its model/schedule. Follow the skill for bounded continuation and review-needed cases. [Daily-note setup](../docs/DAILY-NOTES.md) is the canonical permission and recovery procedure. Disabled categories produce no output and need no daily permission prompt.
+
+## Optional conversation recovery
+
+When personal history recovery is authorized, install `glide-conversation-learning`. Daily performs its bounded capture/recovery pass; dream resumes pending coverage and consolidates useful candidates. Harness review checks captured feedback against later behavior and the protected principles. Coverage and permitted outputs commit through the existing job transaction; knowledge requiring separate review stays pending until its own application receipt. Follow the [canonical procedure](../templates/Agent%20HQ/Checklists/Conversation%20Learning.md); a bundle checkpoint alone does not prove conversation coverage.

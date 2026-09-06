@@ -22,3 +22,5 @@ Fresh preferences are manual knowledge review and text presentation. Automatic k
 Before activating this vault, use [existing-instance upgrades](UPGRADING.md), [compatibility](COMPATIBILITY.md) and [validation](VALIDATION.md). Review [SQLite/Git/sync choices](STORAGE-AND-GIT.md) when configuring transport or backups.
 
 Optionally offer [daily unique project notes](DAILY-NOTES.md) after the core setup. Category permission, the Obsidian companion, per-device installation and an existing intake-job step are separate from knowledge-review preferences. Leave it disabled until the owner chooses the project scope.
+
+For conversational continuity, install the [scoped capture and recovery procedure](CONVERSATION-LEARNING.md) with the owner’s selected history sources. It reuses existing jobs and separates direct user guidance from inferred improvement candidates.

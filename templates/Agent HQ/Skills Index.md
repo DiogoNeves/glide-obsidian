@@ -33,3 +33,5 @@ Enable these only after the memory upgrade is complete:
 - `glide-integrity`: verify recovery and prepare bounded evaluation.
 
 - `glide-project-progress`: optional approved daily unique project notes after successful intake; requires the separately installed Obsidian companion.
+
+- `glide-conversation-learning`: meaningful conversational capture, scoped steering and bounded history recovery for enabled memory.

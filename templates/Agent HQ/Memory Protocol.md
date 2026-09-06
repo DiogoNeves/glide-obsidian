@@ -79,3 +79,7 @@ Prefer compact job change descriptors and page relevant historical inputs with `
 ## Optional approved unique-note output
 
 An explicitly approved Obsidian project-progress category may create new root-level unique notes through the bounded companion writer. It never edits existing writing. Retain category permission and publication receipts in versioned memory; keep host configuration outside the vault. Daily notes link to their activity evidence and remain AI-derived views, not additional corroboration. Use `glide-project-progress` only after successful relevant intake; changing category scope requires a new owner decision.
+
+## Conversational Steering
+
+Use `Checklists/Conversation Learning.md` for scoped user guidance, the managed review inbox and conversation-coverage receipts. Direct ongoing user feedback can update its scoped memory immediately; it is distinct from the weekly inferred-overlay budget. Temporary states retain their time boundary. Storing or retrieving a candidate does not activate it or grant external-action authority.

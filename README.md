@@ -14,6 +14,8 @@ The optional memory runtime keeps records and revision history in **human-readab
 
 Want progress among your unique notes? [Optional daily project notes](docs/DAILY-NOTES.md) asks for category scope once, then creates new notes with links to retained evidence. Existing writing stays untouched; separate project pages are optional.
 
+[Conversation continuity](docs/CONVERSATION-LEARNING.md) captures useful feedback, recovers missed context from authorized chat history, and separates scoped user steering from inferred changes.
+
 Reviews work in conversation. Text is the default; interactive reviews are optional and only report success after a real writer receipt. Optional automatic knowledge processing keeps its output marked as AI and unreviewed. It does not authorize external actions.
 
 The recorded local validation passed **139 runtime tests**, including recovery after deleting a disposable SQLite index. [Validation details](docs/VALIDATION.md) explain the checks, model screen and remaining field observations.
