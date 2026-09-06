@@ -38,3 +38,8 @@ jobs:
         run: python -m unittest discover -s owner/runtime/tests -v
         env:
           PYTHONPATH: owner/runtime
+      - name: Obsidian daily-note behavior and installation
+        run: python -m unittest discover -s obsidian/daily_notes/tests -v
+        env:
+          PYTHONPATH: obsidian/daily_notes:owner/runtime
+          PYTHONDONTWRITEBYTECODE: '1'

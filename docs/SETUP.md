@@ -20,3 +20,5 @@ Install this edition's four memory skills with `templates/Agent HQ/Memory Protoc
 Fresh preferences are manual knowledge review and text presentation. Automatic knowledge is an optional, explicitly scoped inbox workflow; output remains AI-authored and unreviewed. Interactive presentation is independent and falls back to conversation. Upgrading preserves omitted preferences and absent keys; review the [explicit and legacy policy distinctions](MEMORY-RUNTIME.md#setup-and-review-preferences). Use the [optional automation portfolio](../automations/portable-memory.md) after cutover.
 
 Before activating this vault, use [existing-instance upgrades](UPGRADING.md), [compatibility](COMPATIBILITY.md) and [validation](VALIDATION.md). Review [SQLite/Git/sync choices](STORAGE-AND-GIT.md) when configuring transport or backups.
+
+Optionally offer [daily unique project notes](DAILY-NOTES.md) after the core setup. Category permission, the Obsidian companion, per-device installation and an existing intake-job step are separate from knowledge-review preferences. Leave it disabled until the owner chooses the project scope.

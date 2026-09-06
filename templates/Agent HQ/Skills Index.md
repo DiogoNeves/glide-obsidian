@@ -31,3 +31,5 @@ Enable these only after the memory upgrade is complete:
 - `glide-dream`: consolidate changed evidence and propose learned procedures.
 - `glide-review`: review proposed changes and verify application receipts.
 - `glide-integrity`: verify recovery and prepare bounded evaluation.
+
+- `glide-project-progress`: optional approved daily unique project notes after successful intake; requires the separately installed Obsidian companion.

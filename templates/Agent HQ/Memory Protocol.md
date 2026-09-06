@@ -75,3 +75,7 @@ Fresh instances use `knowledge_review: manual` and `review_ui: text`. On upgrade
 Automatic knowledge retains AI authorship, unreviewed status and exact scoped Markdown evidence. That pathway cannot create commitments, delivery/completion state, due dates or superseding decisions. Operations retain their separately authorized procedure.
 
 Prefer compact job change descriptors and page relevant historical inputs with `glide_job_input_page(job_id, bundle, cursor, limit)`. Registering an archive does not require reviewing or promoting every historical claim. Render text by default; interactive reviews use the same evidence and decisions with a verified follow-up bridge and text fallback. Question/adjust controls start conversation and do not apply changes.
+
+## Optional approved unique-note output
+
+An explicitly approved Obsidian project-progress category may create new root-level unique notes through the bounded companion writer. It never edits existing writing. Retain category permission and publication receipts in versioned memory; keep host configuration outside the vault. Daily notes link to their activity evidence and remain AI-derived views, not additional corroboration. Use `glide-project-progress` only after successful relevant intake; changing category scope requires a new owner decision.

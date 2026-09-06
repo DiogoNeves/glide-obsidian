@@ -25,3 +25,7 @@ For model selection, use the [repeatable synthetic screen](https://github.com/Di
 The daily starter maps to `daily`, the nightly research starter to `dream`, and the drift-review starter to `integrity`. Where a follow-through starter exists, it maps to `evening`. Retain separate business reviews, release/update checks and other narrowly authorized jobs; do not run a legacy file-writing prompt alongside its replacement against the same state.
 
 At cutover, install the appropriate enabled-memory branch in each actual scheduler entry and record the chosen job ID and configuration path privately. Updating this repository does not update a saved automation. If the host cannot schedule, use the same procedures manually.
+
+## Optional Obsidian progress notes
+
+When the owner has enabled the project-progress category and installed the Obsidian companion, append `glide-project-progress` after successful relevant project intake. Reuse the intake job; do not create a second overlapping writer or change its model/schedule. Follow the skill for bounded continuation and review-needed cases. [Daily-note setup](../docs/DAILY-NOTES.md) is the canonical permission and recovery procedure. Disabled categories produce no output and need no daily permission prompt.

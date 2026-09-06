@@ -45,3 +45,7 @@ Use [SETUP.md](SETUP.md) to configure the fixed MCP entrypoint, read-only reader
 Before enabling the new writer, run the matching [validation guide](VALIDATION.md), inspect effective review preferences, verify a real source/proposal/receipt and reconcile pending inputs. Compact job descriptors can be expanded with `glide_job_input_page`; archive registration alone is not reviewed knowledge. Preserve pending proposals and durable decisions across upgrades.
 
 For source control or Obsidian transport, follow [STORAGE-AND-GIT.md](STORAGE-AND-GIT.md). Keep the live local index out of commits and ordinary synchronization; `.gitignore` is not a removal or cleanup operation for already tracked data.
+
+## Optional project-progress output
+
+For an owner who wants daily unique project notes, follow [the Obsidian-only companion procedure](DAILY-NOTES.md). Inspect older progress-note jobs and examples before selecting scope. This additive upgrade keeps the shared runtime pin and schema unchanged. Install code outside the vault, preserve existing MCP permissions and local customizations, obtain category permission, and pause duplicate exporters before appending the optional step to successful project intake. A repository update alone does not enable an existing instance.

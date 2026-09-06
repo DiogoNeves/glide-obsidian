@@ -12,6 +12,8 @@ Keep capturing thoughts, unique notes and clippings in your existing style. Glid
 
 The optional memory runtime keeps records and revision history in **human-readable Markdown**, using Obsidian links and valid filenames without repeating the title inside each generated note. SQLite is a local, rebuildable search index. Python, the database and private configuration stay outside the synchronized vault; reading your notes needs none of them.
 
+Want progress among your unique notes? [Optional daily project notes](docs/DAILY-NOTES.md) asks for category scope once, then creates new notes with links to retained evidence. Existing writing stays untouched; separate project pages are optional.
+
 Reviews work in conversation. Text is the default; interactive reviews are optional and only report success after a real writer receipt. Optional automatic knowledge processing keeps its output marked as AI and unreviewed. It does not authorize external actions.
 
 The recorded local validation passed **139 runtime tests**, including recovery after deleting a disposable SQLite index. [Validation details](docs/VALIDATION.md) explain the checks, model screen and remaining field observations.

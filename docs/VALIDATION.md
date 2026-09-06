@@ -16,3 +16,9 @@ The [behavior cases](../examples/memory-evaluation-cases.json) are synthetic eva
 Interactive reviews must produce a real conversation/tool submission and runtime receipt. Text is the portable default and fallback. Desktop integration has exercised the round-trip, but mobile support and a particular host's configuration remain separate checks. Do not report a local UI selection as applied.
 
 Record the actual current test totals and skips. An earlier 100-test run was 99 passed and one environment-dependent sandbox skip, not 100 passes. Release checks also cover the two distributions' shared content pin, package contents, skill links, clean setup and privacy; see the shared validation guide and [upgrade procedure](UPGRADING.md).
+
+## Optional daily-note companion — 6 September 2026
+
+Companion build `487aef401c97` passed **28 synthetic tests** locally. They cover category permission, preserved writing, late/duplicate activity, crash recovery, SQLite rebuild, edited-note provenance, host handover, bounded batches, MCP input constraints and installation/content pins. The unchanged shared build again passed all **139 tests with no skips**, including the local Codex boundary check. The new skill passed structural validation. A fresh process using the installed companion exposed the existing tools plus its three optional tools and correctly reported the category disabled before approval.
+
+These are local checks, not a hosted CI result or evidence of a completed production daily-note run. [Daily-note setup and validation](DAILY-NOTES.md) documents the exact commands, limitations and first-output review.
