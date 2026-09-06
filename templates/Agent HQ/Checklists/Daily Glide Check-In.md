@@ -2,6 +2,14 @@
 
 Purpose: run a concise morning pass that improves Agent HQ accuracy, checks relevant context, surfaces timely insight, or moves a small approved action forward.
 
+## With Versioned Memory Enabled
+
+For an instance that has completed cutover, this branch replaces the legacy load, update and evaluation instructions below for migrated state. Read `Memory Protocol.md` and communication preferences; start with `glide_job_inputs(job_id="daily")`, Now/Ongoing and only relevant records/evidence. Successful intake receipts establish only their reported source scope; partial or unavailable ranges remain pending. Do not reload or maintain a parallel legacy portfolio.
+
+If the optional conversation-learning unit is installed and history recovery authorized, run its bounded recovery before choosing the touch. Reconcile accepted commitments, current decisions and relevant source evidence. Use the source-app skills when needed, preserving their authority. Apply the selection and interaction guidance below: one useful candid touch, with extra items only for real urgency. After cutover, references there to reminder/ledger files mean the equivalent managed operations; do not rescan those legacy files unless their unmigrated context is relevant.
+
+Commit permitted outputs and the checkpoint through `glide_finish_job`, including successful conversation coverage when inspected. Follow separate knowledge review when required; preserve failed/unread work and inactive inferred candidates. Record meaningful observed feedback through the writer; an unchanged run needs no growing narrative log. Use the legacy procedure below only for an instance without cutover or specifically unmigrated context.
+
 ## Load
 
 - `Agent HQ/AGENTS.md`

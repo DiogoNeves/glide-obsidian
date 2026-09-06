@@ -1,60 +1,10 @@
 ---
 name: glide-daily-check-in
-description: Run a concise daily Glide pass that can coordinate multiple relevant checks or skills, then surface a useful question, insight, action, or follow-up.
+description: Run a concise daily Glide check-in that reconciles relevant evidence and offers one useful question, insight or authorized next step.
 ---
 
-# Glide Daily Check-In
+Read `Agent HQ/AGENTS.md`, communication preferences and `Agent HQ/Checklists/Daily Glide Check-In.md`. The checklist is canonical. For a versioned-memory instance after cutover, use its enabled-memory branch and `Memory Protocol.md`; otherwise retain its legacy workflow.
 
-## Load
+Select only context and source-app skills needed for the current signal. Recover authorized conversation context when the optional learning unit is installed. Distinguish ideas, accepted commitments and completion; keep app authority and protected principles intact. Use bounded parallel checks when they would materially improve the final selection.
 
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/User Profile.md`
-- `Agent HQ/Checklists/Daily Glide Check-In.md`
-- `Agent HQ/Goals/Active Goals.md`
-- `Agent HQ/Open Loops.md`
-- `Agent HQ/Follow-Through Ledger.md`
-- `Agent HQ/Questions Queue.md`
-- `Agent HQ/Ponder Log.md`
-- `Agent HQ/Areas/*/Reminders.md`
-- `Agent HQ/Checklists/App Interface And Computer Use.md` when checking external apps
-- `Agent HQ/Checklists/WhatsApp Access.md` when WhatsApp access is configured
-- Relevant area questions, recent reviews, decisions, contradictions, and project links
-- Available inbox, calendar, task, WhatsApp, or app-action sources when access is configured and the run can check them safely
-- `Agent HQ/Checklists/Eval Loop.md`
-- `Agent HQ/Evals/Run Log.md`
-- `Agent HQ/Evals/Signal Clusters.md` only when recent eval patterns affect today's selection
-- `Agent HQ/Evals/Eval Cases.md` only when a run reveals a reusable test case
-
-## Process
-
-1. Follow `Agent HQ/Checklists/Daily Glide Check-In.md`.
-2. Run `$glide-update-user-profile` before choosing the daily output.
-3. Scan area reminders and `Agent HQ/Follow-Through Ledger.md`, then identify candidate daily focus areas: follow-through items, open loops, active goals, area reminders, area questions, ponders, contradictions, project links, WhatsApp attention items when configured, app action candidates, and stale decisions.
-4. When more than one candidate focus area is plausible, use parallel subagents to explore them. Give each subagent one narrow focus area and ask for: signal, urgency, one possible daily output, whether there is a profile update candidate for `$glide-update-user-profile`, and whether background research should continue.
-5. Integrate subagent findings yourself and choose the smallest useful user-facing output: prefer one item; use two or three only when each is genuinely urgent or very important.
-6. When signals compete, rank candidates by concrete deadline, date, amount, safety/account/family/work stakes, source reliability, and whether the user can usefully act today.
-7. When email, calendar, Things, Messages, or app data disagree, prefer the source of record, confirmation email, or official app over auto-created calendar or task artifacts, and mention the caveat briefly.
-8. When WhatsApp access is available, run `$glide-whatsapp-attention-review` as an input to the daily output. Keep it read-only, do not open unread chats, do not mark conversations as read, and do not send anything.
-9. If a focus area needs deeper research but should not block the daily output, continue that research in the background or queue it in Agent HQ only when it would materially improve future advice.
-10. Run multiple relevant checks or skills when useful, but keep the user-facing response short, natural, and coach-like.
-11. Do not expose Agent HQ structure unless it helps the user answer or act.
-12. Do not suggest financial, legal, medical, interpersonal, public, or work-sensitive actions as executable. Draft or ask for approval instead.
-13. Do not send, archive, delete, schedule, reply, purchase, post, or modify external systems unless the user explicitly configured that exact action and approval boundary. Otherwise suggest or draft only.
-14. After a useful run, follow `Agent HQ/Checklists/Eval Loop.md` and append a light evaluation entry to `Agent HQ/Evals/Run Log.md` with facets and an eval decision.
-15. Promote a run to `Agent HQ/Evals/Eval Cases.md` only when it reveals a reusable regression test or unusually good behavior.
-16. Add or update `Agent HQ/Evals/Signal Clusters.md` only when repeated facets or a high-stakes pattern explain what should improve next.
-
-## Output
-
-- One concise daily output, based on the relevant checks or skills.
-- Two or three daily items only when each is genuinely urgent or very important.
-- Never surface more than three items. If more than three may matter, say: `Hey, there are other things that might be important. Do you want me to continue?`
-- A `$glide-update-user-profile` pass before choosing the daily output.
-- An area reminder scan before choosing the daily output.
-- A read-only WhatsApp attention check before choosing the daily output when WhatsApp is configured and available.
-- A follow-through scan before choosing the daily output.
-- A tiny run-log entry when the run produced a useful touch or durable update.
-- Eval facets and a `keep`, `tune`, or `case` decision in the run-log entry.
-- Optional Agent HQ updates after the user responds.
+Return one concise, candid coaching touch; add items only for genuine urgency under the checklist. Persist useful feedback and successful work through the applicable writer/checkpoint contract. A proposed action or preview is not a completed action. Keep ordinary capture unobtrusive and unresolved coverage explicit.

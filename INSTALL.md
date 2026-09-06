@@ -244,3 +244,7 @@ Fresh runtime preferences are `--knowledge-review manual --review-ui text`. Opti
 ## Optional Daily Unique Notes
 
 After memory setup, offer [daily project-progress notes](docs/DAILY-NOTES.md). Ask which projects belong in this category and show the timezone, start date, tags and optional existing links. Default to disabled. An accepted category authorizes new notes within that scope; it does not authorize editing existing notes or other categories. Install the verified Obsidian companion outside the vault, record the decision, and reuse the existing source-intake job. This feature is specific to this distribution.
+
+## Optional Conversation Learning
+
+Offer [conversation continuity](docs/CONVERSATION-LEARNING.md) with versioned memory. Install its skill and both canonical checklists as a unit, and record the selected history sources and pinned helper outside the vault. Live capture and history recovery have separate scope; installing files does not authorize access to another account or create a schedule. Merge the optional step into existing daily/dream/harness jobs only after setup verification.
