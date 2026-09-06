@@ -34,3 +34,5 @@ Open your vault in the agent harness and ask it to follow [INSTALL.md](INSTALL.m
 Glide provides no hosted service or telemetry. Your harness, model provider, connectors and sync choices determine data exposure. See [privacy](docs/PRIVACY.md).
 
 This edition preserves the file-and-link approach inspired by [How I use Obsidian](https://stephango.com/vault). [Contributions](CONTRIBUTING.md) are welcome.
+
+[Instance recovery](docs/RECOVERY.md) covers private configuration history, backup choices and tested restoration. Local application data is not all disposable.

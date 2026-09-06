@@ -73,3 +73,5 @@ Only edit operational instructions:
 When versioned memory is enabled, use `glide-integrity` for its store and learned overlays. The opt-in applies only to tested eligible overlays; it does not authorize rewriting core instructions or protected principles. Propose stale managed-record cleanup through the runtime with preserved history rather than directly deleting or clearing it. Existing non-behavioral instruction repairs retain their current scope.
 
 With authorized conversation recovery, follow `Checklists/Conversation Learning.md` for captured feedback versus observed behavior, temporary scope and inactive candidates. Clear scoped guidance already given by the owner does not need repeated permission; inferred procedural changes retain the existing review requirements. Record checks actually performed and leave untested effects pending.
+
+Follow `Recovery.md` for configuration drift, approved local export refresh and backup/restore evidence. Respect recorded deferrals and bring material gaps into conversation.

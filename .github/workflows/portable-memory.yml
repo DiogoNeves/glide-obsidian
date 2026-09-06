@@ -47,3 +47,6 @@ jobs:
         run: python -m unittest discover -s obsidian/tests -p test_conversation_inventory.py -v
         env:
           PYTHONDONTWRITEBYTECODE: '1'
+
+      - name: Shared recovery export regressions
+        run: python -B -m unittest discover -s owner/tests -p test_recovery_bundle.py -v

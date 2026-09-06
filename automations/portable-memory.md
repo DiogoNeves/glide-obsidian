@@ -37,3 +37,5 @@ When personal history recovery is authorized, install `glide-conversation-learni
 ## Owner input
 
 Follow `Agent HQ/Checklists/Input and Collaboration.md`. Deliver required questions and human spot checks in the configured conversation with their context and proposed choice; an internal Now entry, queue item or review record does not establish delivery. If delivery fails, retain pending input and report the gap through an available authorized conversation. Quiet internal maintenance needs no shared note. Update actual saved prompts within their approved scope; keep schedules, models and permissions unchanged.
+
+During the existing integrity job, follow the installed `Checklists/Recovery.md`: inspect coverage, refresh changed approved local exports and surface material backup/restore gaps. Do not infer permission for uploads, another schedule or writer activation.

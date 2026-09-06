@@ -14,7 +14,7 @@
     "build": "df711b913f09",
     "package_manifest": "runtime/package-manifest.json",
     "expected_build_required": true,
-    "runtime_git_ref": "8eaccbf4ec0ba3fc21a2fc2a2f25fe4af2f01af8"
+    "runtime_git_ref": "d7cb6b8ca039dd7a4c58ee0943bdf6694ee645af"
   },
   "storage_authority": "markdown-bundles",
   "sqlite_role": "rebuildable-local-index",

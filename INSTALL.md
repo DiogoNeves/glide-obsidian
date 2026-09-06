@@ -252,3 +252,7 @@ Offer [conversation continuity](docs/CONVERSATION-LEARNING.md) with versioned me
 ## Input and collaborative notes
 
 Install the [input boundary](docs/INPUT-AND-COLLABORATION.md) and its short instruction routes. Required input stays in conversation; create no collaboration folder, copied backlog or example note. When a shared note is actually useful or requested, follow existing vault-root conventions, agree its edit scope and record that choice privately. AI labels do not grant write authority; absent an available scoped file capability, keep the work in conversation. Existing approved project-progress output remains a separate category permission.
+
+## Protect and recover this instance
+
+Follow [instance recovery](docs/RECOVERY.md) before claiming setup or upgrade readiness. Install `Checklists/Recovery.md` and the separately hashed shared helper, inventory private dependencies, preserve backup/export choices, create and verify an approved local export, and test a disposable restore with writers/jobs disabled. Report missing off-machine protection in conversation. Embedded instances need this too; a rebuildable SQLite index does not make all local state disposable.

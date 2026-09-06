@@ -26,3 +26,7 @@ Optionally offer [daily unique project notes](DAILY-NOTES.md) after the core set
 For conversational continuity, install the [scoped capture and recovery procedure](CONVERSATION-LEARNING.md) with the owner’s selected history sources. It reuses existing jobs and separates direct user guidance from inferred improvement candidates.
 
 Apply the [input and collaboration boundary](INPUT-AND-COLLABORATION.md) to installed review procedures and saved job prompts. Required questions arrive in conversation; an optional shared note follows existing vault-root conventions outside Agent HQ and needs its own authorized edit scope and available narrow capability. Do not create a second inbox, relax source protection, or treat progress-category permission as collaborative editing permission.
+
+## Protect and recover this instance
+
+Follow [instance recovery](RECOVERY.md) before claiming setup or upgrade readiness. Install `Checklists/Recovery.md` and the separately hashed shared helper, inventory private dependencies, preserve backup/export choices, create and verify an approved local export, and test a disposable restore with writers/jobs disabled. Report missing off-machine protection in conversation. Embedded instances need this too; a rebuildable SQLite index does not make all local state disposable.

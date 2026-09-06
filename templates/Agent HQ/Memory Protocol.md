@@ -85,3 +85,7 @@ An explicitly approved Obsidian project-progress category may create new root-le
 ## Conversational Steering
 
 When the optional conversation-learning unit is installed, use `Checklists/Conversation Learning.md` for scoped user guidance, the managed review inbox and conversation-coverage receipts. Direct ongoing user feedback can update its scoped memory immediately; it is distinct from the weekly inferred-overlay budget. Temporary states retain their time boundary. Storing or retrieving a candidate does not activate it or grant external-action authority.
+
+## Instance recovery
+
+`Checklists/Recovery.md` governs recoverability of local configuration, frozen cases, custom instructions, imports and harness settings. SQLite is disposable; the entire application-data directory is not. Preserve exact versions and report unprotected dependencies.
