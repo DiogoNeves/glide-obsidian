@@ -12,6 +12,8 @@ A coherent page may contain several claims. Do not create a page for every fact,
 
 ## Files Own Memory
 
+Source-note renames are normal in Obsidian. The adapter may automatically restore navigation-only edits to generated history when a missing old source and an unambiguous byte-identical new destination verify the rename. It preserves private recovery copies and reports the result; original names and canonical payloads are not rewritten. All other integrity mismatches require immediate conversational review with the exact change, impact and proposed recovery. See the distribution's memory-runtime guide for boundaries.
+
 The configured memory store contains immutable `Bundles/*.md` change records, submitted `Proposals/*.md`, current `Records/` pages, `Views/` and `Writer.md`. Successful bundles contain complete revised records and the authoritative metadata needed to rebuild them. Current pages and views can be recreated from the bundles. Do not edit a bundle or silently adopt an external edit to a current page.
 
 SQLite, Python, local configuration, credentials, locks and caches stay outside the workspace or vault and outside its synchronization. SQLite indexes the files; it is not a second source of truth. Deleting a test index must not lose accepted content, history, provenance or review decisions. A meaningful claim must be recoverable from Markdown, not only from a SQL row.

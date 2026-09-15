@@ -231,10 +231,10 @@ Suggest:
 
 If the user selects versioned memory, follow the complete [setup walkthrough](docs/SETUP.md), [runtime contract](docs/MEMORY-RUNTIME.md) and [existing-instance upgrade procedure](docs/UPGRADING.md). Keep Python and SQLite physically outside the synchronized workspace. Install the four memory skills only with their canonical `Memory Protocol.md`. Record the actual runtime entrypoint and private instance configuration. Leave jobs disabled until verified cutover, and leave automatic learned overlays disabled unless explicitly selected. Existing instances must use the upgrade procedure rather than overwrite installation.
 
-The optional runtime is pinned to **0.1.0, build `df711b913f09`** in `compatibility.json`. Use a supplied matching Glide checkout/archive with `runtime/package-manifest.json`; the installer must receive the required `--expected-build` flag:
+The optional runtime is pinned to **0.1.0, build `83c6ad3a80a8`** in `compatibility.json`. Use a supplied matching Glide checkout/archive with `runtime/package-manifest.json`; the installer must receive the required `--expected-build` flag:
 
 ```sh
-python3 "/path/to/glide/runtime/install.py" --source "/path/to/glide/runtime" --home "/path/to/local-glide" --vault "/path/to/workspace" --instance main --adapter obsidian --store-path "Agent HQ/Memory" --expected-build df711b913f09
+python3 "/path/to/glide/runtime/install.py" --source "/path/to/glide/runtime" --home "/path/to/local-glide" --vault "/path/to/workspace" --instance main --adapter obsidian --store-path "Agent HQ/Memory" --expected-build 83c6ad3a80a8
 ```
 
 Substitute verified local paths. A build or package-manifest mismatch stops installation; do not remove the flag to force a different runtime. See [compatibility](docs/COMPATIBILITY.md) for future pin updates.

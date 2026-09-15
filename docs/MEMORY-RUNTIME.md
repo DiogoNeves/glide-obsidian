@@ -1,6 +1,15 @@
 # Versioned Memory
 
-Glide's optional memory runtime keeps durable memory in readable Markdown and builds a local SQLite search index. The current 0.1.0 build `df711b913f09` is supplied locally, with exact file hashes in the owner repository's `runtime/package-manifest.json` and a matching `compatibility.json` pin; do not describe it as an upstream published release without verifying that release. Original writing remains outside the agent's managed store. Existing installations do not change until explicitly upgraded.
+## Obsidian note renames
+
+Renaming and moving source notes is normal. The Obsidian adapter recognizes navigation-only wiki-link rewrites when the old recorded source path is absent and the new destination resolves unambiguously to bytes matching a retained source SHA-256. Display labels, anchors, prose, code and canonical payload bytes must remain unchanged. This does not approve edited evidence or change historical source identities.
+
+The designated writer, inside its existing lock, saves the affected rendered file under private `rename-recovery/` state and restores its canonical historical rendering automatically. Read-only instances can read a verified rename without rewriting synced files. Verification reports `obsidian_link_updates`; original notes keep their new names. Generated record pages receive the same checks, and pending proposals still approve their original payload. No Obsidian setting needs changing.
+
+A rename combined with content edits, ambiguous filenames, an existing old path, a missing destination or unrelated edits requires immediate conversational review: show the exact mismatch, impact and proposed recovery. Do not silently accept it or report a vague save failure. Source freshness warnings remain distinct from bundle corruption; re-intake of a renamed source does not rewrite its history. Existing installations must explicitly upgrade to the pinned runtime. The Markdown-only adapter retains exact checks.
+
+
+Glide's optional memory runtime keeps durable memory in readable Markdown and builds a local SQLite search index. The current 0.1.0 build `83c6ad3a80a8` is supplied locally, with exact file hashes in the owner repository's `runtime/package-manifest.json` and a matching `compatibility.json` pin; do not describe it as an upstream published release without verifying that release. Original writing remains outside the agent's managed store. Existing installations do not change until explicitly upgraded.
 
 This distribution consumes the shared `glide_memory` runtime version **0.1.0** from the general Glide repository. Obtain a matching local checkout or release archive supplied by the user; this guide does not assume an unpublished download URL. Do not fork a second runtime into this repository.
 
@@ -26,7 +35,7 @@ Original clippings remain available as examples and evidence. Processing metadat
 
 ## Runtime Interface
 
-The installed module is `glide_memory`. Run it with the matching local release directory on `PYTHONPATH`; keep the configuration path in private instance instructions. Install using the consuming distribution's required `--expected-build df711b913f09` flag; a version label alone does not identify this package. The implemented command help is authoritative for argument details. The runtime provides initialization, proposals and application, search, record retrieval, history, changes, index rebuild, backup, verification and deliberate writer handover.
+The installed module is `glide_memory`. Run it with the matching local release directory on `PYTHONPATH`; keep the configuration path in private instance instructions. Install using the consuming distribution's required `--expected-build 83c6ad3a80a8` flag; a version label alone does not identify this package. The implemented command help is authoritative for argument details. The runtime provides initialization, proposals and application, search, record retrieval, history, changes, index rebuild, backup, verification and deliberate writer handover.
 
 For a local CLI invocation (substitute verified local paths):
 

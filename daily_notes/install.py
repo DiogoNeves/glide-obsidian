@@ -41,7 +41,7 @@ def install(source, home, vault, runtime, *, expected_build):
     manifest = json.loads(safe(source / 'package-manifest.json').read_text())
     files = hashes(source, 'glide_obsidian')
     actual = build(files)
-    if manifest != {'schema': 1, 'version': '0.1.0', 'build': actual, 'required_runtime_build': 'df711b913f09', 'files': files} or actual != expected_build:
+    if manifest != {'schema': 1, 'version': '0.1.0', 'build': actual, 'required_runtime_build': '83c6ad3a80a8', 'files': files} or actual != expected_build:
         raise ValueError('Obsidian package content does not match the expected build')
     # The shared build hashes its complete Python/HTML file manifest. Verify the
     # installed files themselves; an installed runtime need not contain a manifest.

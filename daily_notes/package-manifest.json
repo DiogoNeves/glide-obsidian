@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "version": "0.1.0",
-  "build": "487aef401c97",
-  "required_runtime_build": "df711b913f09",
+  "build": "1a36a228f2b2",
+  "required_runtime_build": "83c6ad3a80a8",
   "files": {
-    "glide_obsidian/__init__.py": "527cff1f7f3184436cdb2924832761afb0c5d51f5651840043c4577e46d878c8",
+    "glide_obsidian/__init__.py": "4e13ff0a907192f9112f3c3b9015ef856af4071af526c8521b1ac4890aaf60b5",
     "glide_obsidian/bridge.py": "1338c6a8b9d7eed3ab2c8167c3787329f780ad01313d152cdcd55f23994a6b5d",
     "glide_obsidian/configure.py": "4d9814f7bae5accdfd1f221113692482fcd2e7fdfd7e686bcfe46458976c6b3e",
     "glide_obsidian/notes.py": "540c55adb5c62a317c4684c09e096f35346dd1b48cd1a52dbf4ec4ef3adbf350",

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-15
+
+### Handle verified Obsidian source renames
+
+- Recover navigation-only link updates automatically when the renamed source is uniquely identified by its retained content hash.
+- Preserve canonical evidence and the user's new filename; keep private recovery copies and report reconciliation in verification.
+- Continue rejecting changed content, ambiguous destinations, code/label/anchor changes and payload tampering. Update the pinned runtime explicitly for existing installations.
+
 Notable changes to Glide for Obsidian.
 
 ## 2026-09-06

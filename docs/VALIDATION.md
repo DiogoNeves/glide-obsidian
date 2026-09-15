@@ -1,5 +1,9 @@
 # Validate the Obsidian edition
 
+## Obsidian rename recovery (2026-09-15)
+
+Runtime build `83c6ad3a80a8` ran 150 tests: 149 passed and one host-boundary check skipped. Eleven rename regressions cover read-only access, locked writer recovery, private backups, continued writes, pending proposals, ambiguous or edited destinations, symlinks, and protected payload/code/prose. Both distribution content pins and clean installations passed. Companion build `1a36a228f2b2` passed 28 tests; conversation inventory passed 14 and recovery exports passed 8. An independent index rebuilt from copied Markdown preserved the complete export before and after automatic recovery.
+
 ## Recorded local validation — 6 September 2026
 
 Content build `df711b913f09` passed **139 runtime tests with no skips** on the tested macOS host, including the explicitly enabled Codex source-reader boundary check. Both fresh adapter installations passed the package/content-pin checks; the installed wheel rendered the review and imported its packaged helpers. The separate model-screen evaluator passed five synthetic tests without calling a model. These are local results, not a claim that hosted CI has run or every supported host is equivalent.

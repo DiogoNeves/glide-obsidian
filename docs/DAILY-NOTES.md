@@ -29,7 +29,7 @@ The initial implementation lists escaped commit subjects with exact commit links
 
 ## Install outside the vault
 
-First complete [memory setup](SETUP.md). This companion requires Python 3.11+, macOS/Linux, and shared build **`df711b913f09`**. Local instance state and the vault must be on the **same filesystem** for atomic creation of new notes. The runtime and state remain physically outside the vault and every sync root. This feature adds no database schema and changes no shared runtime files.
+First complete [memory setup](SETUP.md). This companion requires Python 3.11+, macOS/Linux, and shared build **`83c6ad3a80a8`**. Local instance state and the vault must be on the **same filesystem** for atomic creation of new notes. The runtime and state remain physically outside the vault and every sync root. This feature adds no database schema and changes no shared runtime files.
 
 Use verified absolute local paths:
 
@@ -37,12 +37,12 @@ Use verified absolute local paths:
 export GLIDE_DIST='/absolute/path/to/glide-obsidian'
 export GLIDE_HOME='/absolute/path/to/local-glide'
 export GLIDE_VAULT='/absolute/path/to/vault'
-export GLIDE_RUNTIME='/absolute/path/to/local-glide/runtime/0.1.0-df711b913f09'
+export GLIDE_RUNTIME='/absolute/path/to/local-glide/runtime/0.1.0-83c6ad3a80a8'
 export GLIDE_CONFIG='/absolute/path/to/local-glide/instances/main/config.json'
 python3 "$GLIDE_DIST/daily_notes/install.py" \
   --source "$GLIDE_DIST/daily_notes" --home "$GLIDE_HOME" \
   --vault "$GLIDE_VAULT" --runtime "$GLIDE_RUNTIME" \
-  --expected-build 487aef401c97
+  --expected-build 1a36a228f2b2
 ```
 
 The installer verifies the companion's manifest and the installed shared runtime's actual content before copying anything. Record its result privately. Installation does not enable a category or change any scheduler. Do not force a mismatched package through installation.
