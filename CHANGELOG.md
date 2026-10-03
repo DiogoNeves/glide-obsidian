@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.1 (2026-10-03)
+
+- Remove identifying repository-owner links from public documentation, update templates and optional plugin metadata.
+- Resolve shared documentation from a verified owner checkout and keep upstream repository selection configurable.
+- Resolve the CI contract owner from the current repository namespace while retaining its immutable commit pin.
+- Add shared tracked-file privacy checks for owner identifiers, emails, home paths and private artifacts, with an optional denylist stored outside the repository.
+- Preserve runtime content builds, storage format, source permissions and workflow behavior.
+
 ## v0.7.0 (2026-10-03)
 
 - Select current managed or preserved legacy workflows conditionally; replace unconditional portfolio loads with task-relevant evidence retrieval.

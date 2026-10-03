@@ -14,10 +14,10 @@ Runtime build `83c6ad3a80a8` ran 150 tests: 149 passed and one host-boundary che
 
 Content build `df711b913f09` passed **139 runtime tests with no skips** on the tested macOS host, including the explicitly enabled Codex source-reader boundary check. Both fresh adapter installations passed the package/content-pin checks; the installed wheel rendered the review and imported its packaged helpers. The separate model-screen evaluator passed five synthetic tests without calling a model. These are local results, not a claim that hosted CI has run or every supported host is equivalent.
 
-Recovery tests delete an independent disposable SQLite index and recover the same Markdown records, historical answers and review receipts. Paging regressions keep a large archive and long record bodies out of default job summaries while preserving exact revision references. The [eight-case model screen](https://github.com/DiogoNeves/glide/blob/main/examples/model-screen/README.md) is limited evidence for provisional model roles, not a ranking of coaching quality.
+Recovery tests delete an independent disposable SQLite index and recover the same Markdown records, historical answers and review receipts. Paging regressions keep a large archive and long record bodies out of default job summaries while preserving exact revision references. The [eight-case model screen](SHARED-REFERENCES.md#model-screen) is limited evidence for provisional model roles, not a ranking of coaching quality.
 
 
-This distribution uses the shared runtime and [validation procedure](https://github.com/DiogoNeves/glide/blob/main/docs/VALIDATION.md). Use the matching local Glide checkout's `docs/VALIDATION.md` for an unpublished build. Run its suite and [setup walkthrough](SETUP.md) with `adapter=obsidian` and `store_path=Agent HQ/Memory`.
+This distribution uses the shared runtime and [validation procedure](SHARED-REFERENCES.md#validation). Use the matching local Glide checkout's `docs/VALIDATION.md` for an unpublished build. Run its suite and [setup walkthrough](SETUP.md) with `adapter=obsidian` and `store_path=Agent HQ/Memory`.
 
 Verify that generated records have meaningful Obsidian links, valid filenames and no repeated opening title. Original writing must stay byte-identical. Delete only an independent copied store's SQLite index, rebuild, and compare current records, history, source evidence and review receipts. A copied-store check does not prove actual Obsidian Sync completeness or a second machine's configuration.
 
@@ -55,4 +55,4 @@ The shared owner helper has eight synthetic tests for version preservation/idemp
 
 ## Public paired instruction screen
 
-The shared [recorded screen and limits](https://github.com/DiogoNeves/glide/blob/v0.7.0/docs/STREAMLINING-EVALUATION.md) retain the initial 50-case findings and the targeted final-policy comparison. They use public policies and fictional evidence. Private-instance quality, native permissions and sustained scheduled behavior are separate observations.
+The shared [recorded screen and limits](SHARED-REFERENCES.md#behavior-screen) retain the initial 50-case findings and the targeted final-policy comparison. They use public policies and fictional evidence. Private-instance quality, native permissions and sustained scheduled behavior are separate observations.

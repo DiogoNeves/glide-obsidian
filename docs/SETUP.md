@@ -1,6 +1,6 @@
 # Set up versioned memory in Obsidian
 
-The [shared setup walkthrough](https://github.com/DiogoNeves/glide/blob/main/docs/SETUP.md) is maintained with the Python runtime in the Glide repository. Use the matching local checkout/archive and its `docs/SETUP.md` when testing an unpublished build; `main` is not a substitute for the pin in this distribution's `compatibility.json`.
+The [shared setup walkthrough](SHARED-REFERENCES.md#setup) is maintained with the Python runtime in the Glide repository. Use the matching local checkout/archive and its `docs/SETUP.md` when testing an unpublished build; `main` is not a substitute for the pin in this distribution's `compatibility.json`.
 
 Use these distribution values in that walkthrough:
 

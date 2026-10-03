@@ -29,9 +29,11 @@ jobs:
           PY
       - uses: actions/checkout@v4
         with:
-          repository: DiogoNeves/glide
+          repository: ${{ vars.GLIDE_CORE_REPOSITORY || format('{0}/glide', github.repository_owner) }}
           ref: ${{ steps.runtime.outputs.ref }}
           path: owner
+      - name: Public file privacy tripwires
+        run: python -B owner/tools/check_public_privacy.py --root obsidian
       - name: Verify exact content and clean Obsidian installation
         run: python owner/runtime/check_package.py --compatibility obsidian/compatibility.json
       - name: Runtime behavior with the pinned adapter build
