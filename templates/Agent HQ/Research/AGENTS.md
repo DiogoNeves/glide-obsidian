@@ -14,6 +14,7 @@ Research supports goals, areas, and decisions over time.
 
 ## Research Outputs
 
-- Update `Research Index.md` for durable research.
-- Store notes in `Agent HQ/Research/` or the relevant area `Research/` folder.
+- With recorded memory cutover, save durable research as scoped managed knowledge/review records through `Memory Protocol.md`; separate knowledge review may remain pending. Use the existing research index only as a relevant historical/unmigrated source.
+- Without cutover, update `Research Index.md` for durable research.
+- Without cutover, store internal research notes in `Agent HQ/Research/` or the relevant area `Research/` folder. Shared owner documents retain their separately authorized scope.
 - Include source links and evidence type.

@@ -7,12 +7,7 @@ description: Create or initialize a durable Glide area in Agent HQ.
 
 ## Load
 
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Areas/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/User Profile.md`
-- `Agent HQ/Goals/Active Goals.md`
-- `Agent HQ/Projects/Project Links.md`
+Read `Agent HQ/AGENTS.md` and `Agent HQ/Areas/AGENTS.md`. Retrieve relevant current goals, constraints and project links through `Memory Protocol.md` after recorded cutover; without cutover use only relevant legacy profile/goal/project evidence. Do not create speculative unused areas or load the full portfolio.
 
 ## Process
 
@@ -32,7 +27,7 @@ description: Create or initialize a durable Glide area in Agent HQ.
    - `Research/README.md`
 4. In `Reminders.md`, create an active reminders section with columns `Status`, `When / Trigger`, `Lead Time`, `Reminder`, `Surface When`, and `Source`, plus a done/superseded section with `Date`, `Reminder`, and `Outcome`. Reminders may be date-based or trigger-based, including far-future items that stay quiet until their lead time or trigger.
 5. Link relevant goals and projects.
-6. Add open questions and initial reminders for missing context.
+6. Add useful questions and reminders through managed records after cutover; otherwise use the area's selected legacy files. Do not duplicate migrated current state.
 7. Do not move or rewrite existing vault notes unless the user explicitly asks.
 
 ## Output

@@ -94,3 +94,7 @@ Then wait for explicit approval.
 - Broad ingestion of all conversations.
 - Storing private transcripts in the vault unless the user explicitly asks.
 - Treating high unread counts in busy groups as automatically important.
+
+## Scoped access audit
+
+Append a compact attempted-access entry to `Agent HQ/WhatsApp Access Log.md`: requested scope, actual method, useful signal and material access gaps. This existing audit surface does not become a parallel current operations store after memory cutover; retain operational summaries through the selected writer.

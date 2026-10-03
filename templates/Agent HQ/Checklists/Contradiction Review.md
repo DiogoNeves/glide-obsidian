@@ -1,19 +1,7 @@
 # Contradiction Review
 
-Purpose: find contradictions, tensions, blind spots, and hidden tradeoffs.
+Without recorded memory cutover, use `Reference/Legacy Workflows/Contradiction Review.md` only.
 
-## Review
+With cutover, retrieve relevant current guidance, goals and operations and their dated evidence through `Memory Protocol.md`. State each possible tension neutrally and separate evidence from interpretation. Classify contradiction, sequencing problem, tradeoff or missing context; identify affected goals/areas and the likely hidden value or constraint.
 
-1. State each possible contradiction neutrally.
-2. Separate evidence from interpretation.
-3. Classify it: contradiction, sequencing problem, tradeoff, or missing context.
-4. Identify affected goals and areas.
-5. Recommend one clarifying question, experiment, or decision.
-6. Update `Contradiction Register.md` for durable tensions.
-
-## Output
-
-- Contradictions or tensions found.
-- Evidence.
-- Interpretation.
-- Suggested next action.
+Recommend one useful clarifying question, experiment or decision. Save durable tensions as sourced managed records, preserving uncertainty and history rather than updating a parallel legacy register. Do not overstate weak tensions or treat temporary state as a permanent preference.

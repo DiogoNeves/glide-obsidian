@@ -1,8 +1,8 @@
-"""Add bounded Obsidian output tools to the unchanged, pinned Glide MCP broker."""
+"""Add bounded Obsidian output tools to the pinned Glide MCP broker."""
 import argparse
 import sys
 from .store import ObsidianStore
-from glide_memory.bridge import MemoryServer, obj, string, validate, serve
+from glide_memory.bridge import MemoryServer, obj, string, serve
 from .notes import settings, preview, write
 
 EXTRA = {
@@ -12,6 +12,13 @@ EXTRA = {
 }
 
 class ObsidianServer(MemoryServer):
+    def tool_inventory(self):
+        return super().tool_inventory() + [(name, description, schema, readonly)
+                for name, (description, schema, _, readonly) in EXTRA.items()]
+
+    def capability_groups(self):
+        return {**super().capability_groups(), 'project_progress': set(EXTRA)}
+
     def _source(self, relative):
         source = self.store.mark_note(super()._source(relative), self.store.note_lineages())
         if source.get('source_kind', '').startswith('derived-daily-note'):
@@ -21,8 +28,8 @@ class ObsidianServer(MemoryServer):
 
     def call_tool(self, name, arguments):
         if name in EXTRA:
-            _, schema, fn, _ = EXTRA[name]
-            validate(arguments, schema)
+            self.validate_call(name, arguments)
+            _, _, fn, _ = EXTRA[name]
             return fn(self.store, **arguments)
         result = super().call_tool(name, arguments)
         if name == 'glide_search':
@@ -30,11 +37,6 @@ class ObsidianServer(MemoryServer):
             result = [self.store.mark_note(hit, lineages) for hit in result]
         return result
 
-    def handle(self, request):
-        response = super().handle(request)
-        if isinstance(request, dict) and request.get('method') == 'tools/list' and response and 'result' in response:
-            response['result']['tools'].extend({'name': name, 'description': description, 'inputSchema': schema, 'annotations': {'readOnlyHint': readonly}} for name, (description, schema, _, readonly) in EXTRA.items())
-        return response
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)

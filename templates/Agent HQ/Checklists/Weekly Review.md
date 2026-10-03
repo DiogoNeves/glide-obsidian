@@ -1,27 +1,7 @@
 # Weekly Review
 
-Purpose: lightly review progress, commitments, open loops, and next actions.
+For weekly planning without recorded versioned-memory cutover, follow `Reference/Legacy Workflows/Weekly Review.md` only. With cutover, retrieve current goals, constraints, relevant operations, decisions and actual outcomes through `Memory Protocol.md`; linked legacy material is historical/unmigrated evidence.
 
-Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+Ask what changed, shipped, was learned or clarified this week, and what should be stopped, deferred, simplified or left alone. Choose one main focus/project when useful and return one to three next moves. Do not schedule a task merely to remember it; use the appropriate commitment layer. Review progress and carryover against accepted commitments and completion evidence, investigate recurring scope/capacity friction, check upcoming material deadlines and cross-area tradeoffs, and recommend a realistic next focus. Task marking or elapsed time alone is not proof of completion. Use the selected source-app rules for configured task/calendar checks; preserve their read-only and approval boundaries.
 
-## Review
-
-1. What changed this week?
-2. What was shipped, learned, clarified, or moved forward?
-3. Which open loops or follow-through items need attention?
-4. Which task, calendar, or app sources should be checked, if configured?
-5. Which area needs a small next move?
-6. Which question would improve future recommendations?
-7. What should be stopped, deferred, simplified, or left alone?
-
-## Planning
-
-- Help choose one main focus or project for the coming week when that would improve clarity.
-- Keep the plan realistic against work, family, health, money, travel, and attention constraints.
-- Do not schedule tasks just because something should not be forgotten; use the right commitment layer or follow-through ledger.
-
-## Output
-
-- Short weekly summary.
-- One to three next moves.
-- Any questions, decisions, or follow-through items to queue.
+Bring useful questions and proposed goal/plan changes into conversation. Save approved outcomes and substantive findings through managed records without updating parallel legacy state. Use `Checklists/Eval Loop.md` for meaningful observed lessons, preserving historical logs and pending evidence.

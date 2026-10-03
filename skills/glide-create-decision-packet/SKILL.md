@@ -3,29 +3,6 @@ name: glide-create-decision-packet
 description: Prepare a decision packet for important or high-stakes choices.
 ---
 
-# Glide Create Decision Packet
+Read `Agent HQ/AGENTS.md` and `Agent HQ/Checklists/Decision Packet.md`. Retrieve relevant current constraints and evidence through its selected mode.
 
-## Load
-
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/User Profile.md`
-- `Agent HQ/Checklists/Decision Packet.md`
-- Relevant goals, area files, project links, prior decisions, and contradictions
-
-## Process
-
-1. Define the decision and deadline.
-2. Identify affected goals and areas.
-3. Use parallel subagents for important, cross-area, evidence-heavy, or high-stakes decisions.
-4. Follow `Agent HQ/Checklists/Decision Packet.md`.
-5. Integrate subagent findings yourself, especially where advice conflicts.
-6. Recommend when evidence is sufficient.
-7. Record approved decisions.
-
-## Output
-
-- A decision packet.
-- Recommendation.
-- Missing information.
-- What would change the recommendation.
+Use independent parallel research for consequential, cross-area or evidence-heavy decisions, resolving conflicting advice. Prepare a concrete recommendation, tradeoffs, missing information and what would change the recommendation. Bring required input into conversation and record approved decisions through the selected writer; drafting grants no execution authority.

@@ -6,7 +6,7 @@ Suggested cadence: daily at 4am local time
 
 Skill: `glide-nightly-research-review`
 
-Purpose: quietly review recent exchanges, open loops, open research, eval signals, area connections, stale working-memory candidates, and concise process improvements. Keep the result internal unless approval or a real blocker is needed.
+Purpose: invoke `glide-nightly-research-review` and its mode-selected canonical checklist; preserve pending work, evidence and existing authority. This template is a proposal, not an installed scheduler.
 
 Install prompt source:
 

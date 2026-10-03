@@ -254,4 +254,56 @@ class DailyNotesTests(unittest.TestCase):
         with self.assertRaises(ValueError):server.call_tool('glide_project_notes_write',{'body':'Overwrite my diary'})
         with self.assertRaises(ValueError):server.call_tool('glide_project_notes_write',{'day':'2026-09-05','enabled':True})
 
+    def test_adapter_profile_defaults_preserve_core_and_companion_inventory(self):
+        from glide_memory.bridge import TOOLS
+        from glide_obsidian.bridge import EXTRA
+        server = ObsidianServer(self.store)
+        server.handle({'jsonrpc':'2.0','id':1,'method':'initialize','params':{}})
+        tools = server.handle({'jsonrpc':'2.0','id':2,'method':'tools/list','params':{}})['result']['tools']
+        self.assertEqual({item[0] for item in TOOLS} | set(EXTRA), {item['name'] for item in tools})
+        self.assertEqual(len(TOOLS) + 3, len(tools))
+        self.assertTrue(next(t for t in tools if t['name']=='glide_project_notes_preview')['annotations']['readOnlyHint'])
+        self.assertFalse(next(t for t in tools if t['name']=='glide_project_notes_write')['annotations']['readOnlyHint'])
+
+    def test_adapter_tools_cannot_bypass_narrowed_live_profile(self):
+        from glide_memory.bridge import TOOL_CAPABILITIES
+        from glide_obsidian.bridge import EXTRA
+        server = ObsidianServer(self.store)
+        server.handle({'jsonrpc':'2.0','id':1,'method':'initialize','params':{}})
+        before = self.store.export()
+        config = json.loads(self.store.config_path.read_text())
+        config['tool_capabilities'] = ['reader']
+        self.store.config_path.write_text(json.dumps(config))
+        tools = server.handle({'jsonrpc':'2.0','id':2,'method':'tools/list','params':{}})['result']['tools']
+        self.assertEqual(TOOL_CAPABILITIES['reader'], {item['name'] for item in tools})
+        for name in EXTRA:
+            with self.subTest(tool=name):
+                with self.assertRaises(ValueError):
+                    server.call_tool(name, {})
+                response = server.handle({'jsonrpc':'2.0','id':3,'method':'tools/call','params':{'name':name,'arguments':{}}})
+                self.assertTrue(response['result']['isError'])
+        self.assertEqual(before, self.store.export())
+        config['tool_capabilities'] = ['project_progress']
+        self.store.config_path.write_text(json.dumps(config))
+        tools = server.handle({'jsonrpc':'2.0','id':4,'method':'tools/list','params':{}})['result']['tools']
+        self.assertEqual(set(EXTRA), {item['name'] for item in tools})
+        self.assertFalse(server.call_tool('glide_project_notes_settings', {})['enabled'])
+        with self.assertRaises(ValueError):
+            server.call_tool('glide_get', {'record_id':'anything'})
+
+    def test_empty_and_invalid_adapter_profiles_fail_closed(self):
+        server = ObsidianServer(self.store)
+        server.handle({'jsonrpc':'2.0','id':1,'method':'initialize','params':{}})
+        config = json.loads(self.store.config_path.read_text())
+        config['tool_capabilities'] = []
+        self.store.config_path.write_text(json.dumps(config))
+        self.assertEqual([], server.handle({'jsonrpc':'2.0','id':2,'method':'tools/list','params':{}})['result']['tools'])
+        with self.assertRaises(ValueError):
+            server.call_tool('glide_project_notes_write', {})
+        for profile in [['project_progress','project_progress'], ['unrestricted'], 'project_progress']:
+            config['tool_capabilities'] = profile
+            self.store.config_path.write_text(json.dumps(config))
+            with self.subTest(profile=profile), self.assertRaises(ValueError):
+                ObsidianServer(self.store)
+
 if __name__=='__main__':unittest.main()

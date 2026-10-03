@@ -1,37 +1,3 @@
 # Harness Drift Review Automation Prompt
 
-If versioned memory is enabled and its cutover is recorded, read `Agent HQ/Memory Protocol.md` and use the [portable-memory procedure](../../automations/portable-memory.md) with job ID `integrity`. Run the installed `glide-integrity` skill for integrity, measured improvement and human spot-check candidates. Use the managed store, compact job inputs and the protocol's review/checkpoint rules; preserve pending work and stay quiet when unchanged. Do not run the legacy file-writing instructions below in this mode. Source access and external actions retain their existing authority.
-
-Otherwise, use the existing workflow below.
-
-Run `$glide-harness-drift-review` for this vault.
-
-Use `Agent HQ/Harness Design Principles.md` as the read-only north star. Do not edit that file unless the user explicitly asks in the current request.
-
-Review operational files:
-
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/Automation Registry.md`
-- `Agent HQ/Skills Index.md`
-- `Agent HQ/Checklists/*.md`
-- `.agents/skills/*/SKILL.md`
-
-Read `Agent HQ/Evals/*.md` as evidence only. Recurring `Improve Next` notes and `Partial` outcomes can become candidates for small instruction updates.
-
-Also check collection-candidate files for stale-item cleanup only:
-
-- `Agent HQ/Questions Queue.md`
-- `Agent HQ/Ponder Log.md`
-- `Agent HQ/Open Loops.md`
-
-Do not edit personal memory files such as `Agent HQ/User Profile.md`, goals, area context, decisions, contradictions, research notes, or eval logs.
-
-If operational drift is clear, make only the smallest non-behavioral correction that realigns the operation with the design principles.
-
-For collection candidates, default to preserving lightweight context gathering when more information would improve future advice. Clear stale items only when they are plainly irrelevant, duplicated, or superseded, and the cleanup does not change future behavior. Preserve durable learning in the appropriate long-term memory before clearing anything. Ask the user to confirm if clearing, moving, or summarising an item requires judgment.
-
-Ask the user to confirm before making any change that could alter future behavior, including autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
-
-If no drift is found, say so briefly.
+Run `$glide-harness-drift-review` for this vault. Read `Agent HQ/AGENTS.md` and its selected canonical checklist. Recorded memory cutover selects job `integrity`; otherwise follow the preserved legacy workflow. Retain the installed source scope, pending work, knowledge-review requirements and external-action authority. Return only the procedure's useful output and actual receipts; unchanged work stays quiet. Do not change schedules, models, permissions or writers through this invocation.

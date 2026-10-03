@@ -1,53 +1,11 @@
 # Decision Packet
 
-Purpose: prepare an important choice for approval.
+Prepare an important choice for the user's decision. Without recorded memory cutover, use `Reference/Legacy Workflows/Decision Packet.md` only.
 
-Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+With cutover, retrieve current personal goals, constraints, prior decisions and relevant evidence through `Memory Protocol.md`; use legacy sources only for relevant historical/unmigrated context.
 
-Before starting, load `Agent HQ/User Profile.md` when the decision is personal or should account for the user's stable preferences, recent context, or current constraints.
+Define the real choice, deadline/trigger, reversibility and affected goals/areas. Compare plausible options, including doing nothing. Separate facts, assumptions, missing information, research evidence and lived preferences.
 
-## Decision
+Assess upside, downside, cost, reversibility, time/energy, relationships, financial/legal and health/safety risk, and opportunity cost. Use independent research when stakes warrant it and resolve conflicting advice.
 
-- What is being decided?
-- What deadline or trigger exists?
-- Is this reversible?
-- What areas and goals are affected?
-
-## Options
-
-List plausible options, including doing nothing.
-
-## Evidence
-
-Separate:
-
-- Known facts.
-- Assumptions.
-- Missing information.
-- Research or external evidence.
-- Lived preferences and constraints.
-
-## Tradeoffs
-
-Check:
-
-- upside,
-- downside,
-- cost,
-- reversibility,
-- time and energy,
-- relationship impact,
-- financial or legal risk,
-- health or safety risk,
-- opportunity cost.
-
-## Recommendation
-
-Recommend when evidence is sufficient.
-
-Include:
-
-- best option,
-- why,
-- what would change the recommendation,
-- next approval or action needed.
+Recommend when evidence is sufficient, explaining why, what would change the recommendation and the next approval/action needed. Bring the packet into conversation; a shared document follows `Checklists/Input and Collaboration.md`. Record approved decisions through the managed writer. Preparing a packet does not authorize consequential execution.

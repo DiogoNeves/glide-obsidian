@@ -11,10 +11,10 @@
     "storage_schema_versions": [
       1
     ],
-    "build": "83c6ad3a80a8",
+    "build": "90331b72c53d",
     "package_manifest": "runtime/package-manifest.json",
     "expected_build_required": true,
-    "runtime_git_ref": "02c706fe95b5debdee10ac991b6dbf5c1502a3fb"
+    "runtime_git_ref": "2c0c3e2c6239b7c7766abb43489463c8dd7f83be"
   },
   "storage_authority": "markdown-bundles",
   "sqlite_role": "rebuildable-local-index",

@@ -1,34 +1,9 @@
 # Update User Profile
 
-Purpose: keep `Agent HQ/User Profile.md` useful as concise high-level context for advice, decisions, research, and daily check-ins.
+Without recorded memory cutover, use `Reference/Legacy Workflows/Update User Profile.md` only.
 
-## Load
+With cutover, refresh relevant managed personal context through `Memory Protocol.md`; do not maintain the legacy User Profile in parallel. Start with the current statement and relevant Now/Ongoing/Durable records, retrieving exact passages only when needed.
 
-- `Agent HQ/User Profile.md`
-- Relevant recent Agent HQ updates, conversations, goals, decisions, ponders, questions, open loops, project links, area files, or run logs
+Capture stable facts, roles, constraints, explicit preferences, repeated patterns or recent priorities only when they would affect future advice. Keep stable knowledge conservative, temporary context dated and inferred preferences reviewable. Summarize operational meaning without transcripts, credentials or diary detail. Reuse existing records and preserve earlier evidence in history when current attention changes.
 
-## What To Look For
-
-Update the profile only when there is durable signal:
-
-- stable facts, roles, constraints, values, or preferences,
-- repeated patterns, blind spots, or contradictions,
-- recent themes that should affect near-term recommendations,
-- current priorities, capacity, appetite for questions or actions, deadlines, or sensitive boundaries.
-
-When there is no explicit diff, infer from recently touched Agent HQ files, recent decisions, open loops, ponders, questions, project/progress notes, run logs, and current conversation context.
-
-## How To Update
-
-- Keep `Long-Term` conservative; edit it only when stable facts or durable self-understanding change.
-- Let `Lately` and `Right Now` move more often.
-- Keep each section concise and operational.
-- Prefer summaries over raw notes, transcripts, secrets, detailed private history, or diary-like detail.
-- Adjust stale time-sensitive facts.
-- Clear stale `Lately` or `Right Now` context when it no longer helps advice or autopilot.
-- Preserve durable learning elsewhere before clearing anything that may still matter.
-
-## Output
-
-- Update `User Profile.md` when useful.
-- If no update is needed, say so briefly or stay silent when called inside another workflow.
+Use conversation learning for relevant feedback/missed context, reusing existing daily/Dream coverage rather than starting a duplicate scan. Save only substantive changes against current revisions and report an actual receipt. No durable signal requires no new record or routine success note.

@@ -1,30 +1,9 @@
 # WOOP Goal Review
 
-Purpose: define or review a goal using Wish, Outcome, Obstacle, and Plan.
+Without recorded memory cutover, use `Reference/Legacy Workflows/WOOP Goal Review.md` only.
 
-Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+With cutover, retrieve the user's current goals, constraints, relevant guidance and cross-area evidence through `Memory Protocol.md`. Restate the goal, define Wish, Outcome, Obstacle and Plan, and check whether the main obstacle is actionable and mostly internal/controllable.
 
-Before starting, load `Agent HQ/User Profile.md` so goals reflect the user's stable preferences, recent context, and current constraints.
+Link affected areas and existing projects; identify success signals, anti-goals, risks, constraints and contradictions. The plan states what happens if the obstacle appears. Keep the final WOOP simple, integrating independent research when stakes warrant it.
 
-## Review
-
-1. Restate the goal in one sentence.
-2. Define Wish, Outcome, Obstacle, and Plan.
-3. Check whether the obstacle is actionable and mostly internal.
-4. Link the goal to affected areas and existing projects.
-5. Identify success signals, anti-goals, constraints, and contradictions.
-6. Add questions and contradiction entries when durable.
-
-## WOOP
-
-- Wish: what the user wants.
-- Outcome: what improves if the wish happens.
-- Obstacle: the main internal or controllable obstacle.
-- Plan: if the obstacle appears, what the user or system will do.
-
-## Output
-
-- A WOOP-formatted goal.
-- Cross-area effects.
-- Contradictions or risks.
-- Next actions and open questions.
+Prepare goal changes for the user's decision; capture approved state and useful questions/tensions through managed records. A ponder, suggestion or stored draft does not change a goal. Deliver the recommendation and required input in conversation.

@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.7.0 (2026-10-03)
+
+- Select current managed or preserved legacy workflows conditionally; replace unconditional portfolio loads with task-relevant evidence retrieval.
+- Keep public skill/job names while routing narrow skill, adapter and scheduler invocations to canonical checklists. Preserve original legacy procedures as reference.
+- Consume generated shared memory/recovery contracts from the owner runtime; retain Obsidian-specific rendering, category permissions and source boundaries.
+- Apply explicit runtime tool capability groups to the companion inventory, including its optional project-progress tools; omitted groups retain existing defaults.
+- Add distribution contract checks and document the existing optional selected-area/lazy scaffold choice without changing install defaults or saved schedules.
+
+- Clarify evidence-grounded drafts and exact atomic-job fields through the shared contract; add contract and distribution checks to CI.
+
 ## 2026-09-15
 
 ### Handle verified Obsidian source renames

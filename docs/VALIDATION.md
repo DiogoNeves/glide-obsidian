@@ -1,5 +1,11 @@
 # Validate the Obsidian edition
 
+## Instruction and capability streamlining — 3 October 2026
+
+Companion build `b0b0c18f955d` passed 32 synthetic tests against shared runtime build `90331b72c53d`: 26 behavior cases, including default inventory preservation and live profile narrowing/deny-all enforcement, plus six installer/content/pairing cases. Four distribution contract checks and the unchanged 14 metadata-inventory tests passed. The owner's generated-contract and active-pin checks passed. These are deterministic/structural results, not model quality measurements or evidence that a production vault was migrated. Recheck content pairing if final runtime bytes change; record its release commit separately.
+
+Run `python3 -B -m unittest discover -s tests -v` here, the companion suite documented in [Daily Notes](DAILY-NOTES.md), and the matching owner `tools/check_distribution.py --root /absolute/path/to/glide-obsidian`. The frozen reference manifest preserves original legacy procedures and public skill names. Generated common contracts must match their Glide owner sources; active expected-build commands and synthetic pins must agree with compatibility.
+
 ## Obsidian rename recovery (2026-09-15)
 
 Runtime build `83c6ad3a80a8` ran 150 tests: 149 passed and one host-boundary check skipped. Eleven rename regressions cover read-only access, locked writer recovery, private backups, continued writes, pending proposals, ambiguous or edited destinations, symlinks, and protected payload/code/prose. Both distribution content pins and clean installations passed. Companion build `1a36a228f2b2` passed 28 tests; conversation inventory passed 14 and recovery exports passed 8. An independent index rebuilt from copied Markdown preserved the complete export before and after automatic recovery.
@@ -46,3 +52,7 @@ A [recorded independent reasoning review](../examples/input-surface-review.md) e
 ## Recovery configuration exports
 
 The shared owner helper has eight synthetic tests for version preservation/idempotency, read-only inspection, pending backup status, changed/missing inputs, symlinks, traversal/duplicate names, credential/database tripwires and unexpected export files. Run `python3 -B -m unittest discover -s tests -p test_recovery_bundle.py -v` in the matching **glide** checkout. These checks do not prove backup service operation or restoration of a complete instance; follow [the recovery procedure](RECOVERY.md) in the actual harness.
+
+## Public paired instruction screen
+
+The shared [recorded screen and limits](https://github.com/DiogoNeves/glide/blob/v0.7.0/docs/STREAMLINING-EVALUATION.md) retain the initial 50-case findings and the targeted final-policy comparison. They use public policies and fictional evidence. Private-instance quality, native permissions and sustained scheduled behavior are separate observations.

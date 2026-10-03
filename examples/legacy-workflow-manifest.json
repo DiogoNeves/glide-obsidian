@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "meaning": "Frozen original reference procedures, preserved byte-for-byte from the pre-streamlining distribution; public skill names remain stable.",
+  "public_skill_names": [
+    "glide-check-for-updates",
+    "glide-conversation-learning",
+    "glide-create-area",
+    "glide-create-decision-packet",
+    "glide-daily-check-in",
+    "glide-deep-research-subject",
+    "glide-detect-contradictions",
+    "glide-dream",
+    "glide-harness-drift-review",
+    "glide-integrity",
+    "glide-memory",
+    "glide-nightly-research-review",
+    "glide-project-progress",
+    "glide-review",
+    "glide-review-woop-goal",
+    "glide-run-area-review",
+    "glide-run-life-systems-review",
+    "glide-update-skill",
+    "glide-update-user-profile",
+    "glide-whatsapp-attention-review"
+  ],
+  "files": {
+    "templates/Agent HQ/Reference/Recovery Details.md": "8c7a45b5e8d55d55d58d120aab4d14e047a892bb2d034c976725e61bc7a4e73d",
+    "templates/Agent HQ/Reference/Legacy Operating Manual.md": "eceea0e900a498197585c3962ea851f0151fa9c4fc7764b0db0858948232eba2",
+    "templates/Agent HQ/Reference/Memory Protocol Details.md": "97335e459cc8623a47b01ca4e4e0da29ff4d17cfdeccac9c2c73ed8940ac15ab",
+    "templates/Agent HQ/Reference/Legacy Workflows/Monthly Review.md": "0c886fc89323108a0997381f60344936f878e60c596502f352eb1ab8e5a63c60",
+    "templates/Agent HQ/Reference/Legacy Workflows/Eval Loop.md": "c85b8667c497812daa7b68bd34f2c045b2219e64952a2246954f4f2bbdf29038",
+    "templates/Agent HQ/Reference/Legacy Workflows/WOOP Goal Review.md": "418beaa5459226a9b2b8d8da58ec62fd009261be4798fd4ce9462a5d68201ce6",
+    "templates/Agent HQ/Reference/Legacy Workflows/Update User Profile.md": "721690f5a482d2f475fc859a38c6573b1d7a9254aad9c8cabaddd65c1a5c6eb3",
+    "templates/Agent HQ/Reference/Legacy Workflows/Weekly Review.md": "60bbdae5dd12ed79898e63d610a00083bbae1456d2f0a7c042c93d615726835e",
+    "templates/Agent HQ/Reference/Legacy Workflows/Nightly Research Review.md": "8bb2051f571bbee64d049a7fd8e48c2db4224be2e42c6a0452723b4ff3c39838",
+    "templates/Agent HQ/Reference/Legacy Workflows/Daily Glide Check-In.md": "c2a0578c732eff0a8fa31a30417f58ad82d0bd2d63ca7a47bf1fb8578c3f7c42",
+    "templates/Agent HQ/Reference/Legacy Workflows/Life Systems Review.md": "4bdeb8560907c83dc557431469c58d9637d7d00a5ab0e8356de63f0bf1b74619",
+    "templates/Agent HQ/Reference/Legacy Workflows/Decision Packet.md": "3213ef665cc4dae76c6a24909d5482a78d357b544b708586c3e38251ec6bae38",
+    "templates/Agent HQ/Reference/Legacy Workflows/Harness Drift Review.md": "114975f3de200011a255a7b5566110106f4d4b1e2aa8c64818136f54650408e4",
+    "templates/Agent HQ/Reference/Legacy Workflows/Contradiction Review.md": "ecf58d31b56c3483cfa162ee045d29573f0d50cc7c241a3fc37b0c8a3e922f91",
+    "templates/Agent HQ/Reference/Legacy Workflows/Area Review.md": "5ad09faa322ea1363869d9e44e4aace82f38c2bec190350bae6db76508ce92ae"
+  }
+}

@@ -27,6 +27,14 @@ class InstallTests(unittest.TestCase):
     def run_install(self, **kwargs):
         return installer.install(self.source, kwargs.get('home',self.root/'home'), self.vault, kwargs.get('runtime',RUNTIME), expected_build=kwargs.get('pin',self.pin))
 
+    def test_runtime_pairing_is_consistent_across_package_and_distribution(self):
+        from glide_obsidian import REQUIRED_RUNTIME_BUILD
+        manifest = json.loads((SOURCE / 'package-manifest.json').read_text())
+        compatibility = json.loads((SOURCE.parent / 'compatibility.json').read_text())
+        self.assertEqual(REQUIRED_RUNTIME_BUILD, manifest['required_runtime_build'])
+        self.assertEqual(REQUIRED_RUNTIME_BUILD, compatibility['optional_memory_runtime']['build'])
+        self.assertEqual(REQUIRED_RUNTIME_BUILD, installer.build(installer.hashes(RUNTIME, 'glide_memory')))
+
     def test_verified_idempotent_install_does_not_configure_or_write_vault(self):
         first=self.run_install()
         self.assertEqual(first,self.run_install())

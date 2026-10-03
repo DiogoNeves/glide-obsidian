@@ -1,36 +1,9 @@
 # Life Systems Review
 
-Purpose: review the whole Agent HQ system across goals, areas, questions, decisions, and contradictions.
+Review the whole life system across goals, areas, questions, decisions and contradictions. Without recorded memory cutover, use `Reference/Legacy Workflows/Life Systems Review.md` only.
 
-Follow `Checklists/Input and Collaboration.md`: bring required questions and review choices into conversation; internal records are optional evidence. Create a shared note outside Agent HQ only when useful or requested and within an authorized edit scope.
+With cutover, start with current goals/constraints and relevant Now/Ongoing/Durable records through `Memory Protocol.md`. Review active areas at a high level; retrieve linked evidence where neglect, overload, missing context or a cross-area dependency matters. Do not load every legacy portfolio file.
 
-## Load
+Find conflicts between time, money, health, relationships, work and ambition; identify where one action advances several goals. Use focused parallel tracks when useful, then resolve conflicts and distinguish actual contradictions from tradeoffs or changed circumstances.
 
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/User Profile.md`
-- `Agent HQ/Goals/Life Goals.md`
-- `Agent HQ/Goals/Active Goals.md`
-- `Agent HQ/Areas/AGENTS.md`
-- `Agent HQ/Contradiction Register.md`
-- `Agent HQ/Questions Queue.md`
-- `Agent HQ/Open Loops.md`
-- `Agent HQ/Ponder Log.md`
-
-## Review
-
-1. Review active goals and areas.
-2. Identify neglected areas and overloaded areas.
-3. Find cross-area leverage.
-4. Find contradictions and hidden tradeoffs.
-5. Recommend next moves.
-6. Suggest system improvements if the operating layer is the bottleneck.
-
-## Output
-
-- Whole-system summary.
-- Leverage opportunities.
-- Cross-area conflicts.
-- Questions for the user.
-- Recommended updates to Agent HQ.
+Recommend next moves, material questions and system improvements only if the operating layer is the bottleneck. Persist useful findings through managed records, preserving original sources and pending decisions. Required input belongs in conversation.

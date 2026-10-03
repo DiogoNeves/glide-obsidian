@@ -1,9 +1,3 @@
 # Nightly Research Review Automation Prompt
 
-Run `$glide-nightly-research-review` for this vault.
-
-Use the Glide skill and checklist as the source of truth. Suggested schedule: daily at 4am local time.
-
-Start with internal analysis and planning. Then use parallel subagents or parallel Claude Code tasks when available for memory gaps, open-loop research, active research, eval/process improvement, area connections, concise representation, and stale working-memory candidates.
-
-Keep output internal by default. Update Agent HQ and `Agent HQ/Evals/Nightly Research Audit.md` with a rolling 4-day audit. Ask for approval before behavior-changing edits, destructive deletion, sensitive external actions, or changes requiring personal judgment.
+Run `$glide-nightly-research-review` for this vault. Read `Agent HQ/AGENTS.md` and its selected canonical checklist. Recorded memory cutover selects job `dream`; otherwise follow the preserved legacy workflow. Retain the installed source scope, pending work, knowledge-review requirements and external-action authority. Return only the procedure's useful output and actual receipts; unchanged work stays quiet. Do not change schedules, models, permissions or writers through this invocation.

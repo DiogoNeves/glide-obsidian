@@ -6,7 +6,7 @@ Suggested cadence: weekly or twice weekly, user-preferred evening time
 
 Skill: `glide-harness-drift-review`
 
-Purpose: keep operational files aligned with `Harness Design Principles.md`, using evals as read-only evidence.
+Purpose: invoke `glide-harness-drift-review` and its mode-selected canonical checklist; preserve pending work, evidence and existing authority. This template is a proposal, not an installed scheduler.
 
 Install prompt source:
 

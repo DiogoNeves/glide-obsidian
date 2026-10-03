@@ -9,7 +9,7 @@ The designated writer, inside its existing lock, saves the affected rendered fil
 A rename combined with content edits, ambiguous filenames, an existing old path, a missing destination or unrelated edits requires immediate conversational review: show the exact mismatch, impact and proposed recovery. Do not silently accept it or report a vague save failure. Source freshness warnings remain distinct from bundle corruption; re-intake of a renamed source does not rewrite its history. Existing installations must explicitly upgrade to the pinned runtime. The Markdown-only adapter retains exact checks.
 
 
-Glide's optional memory runtime keeps durable memory in readable Markdown and builds a local SQLite search index. The current 0.1.0 build `83c6ad3a80a8` is supplied locally, with exact file hashes in the owner repository's `runtime/package-manifest.json` and a matching `compatibility.json` pin; do not describe it as an upstream published release without verifying that release. Original writing remains outside the agent's managed store. Existing installations do not change until explicitly upgraded.
+Glide's optional memory runtime keeps durable memory in readable Markdown and builds a local SQLite search index. The current 0.1.0 build `90331b72c53d` is supplied locally, with exact file hashes in the owner repository's `runtime/package-manifest.json` and a matching `compatibility.json` pin; do not describe it as an upstream published release without verifying that release. Original writing remains outside the agent's managed store. Existing installations do not change until explicitly upgraded.
 
 This distribution consumes the shared `glide_memory` runtime version **0.1.0** from the general Glide repository. Obtain a matching local checkout or release archive supplied by the user; this guide does not assume an unpublished download URL. Do not fork a second runtime into this repository.
 
@@ -35,7 +35,7 @@ Original clippings remain available as examples and evidence. Processing metadat
 
 ## Runtime Interface
 
-The installed module is `glide_memory`. Run it with the matching local release directory on `PYTHONPATH`; keep the configuration path in private instance instructions. Install using the consuming distribution's required `--expected-build 83c6ad3a80a8` flag; a version label alone does not identify this package. The implemented command help is authoritative for argument details. The runtime provides initialization, proposals and application, search, record retrieval, history, changes, index rebuild, backup, verification and deliberate writer handover.
+The installed module is `glide_memory`. Run it with the matching local release directory on `PYTHONPATH`; keep the configuration path in private instance instructions. Install using the consuming distribution's required `--expected-build 90331b72c53d` flag; a version label alone does not identify this package. The implemented command help is authoritative for argument details. The runtime provides initialization, proposals and application, search, record retrieval, history, changes, index rebuild, backup, verification and deliberate writer handover.
 
 For a local CLI invocation (substitute verified local paths):
 
@@ -102,3 +102,11 @@ Fresh instances use `knowledge_review: manual` and `review_ui: text`. On upgrade
 `python -m glide_memory.review --config ... --proposal ...` renders the configured presentation; `--ui text|interactive` can override presentation for that review. Interactive question/adjust controls submit a conversation prompt; they do not apply a change. A review decision still needs the proposal ID, current expected revisions and actual writer receipt. Text fallback works without a UI bridge; mobile parity is not assumed.
 
 Job inputs return compact change descriptors and source counts. Use `glide_job_input_page(job_id, bundle, cursor, limit)` to page exact bundle details when needed (limit defaults to 20, maximum 50); do not load a whole imported archive into routine context. Newly indexed history is available source material, not a requirement to promote every old assertion into knowledge. Follow the review policy above when preparing job outputs. A checkpoint records actual processing, including explicitly pending proposals; it is not evidence that a proposal was applied.
+
+## Optional broker capability profiles
+
+The matching runtime supports a private `tool_capabilities` list of selected groups: `reader`, `writer`, `jobs`, `source_intake`, `native_capture` and `overlays`. The Obsidian companion adds `project_progress` for its existing settings/preview/write tools. Omission preserves every existing tool; an empty list denies all. Unknown or duplicate groups fail closed. Both advertised inventory and direct dispatch enforce the profile, including after an operator narrows configuration while a server is running.
+
+Choose an explicit profile only within authorized setup/configuration scope. Group selection does not enable a source, writer, category or external action and does not replace filesystem isolation. A reader-only profile omits companion project-progress tools; selecting that optional group still requires the saved category permission before any output.
+
+For large records, optional `glide_get` body windows retain revision and continuation metadata. They are incomplete read results; expand to a full current revision before proposing a replacement record. Truncated round trips are rejected.

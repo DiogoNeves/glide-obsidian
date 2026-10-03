@@ -1,77 +1,11 @@
 # Harness Drift Review
 
-Purpose: keep Agent HQ operations aligned with `Harness Design Principles.md` without changing personal data.
+Compare relevant active instructions and observed behavior with the protected `Harness Design Principles.md`. Without recorded memory cutover, use `Reference/Legacy Workflows/Harness Drift Review.md` only.
 
-Use `Checklists/Input and Collaboration.md` to check that required input reached conversation, no internal file became owner homework, and any collaborative edits respected their authorized scope and owner contributions. Surface findings conversationally; internal logs alone do not prove delivery.
+With cutover, use `glide-integrity` and `Memory Protocol.md` for history/index verification, weekly samples and eligible overlays. Inspect changed/relevant workflow files and installed skill references; do not load every checklist or historical log. Check evidence, source coverage, dated beliefs, commitments versus intentions, useful challenge and review burden.
 
-## Load
+Follow `Checklists/Input and Collaboration.md` to verify required input actually reached conversation and authored contributions were preserved. With authorized conversation learning, compare saved steering against the motivating interaction, a different case and a counterexample; record unperformed checks as pending.
 
-- `Agent HQ/Harness Design Principles.md`
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/Automation Registry.md`
-- `Agent HQ/Skills Index.md`
-- `Agent HQ/Checklists/Eval Loop.md`
-- `Agent HQ/Checklists/*.md`
-- Installed `glide-*` skills
-- `Agent HQ/Evals/*.md` as read-only evidence
-- Collection-candidate files for stale-item review only: `Agent HQ/Questions Queue.md`, `Agent HQ/Ponder Log.md`, and `Agent HQ/Open Loops.md`
+Correct only clear non-behavioral operational defects within existing authority. Core behavior changes require a concrete user review; learned-overlay opt-in does not authorize changing permissions, schedules, goals, providers, retention, completion rules or protected principles. Use the runtime for managed findings/changes and preserve historical evidence. Do not prune originals, eval/import history or immutable bundles.
 
-## Protected Files
-
-Do not edit:
-
-- `Agent HQ/Harness Design Principles.md`, unless the user explicitly asks to edit that file.
-- Personal memory files: `User Profile.md`, goals, area context, decisions, contradictions, research notes, and eval logs.
-- Collection-candidate files except for obvious stale-item cleanup described below.
-
-## Editable Operations Files
-
-Only edit operational instructions:
-
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/Automation Registry.md`
-- `Agent HQ/Skills Index.md`
-- `Agent HQ/Checklists/*.md`
-- Installed `glide-*` skills
-
-## Review
-
-1. Compare operational files against `Harness Design Principles.md`.
-2. Look for drift in purpose, tone, autonomy, approval boundaries, memory updates, daily interaction, pondering, personal-data protection, evidence standards, cross-area reasoning, and portability.
-3. Follow `Agent HQ/Checklists/Eval Loop.md` when interpreting eval signal.
-4. Read evals only as evidence. Recurring facets, signal clusters, `Improve Next` notes, and `Partial` outcomes are candidates for small instruction updates.
-5. If repeated facets explain a pattern, add or update a compact `Agent HQ/Evals/Signal Clusters.md` entry before changing instructions.
-6. Ignore harmless wording differences.
-7. Fix only clear non-behavioral issues directly, such as stale file references, broken links, contradictions between operational files, typos that change clarity, or instructions that obviously fail to reflect already-approved behavior.
-8. Review newly edited skills, checklists, and operational rules for verbosity. Cut filler, repetition, defensive wording, and conversation-specific phrasing when clarity survives.
-9. Prefer short, direct rules.
-10. Except for eligible learned overlays under an explicitly enabled `Memory Protocol.md` policy, ask the user to confirm before making any change that could alter future behavior, including changes to autonomy, tone, proactivity, cadence, scope, approval boundaries, memory updates, daily interaction, question style, or when actions are suggested.
-11. Prefer the smallest clear correction.
-12. Do not rewrite, reorganise, or simplify large sections unless drift or verbosity is real and the change is non-behavioral.
-13. Do not erase historical detail or personal context.
-14. Check collection-candidate files for obvious stale or irrelevant items that no longer help advice or autopilot.
-15. Clear stale collection candidates only when the item is plainly irrelevant, duplicated, or superseded, and the cleanup does not change future behavior. Preserve durable learning in the appropriate long-term memory before clearing anything.
-16. Ask the user to confirm if clearing, moving, or summarising an item requires judgment.
-17. If a problem involves other personal data files, report it as a recommendation instead of editing.
-
-## Output
-
-- State whether drift was found.
-- List operational files changed.
-- List verbosity reductions made.
-- List stale collection candidates cleared or recommended for cleanup.
-- List eval clusters created or updated.
-- List behavior-changing recommendations for user approval before editing.
-- Keep the report short.
-
-## Versioned Memory Integration
-
-When versioned memory is enabled, use `glide-integrity` for its store and learned overlays. The opt-in applies only to tested eligible overlays; it does not authorize rewriting core instructions or protected principles. Propose stale managed-record cleanup through the runtime with preserved history rather than directly deleting or clearing it. Existing non-behavioral instruction repairs retain their current scope.
-
-With authorized conversation recovery, follow `Checklists/Conversation Learning.md` for captured feedback versus observed behavior, temporary scope and inactive candidates. Clear scoped guidance already given by the owner does not need repeated permission; inferred procedural changes retain the existing review requirements. Record checks actually performed and leave untested effects pending.
-
-Follow `Recovery.md` for configuration drift, approved local export refresh and backup/restore evidence. Respect recorded deferrals and bring material gaps into conversation.
+Follow `Checklists/Recovery.md` for relevant configuration drift and approved export/restore checks; preserve deferrals. Finish only successful bounded integrity work. Report concrete findings, real validation, changed files and remaining decisions briefly; an unchanged run needs no repeated success narrative.

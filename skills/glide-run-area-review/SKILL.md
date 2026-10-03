@@ -3,33 +3,6 @@ name: glide-run-area-review
 description: Review, audit, improve, or plan one Glide area.
 ---
 
-# Glide Run Area Review
+Read `Agent HQ/AGENTS.md` and `Agent HQ/Checklists/Area Review.md`; identify the area and load its own AGENTS rules. The checklist selects current managed authority or the legacy workflow.
 
-## Load
-
-- `Agent HQ/AGENTS.md`
-- `Agent HQ/Operating Manual.md`
-- `Agent HQ/Communication Preferences.md`
-- `Agent HQ/User Profile.md`
-- `Agent HQ/Checklists/Area Review.md`
-- `Agent HQ/Goals/Active Goals.md`
-- `Agent HQ/Areas/AGENTS.md`
-- The target area's `AGENTS.md`, `Area.md`, `Goals.md`, `Context.md`, `Reminders.md`, `Sources.md`, `Decisions.md`, `Questions.md`, and relevant `Research/` notes
-
-## Process
-
-1. Identify the target area.
-2. If ambiguous, inspect `Agent HQ/Areas/` and choose the closest match or ask a short clarifying question.
-3. Use parallel subagents when the area has many sources, research notes, decisions, or cross-area dependencies.
-4. Follow `Agent HQ/Checklists/Area Review.md`.
-5. Review area reminders for due, stale, missing, or newly relevant items.
-6. Integrate subagent findings yourself and remove duplicated or low-confidence suggestions.
-7. Update area questions, reminders, decisions, reviews, or the contradiction register when useful.
-
-## Output
-
-- Area review summary.
-- Recommendations.
-- Questions.
-- Decisions or decision packets needed.
-- Contradictions and cross-area effects.
+Retrieve only relevant goals, constraints and linked evidence; broaden for material cross-area effects. Use independent parallel tracks when useful and integrate them yourself. Return current state, evidence, next moves and material questions; persist useful findings through the selected writer.

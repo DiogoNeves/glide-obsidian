@@ -6,7 +6,7 @@ Suggested cadence: daily or weekdays, user-preferred morning time
 
 Skill: `glide-daily-check-in`
 
-Purpose: call `glide-update-user-profile`, scan follow-through items and area reminders, then provide one useful question, insight, small low-risk action, ponder follow-up, or open-loop nudge. Rank competing signals by deadline, stakes, source reliability, and whether the user can act today. Use two or three items only when each is genuinely urgent or very important.
+Purpose: invoke `glide-daily-check-in` and its mode-selected canonical checklist; preserve pending work, evidence and existing authority. This template is a proposal, not an installed scheduler.
 
 Install prompt source:
 

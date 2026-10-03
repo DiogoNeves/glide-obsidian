@@ -94,7 +94,7 @@ Recommended default areas:
 - Friends & Community
 - Travel
 
-Ask whether to include all, none, or a custom subset.
+Ask whether to include all, none, or a custom subset. The existing full default remains available. An optional selected-area/lazy profile installs only the chosen area scaffolds (including none), adding a new area later through `glide-create-area` when useful; it does not remove any existing files or change memory/source permissions. Do not create every unused area speculatively.
 
 Create areas using the `glide-create-area` skill behavior. Each area should include:
 
@@ -117,7 +117,7 @@ Before installing, explain:
 - Glide lives in `Agent HQ/`.
 - The user can talk naturally; required questions and reviews arrive in conversation. Opening or editing internal Now, queues, proposals and records is never required.
 - The harness converts conversation into structure.
-- `User Profile.md` keeps concise high-level context and is refreshed by `glide-update-user-profile` only when durable signal appears.
+- After recorded memory cutover, current managed records hold personal context; before cutover, `User Profile.md` is refreshed by `glide-update-user-profile` only when durable signal appears.
 - Ponders do not automatically become goals.
 - Durable answers should be captured as the conversation progresses.
 - Glide memory and agent workings stay in `Agent HQ/`; ordinary vault notes are read for context but not edited unless the user explicitly asks.
@@ -231,10 +231,10 @@ Suggest:
 
 If the user selects versioned memory, follow the complete [setup walkthrough](docs/SETUP.md), [runtime contract](docs/MEMORY-RUNTIME.md) and [existing-instance upgrade procedure](docs/UPGRADING.md). Keep Python and SQLite physically outside the synchronized workspace. Install the four memory skills only with their canonical `Memory Protocol.md`. Record the actual runtime entrypoint and private instance configuration. Leave jobs disabled until verified cutover, and leave automatic learned overlays disabled unless explicitly selected. Existing instances must use the upgrade procedure rather than overwrite installation.
 
-The optional runtime is pinned to **0.1.0, build `83c6ad3a80a8`** in `compatibility.json`. Use a supplied matching Glide checkout/archive with `runtime/package-manifest.json`; the installer must receive the required `--expected-build` flag:
+The optional runtime is pinned to **0.1.0, build `90331b72c53d`** in `compatibility.json`. Use a supplied matching Glide checkout/archive with `runtime/package-manifest.json`; the installer must receive the required `--expected-build` flag:
 
 ```sh
-python3 "/path/to/glide/runtime/install.py" --source "/path/to/glide/runtime" --home "/path/to/local-glide" --vault "/path/to/workspace" --instance main --adapter obsidian --store-path "Agent HQ/Memory" --expected-build 83c6ad3a80a8
+python3 "/path/to/glide/runtime/install.py" --source "/path/to/glide/runtime" --home "/path/to/local-glide" --vault "/path/to/workspace" --instance main --adapter obsidian --store-path "Agent HQ/Memory" --expected-build 90331b72c53d
 ```
 
 Substitute verified local paths. A build or package-manifest mismatch stops installation; do not remove the flag to force a different runtime. See [compatibility](docs/COMPATIBILITY.md) for future pin updates.
